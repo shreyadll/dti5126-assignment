@@ -773,5 +773,7 @@ def main():
     # We will now randomly view ten different rows of data after normalization
     print(df_final.sample(10, random_state=42).to_string(index=False))
 
+    return df_final
+
 if __name__ == "__main__":
-    main()
+    df_final = main()
