@@ -1,0 +1,1276 @@
+company_name,car_name,engine_displacement_in_cc,battery_energy_capacity_in_kwh,horsepower_in_hp,torque_in_nm,performance_0_to_100_km_per_h,total_speed_in_km_per_h,seats_parsed,cars_price_amount,value_for_money,fuel_types_normalized,company_segment,Final_Cluster
+Ferrari,Sf90 Stradale,3990.0,,963.0,800.0,2.5,340.0,2,1100000.0,87.54545454545455,Plug-in Hybrid,Luxury_Elite,1
+Rolls Royce,Phantom,6749.0,,563.0,900.0,5.3,250.0,5,460000.0,122.39130434782608,Petrol,Luxury_Elite,1
+Ford,Ka+,1200.0,,70.0,100.0,10.5,165.0,5,12000.0,583.3333333333334,Petrol,Mass_Market_Mainstream,0
+Ford,Ka+,1200.0,,85.0,140.0,10.5,165.0,5,15000.0,566.6666666666667,Petrol,Mass_Market_Mainstream,0
+Mercedes,Gt 63 S,3982.0,,630.0,900.0,3.2,250.0,4,161000.0,391.304347826087,Petrol,Premium_Performance,1
+Audi,Audi R8 Gt,5204.0,,602.0,560.0,3.6,320.0,2,253290.0,237.6722334083462,Petrol,Premium_Performance,1
+Bmw,Mclaren 720S,3994.0,,710.0,770.0,2.9,341.0,2,499000.0,142.28456913827657,Petrol,Other_Market,1
+Aston Martin,Vantage F1,3982.0,,656.0,685.0,3.6,314.0,2,193440.0,339.1232423490488,Petrol,Luxury_Elite,1
+Bentley,Continental Gt Azure,3996.0,,550.0,900.0,4.0,318.0,4,311000.0,176.84887459807075,Petrol,Luxury_Elite,1
+Lamborghini,Veneno Roadster,6498.0,,750.0,690.0,2.9,356.0,2,4500000.0,16.666666666666668,Petrol,Luxury_Elite,1
+Ferrari,F8 Tributo,3900.0,,710.0,770.0,2.9,340.0,2,280000.0,253.57142857142856,Petrol,Luxury_Elite,1
+Ferrari,812 Gts,6496.0,,789.0,718.0,2.9,340.0,2,350000.0,225.42857142857144,Petrol,Luxury_Elite,1
+Ferrari,Portofino,3900.0,,592.0,760.0,3.2,320.0,4,210000.0,281.9047619047619,Petrol,Luxury_Elite,1
+Ferrari,Roma,3900.0,,612.0,760.0,3.4,320.0,4,230000.0,266.0869565217391,Petrol,Luxury_Elite,1
+Ferrari,Monza Sp2,6496.0,,789.0,719.0,2.9,340.0,2,1700000.0,46.411764705882355,Petrol,Luxury_Elite,1
+Ferrari,F8 Spider,3900.0,,710.0,770.0,2.9,340.0,2,280000.0,253.57142857142856,Petrol,Luxury_Elite,1
+Ferrari,Portofino M,3900.0,,612.0,760.0,3.2,320.0,4,220000.0,278.1818181818182,Petrol,Luxury_Elite,1
+Ferrari,Roma Spider,3900.0,,612.0,760.0,3.4,320.0,4,240000.0,255.00000000000003,Petrol,Luxury_Elite,1
+Toyota,Gr Supra,2998.0,,382.0,500.0,4.1,250.0,2,53900.0,708.7198515769944,Petrol,Mass_Market_Mainstream,2
+Toyota,Toyota 86,1998.0,,205.0,205.0,6.4,226.0,4,27000.0,759.2592592592592,Petrol,Mass_Market_Mainstream,2
+Toyota,Toyota Gr86,2387.0,,228.0,250.0,5.6,226.0,4,30000.0,760.0,Petrol,Mass_Market_Mainstream,2
+Toyota,Toyota Land Cruiser,5663.0,,381.0,500.0,6.7,220.0,7,85000.0,448.235294117647,Diesel,Mass_Market_Mainstream,2
+Toyota,Toyota Sequoia,5663.0,,381.0,651.0,6.9,200.0,7,50000.0,762.0,Petrol,Mass_Market_Mainstream,2
+Nissan,Gt-R,3799.0,,600.0,637.0,2.9,315.0,4,113000.0,530.9734513274336,Petrol,Mass_Market_Mainstream,1
+Nissan,370Z,3696.0,,332.0,366.0,4.7,250.0,2,30000.0,1106.6666666666667,Petrol,Mass_Market_Mainstream,2
+Nissan,Z Proto,2998.0,,400.0,475.0,4.1,290.0,2,40000.0,1000.0,Petrol,Mass_Market_Mainstream,2
+Nissan,Altima,2488.0,,188.0,380.0,7.3,225.0,5,25000.0,752.0,Petrol,Mass_Market_Mainstream,2
+Nissan,Maxima,3498.0,,300.0,354.0,5.8,240.0,5,35000.0,857.1428571428572,Petrol,Mass_Market_Mainstream,2
+Nissan,Sentra,1998.0,,149.0,240.0,8.2,200.0,5,20000.0,745.0,Petrol,Mass_Market_Mainstream,0
+Nissan,Rogue,2488.0,,201.0,270.0,7.5,200.0,5,28000.0,717.8571428571428,Petrol,Mass_Market_Mainstream,2
+Nissan,Pathfinder,3498.0,,284.0,351.0,6.5,225.0,7,35000.0,811.4285714285714,Petrol,Mass_Market_Mainstream,2
+Nissan,Frontier,3799.0,,310.0,381.0,6.8,180.0,5,30000.0,1033.3333333333333,Petrol,Mass_Market_Mainstream,2
+Nissan,Titan,5598.0,,400.0,560.0,5.9,200.0,5,40000.0,1000.0,Petrol,Mass_Market_Mainstream,2
+Aston Martin,Valkyrie,6496.0,,1160.0,900.0,2.5,402.0,2,3200000.0,36.25,Hybrid,Luxury_Elite,1
+Aston Martin,Valhalla,3996.0,,1000.0,1000.0,2.5,362.0,2,1100000.0,90.9090909090909,Hybrid,Luxury_Elite,1
+Aston Martin,Dbs Superleggera,5204.0,,715.0,900.0,3.4,340.0,2,316000.0,226.26582278481013,Petrol,Luxury_Elite,1
+Aston Martin,Db11,5204.0,,600.0,700.0,3.9,322.0,4,208000.0,288.46153846153845,Petrol,Luxury_Elite,1
+Aston Martin,Vantage,3996.0,,503.0,685.0,3.6,313.0,2,142000.0,354.2253521126761,Petrol,Luxury_Elite,1
+Aston Martin,Dbx,3996.0,,542.0,700.0,4.5,291.0,5,189000.0,286.77248677248673,Petrol,Luxury_Elite,1
+Aston Martin,Rapide Amr,5935.0,,580.0,630.0,4.2,328.0,4,240000.0,241.66666666666669,Petrol,Luxury_Elite,1
+Aston Martin,Vanquish,5935.0,,580.0,630.0,3.6,324.0,2,294000.0,197.27891156462587,Petrol,Luxury_Elite,1
+Aston Martin,Lagonda Taraf,5935.0,,540.0,630.0,4.2,314.0,4,1100000.0,49.090909090909086,Petrol,Luxury_Elite,1
+Aston Martin,Victor,5204.0,,836.0,821.0,2.8,320.0,2,1300000.0,64.3076923076923,Petrol,Luxury_Elite,1
+Lamborghini,Sian,6498.0,,819.0,720.0,2.8,350.0,2,2800000.0,29.25,Hybrid,Luxury_Elite,1
+Lamborghini,Aventador Svj,6498.0,,759.0,720.0,2.8,350.0,2,518000.0,146.52509652509653,Petrol,Luxury_Elite,1
+Lamborghini,Huracan Performante,5204.0,,640.0,600.0,2.9,325.0,2,274000.0,233.57664233576645,Petrol,Luxury_Elite,1
+Lamborghini,Huracan Evo,5204.0,,640.0,600.0,2.9,325.0,2,261000.0,245.21072796934865,Petrol,Luxury_Elite,1
+Lamborghini,Aventador Sv,6498.0,,740.0,690.0,2.8,350.0,2,493000.0,150.10141987829613,Petrol,Luxury_Elite,1
+Lamborghini,Urus,3996.0,,641.0,850.0,3.6,305.0,5,211000.0,303.7914691943128,Petrol,Luxury_Elite,1
+Lamborghini,Huracan Spyder,5204.0,,610.0,600.0,3.4,325.0,2,287000.0,212.54355400696866,Petrol,Luxury_Elite,1
+Lamborghini,Aventador Roadster,6498.0,,700.0,690.0,3.0,350.0,2,445000.0,157.30337078651687,Petrol,Luxury_Elite,1
+Lamborghini,Huracan Performante Spyder,5204.0,,640.0,600.0,3.1,325.0,2,308000.0,207.7922077922078,Petrol,Luxury_Elite,1
+Lamborghini,Aventador S,6498.0,,740.0,690.0,2.9,350.0,2,421000.0,175.77197149643706,Petrol,Luxury_Elite,1
+Lamborghini,Huracan Evo Spyder,5204.0,,640.0,600.0,3.1,325.0,2,287000.0,222.9965156794425,Petrol,Luxury_Elite,1
+Lamborghini,Urus Performante,3996.0,,641.0,850.0,3.3,305.0,5,242000.0,264.87603305785126,Petrol,Luxury_Elite,1
+Lamborghini,Aventador Ultimae,6498.0,,769.0,720.0,2.8,355.0,2,545000.0,141.10091743119267,Petrol,Luxury_Elite,1
+Lamborghini,Huracan Evo Rwd,5204.0,,610.0,560.0,3.3,325.0,2,258000.0,236.43410852713177,Petrol,Luxury_Elite,1
+Lamborghini,Aventador Svj Roadster,6498.0,,759.0,720.0,2.9,350.0,2,573000.0,132.4607329842932,Petrol,Luxury_Elite,1
+Lamborghini,Urus S,3996.0,,671.0,850.0,3.3,305.0,5,263000.0,255.13307984790876,Petrol,Luxury_Elite,1
+Lamborghini,Huracan Sto,5204.0,,640.0,565.0,3.0,325.0,2,327000.0,195.71865443425077,Petrol,Luxury_Elite,1
+Lamborghini,Aventador Lp 780-4 Ultimate,6498.0,,769.0,720.0,2.8,355.0,2,545000.0,141.10091743119267,Petrol,Luxury_Elite,1
+Lamborghini,Huracan Evo Rwd Spyder,5204.0,,610.0,600.0,3.3,325.0,2,273000.0,223.44322344322347,Petrol,Luxury_Elite,1
+Lamborghini,Aventador Svj Xago,6498.0,,759.0,720.0,2.9,350.0,2,603000.0,125.87064676616916,Petrol,Luxury_Elite,1
+Lamborghini,Urus Graphite Capsule,3998.0,,641.0,850.0,3.3,305.0,5,253000.0,253.3596837944664,Petrol,Luxury_Elite,1
+Lamborghini,Huracan Sto Evo,5204.0,,640.0,565.0,3.0,325.0,2,342000.0,187.1345029239766,Petrol,Luxury_Elite,1
+Lamborghini,Aventador Lp 780-4 Ultimate Roadster,6498.0,,769.0,720.0,2.8,355.0,2,573000.0,134.20593368237348,Petrol,Luxury_Elite,1
+Rolls Royce,Ghost,6592.0,,591.0,850.0,4.8,250.0,5,332000.0,178.0120481927711,Petrol,Luxury_Elite,1
+Rolls Royce,Wraith,6592.0,,624.0,870.0,4.4,250.0,4,330000.0,189.0909090909091,Petrol,Luxury_Elite,1
+Rolls Royce,Dawn,6592.0,,624.0,870.0,4.9,250.0,4,360000.0,173.33333333333331,Petrol,Luxury_Elite,1
+Rolls Royce,Cullinan,6749.0,,563.0,850.0,5.2,250.0,5,325000.0,173.23076923076923,Petrol,Luxury_Elite,1
+Rolls Royce,Phantom Extended,6749.0,,563.0,900.0,5.3,250.0,5,500000.0,112.60000000000001,Petrol,Luxury_Elite,1
+Rolls Royce,Ghost Extended,6592.0,,591.0,850.0,4.8,250.0,5,370000.0,159.72972972972974,Petrol,Luxury_Elite,1
+Rolls Royce,Wraith Black Badge,6592.0,,624.0,870.0,4.3,250.0,4,360000.0,173.33333333333331,Petrol,Luxury_Elite,1
+Rolls Royce,Dawn Black Badge,6592.0,,624.0,870.0,4.8,250.0,4,390000.0,160.0,Petrol,Luxury_Elite,1
+Rolls Royce,Cullinan Black Badge,6749.0,,563.0,850.0,5.1,250.0,5,350000.0,160.85714285714286,Petrol,Luxury_Elite,1
+Rolls Royce,Phantom Coupe,6749.0,,563.0,870.0,5.3,250.0,4,450000.0,125.1111111111111,Petrol,Luxury_Elite,1
+Rolls Royce,Ghost Coupe,6592.0,,591.0,850.0,4.8,250.0,4,340000.0,173.8235294117647,Petrol,Luxury_Elite,1
+Rolls Royce,Wraith Coupe,6592.0,,624.0,870.0,4.4,250.0,4,330000.0,189.0909090909091,Petrol,Luxury_Elite,1
+Rolls Royce,Dawn Convertible,6592.0,,624.0,870.0,4.9,250.0,4,380000.0,164.21052631578948,Petrol,Luxury_Elite,1
+Rolls Royce,Cullinan Suv,6749.0,,563.0,850.0,5.2,250.0,5,320000.0,175.9375,Petrol,Luxury_Elite,1
+Mercedes,Benz S-Class S 580,3982.0,,496.0,700.0,4.4,250.0,5,116000.0,427.58620689655174,Petrol,Premium_Performance,2
+Mercedes,Benz E-Class E 63 S,3982.0,,603.0,850.0,3.4,250.0,5,104000.0,579.8076923076923,Petrol,Premium_Performance,2
+Mercedes,Benz Cla 45 Amg,1991.0,,382.0,500.0,4.1,250.0,5,53000.0,720.7547169811321,Petrol,Premium_Performance,2
+Mercedes,Benz Gle 63 S,3982.0,,603.0,850.0,4.2,250.0,5,113000.0,533.6283185840708,Petrol,Premium_Performance,2
+Mercedes,Benz S-Class S 500,2996.0,,429.0,700.0,4.9,250.0,5,109000.0,393.57798165137615,Petrol,Premium_Performance,2
+Mercedes,Benz E-Class E 450,2996.0,,362.0,500.0,5.2,250.0,5,62000.0,583.8709677419355,Petrol,Premium_Performance,2
+Mercedes,Benz Cls 450,2996.0,,362.0,500.0,5.2,250.0,5,70000.0,517.1428571428571,Petrol,Premium_Performance,2
+Mercedes,Benz Gt 53,2996.0,,429.0,700.0,4.5,250.0,5,99000.0,433.3333333333333,Petrol,Premium_Performance,2
+Mercedes,Benz Gle 450,2996.0,,362.0,500.0,5.5,250.0,5,63000.0,574.6031746031746,Petrol,Premium_Performance,2
+Mercedes,Benz A-Class A 45 S,1991.0,,416.0,500.0,3.9,250.0,5,53000.0,784.9056603773585,Petrol,Premium_Performance,2
+Mercedes,Benz C-Class C 43,2996.0,,402.0,520.0,4.7,250.0,5,52000.0,773.0769230769231,Petrol,Premium_Performance,2
+Mercedes,Benz E-Class E 350,1991.0,,255.0,500.0,5.7,250.0,5,49000.0,520.4081632653061,Petrol,Premium_Performance,2
+Mercedes,Benz Gle 350,1991.0,,255.0,500.0,6.1,250.0,5,53000.0,481.1320754716981,Petrol,Premium_Performance,2
+Mercedes,Benz Glc 43,2996.0,,402.0,520.0,4.7,250.0,5,54000.0,744.4444444444445,Petrol,Premium_Performance,2
+Mercedes,Benz Gla 45,1991.0,,382.0,500.0,4.3,250.0,5,48000.0,795.8333333333333,Petrol,Premium_Performance,2
+Mercedes,Benz Glc 350,1991.0,,255.0,500.0,6.1,250.0,5,46000.0,554.3478260869565,Petrol,Premium_Performance,2
+Mercedes,Benz Gle 53,2996.0,,429.0,620.0,5.2,250.0,5,71000.0,604.2253521126761,Petrol,Premium_Performance,2
+Mercedes,Benz S-Class S 350,1991.0,,255.0,500.0,6.5,250.0,5,90000.0,283.33333333333337,Petrol,Premium_Performance,2
+Mercedes,Benz Eqs 53,,,751.0,950.0,3.4,250.0,5,102000.0,736.2745098039217,Electric,Premium_Performance,2
+Mercedes,Benz Maybach S 680,5980.0,,630.0,1000.0,4.7,250.0,5,200000.0,315.0,Petrol,Premium_Performance,1
+Bmw,M5 Cs,4395.0,,627.0,750.0,3.0,305.0,5,142000.0,441.5492957746479,Petrol,Other_Market,1
+Bmw,M4 Gts,2993.0,,493.0,600.0,3.7,305.0,4,133000.0,370.6766917293233,Petrol,Other_Market,1
+Bmw,M3 Competition,2993.0,,503.0,650.0,3.5,285.0,5,76000.0,661.8421052631579,Petrol,Other_Market,2
+Bmw,M2 Cs,2993.0,,444.0,550.0,4.0,280.0,4,83000.0,534.9397590361446,Petrol,Other_Market,2
+Bmw,X5 M Competition,4935.0,,523.0,750.0,4.1,285.0,5,114000.0,458.77192982456137,Petrol,Other_Market,1
+Bmw,X3 M Competition,2993.0,,503.0,650.0,4.1,285.0,5,69000.0,728.9855072463768,Petrol,Other_Market,2
+Bmw,M8 Gran Coupe,4395.0,,523.0,750.0,3.3,305.0,5,146000.0,358.2191780821918,Petrol,Other_Market,1
+Bmw,M850I Drive Coupe,4935.0,,523.0,750.0,3.7,285.0,4,108000.0,484.2592592592593,Petrol,Other_Market,1
+Rolls Royce,Dawn Black Badge Volante,6592.0,,563.0,840.0,4.8,250.0,4,398000.0,141.4572864321608,Petrol,Luxury_Elite,1
+Rolls Royce,Cullinan Black Badge Suv,6749.0,,563.0,850.0,5.1,250.0,5,381000.0,147.76902887139107,Petrol,Luxury_Elite,1
+Rolls Royce,Phatom Tranquility,6749.0,,563.0,900.0,5.3,250.0,5,475000.0,118.52631578947367,Petrol,Luxury_Elite,1
+Rolls Royce,Ghost Zenith,6749.0,,563.0,900.0,4.9,250.0,5,335000.0,168.0597014925373,Petrol,Luxury_Elite,1
+Rolls Royce,Wraith Eagle Viii,6592.0,,623.0,800.0,4.5,250.0,4,349000.0,178.5100286532951,Petrol,Luxury_Elite,1
+Rolls Royce,Phatom Orchid,6749.0,,563.0,900.0,5.3,250.0,5,495000.0,113.73737373737373,Petrol,Luxury_Elite,1
+Rolls Royce,Ghost Azure,6749.0,,563.0,900.0,4.9,250.0,5,355000.0,158.59154929577466,Petrol,Luxury_Elite,1
+Rolls Royce,Wraith Kryptos,6592.0,,623.0,800.0,4.5,250.0,4,369000.0,168.83468834688347,Petrol,Luxury_Elite,1
+Rolls Royce,Dawn Silver Bullet,6592.0,,563.0,840.0,4.8,250.0,4,418000.0,134.688995215311,Petrol,Luxury_Elite,1
+Rolls Royce,Cullinan Fux Orange,6749.0,,563.0,850.0,5.1,250.0,5,401000.0,140.39900249376558,Petrol,Luxury_Elite,1
+Rolls Royce,Phantom Celestial,6749.0,,563.0,900.0,5.3,250.0,5,515000.0,109.32038834951456,Petrol,Luxury_Elite,1
+Rolls Royce,Ghost Mysore,6749.0,,563.0,900.0,4.9,250.0,5,375000.0,150.13333333333333,Petrol,Luxury_Elite,1
+Rolls Royce,Wraith Luminary,6592.0,,623.0,800.0,4.5,250.0,4,389000.0,160.1542416452442,Petrol,Luxury_Elite,1
+Rolls Royce,Dawn Black Badge Adamas,6592.0,,563.0,840.0,4.8,250.0,4,439000.0,128.24601366742596,Petrol,Luxury_Elite,1
+Rolls Royce,Cullinan Red Diamond,6749.0,,563.0,850.0,5.1,250.0,5,421000.0,133.729216152019,Petrol,Luxury_Elite,1
+Audi,R8 V10 Plus,5204.0,,610.0,560.0,3.2,330.0,2,194000.0,314.4329896907216,Petrol,Premium_Performance,1
+Audi,Rs7 Sportback,3993.0,,591.0,800.0,3.6,305.0,5,114000.0,518.421052631579,Petrol,Premium_Performance,1
+Audi,S8,3993.0,,563.0,800.0,4.3,305.0,5,101000.0,557.4257425742574,Petrol,Premium_Performance,1
+Audi,Rs6 Avant,3993.0,,591.0,800.0,3.6,305.0,5,109000.0,542.2018348623853,Petrol,Premium_Performance,1
+Audi,S7 Sportback,3993.0,,563.0,650.0,4.3,305.0,5,96000.0,586.4583333333334,Petrol,Premium_Performance,1
+Audi,A8,2995.0,,335.0,600.0,5.7,250.0,5,86000.0,389.5348837209302,Petrol,Premium_Performance,2
+Audi,S5 Coupe,2995.0,,349.0,500.0,4.8,250.0,4,64000.0,545.3125,Petrol,Premium_Performance,2
+Audi,Sq5,2995.0,,349.0,500.0,5.4,250.0,5,62000.0,562.9032258064516,Petrol,Premium_Performance,2
+Audi,S4 Sedan,2995.0,,349.0,500.0,4.7,250.0,5,59000.0,591.5254237288135,Petrol,Premium_Performance,2
+Audi,S3 Sedan,1984.0,,306.0,400.0,4.8,250.0,5,52000.0,588.4615384615385,Petrol,Premium_Performance,2
+Audi,Q7,2995.0,,335.0,600.0,6.3,250.0,7,60000.0,558.3333333333334,Petrol,Premium_Performance,2
+Audi,Q5,1984.0,,248.0,500.0,6.3,240.0,5,43000.0,576.7441860465117,Petrol,Premium_Performance,2
+Audi,A7,2995.0,,335.0,600.0,5.7,250.0,5,68000.0,492.64705882352945,Petrol,Premium_Performance,2
+Audi,A6,2995.0,,335.0,600.0,5.7,250.0,5,58000.0,577.5862068965517,Petrol,Premium_Performance,2
+Audi,A5 Coupe,1984.0,,248.0,500.0,6.3,240.0,4,45000.0,551.1111111111111,Petrol,Premium_Performance,2
+Audi,A4,1984.0,,248.0,400.0,6.5,240.0,5,39000.0,635.8974358974359,Petrol,Premium_Performance,2
+Audi,Q3,1984.0,,248.0,400.0,7.3,230.0,5,35000.0,708.5714285714286,Petrol,Premium_Performance,2
+Audi,E-Tron,,95.0,402.0,664.0,5.5,200.0,5,75000.0,536.0,Electric,Premium_Performance,2
+Audi,E-Tron Sportback,,95.0,402.0,664.0,5.5,200.0,5,78000.0,515.3846153846154,Electric,Premium_Performance,2
+Audi,Tt Coupe,1984.0,,248.0,400.0,5.3,250.0,2,49000.0,506.12244897959187,Petrol,Premium_Performance,2
+Bmw,I8 Roadster,,11.6,369.0,570.0,4.4,250.0,2,165000.0,223.63636363636363,Hybrid,Other_Market,1
+Bmw,330I,1998.0,,255.0,400.0,5.6,250.0,5,45000.0,566.6666666666667,Petrol,Other_Market,2
+Bmw,M340I Xdrive,2998.0,,382.0,500.0,4.1,250.0,5,57000.0,670.1754385964913,Petrol,Other_Market,2
+Bmw,430I Coupe,1998.0,,255.0,400.0,5.8,250.0,4,48000.0,531.25,Petrol,Other_Market,2
+Bmw,M4 Competition,2993.0,,503.0,650.0,3.8,290.0,4,81000.0,620.9876543209876,Petrol,Other_Market,2
+Bmw,530I,1998.0,,248.0,400.0,5.9,250.0,5,57000.0,435.0877192982456,Petrol,Other_Market,2
+Bmw,M550I Xdrive,4395.0,,523.0,650.0,3.6,250.0,5,78000.0,670.5128205128206,Petrol,Other_Market,2
+Bmw,118I,1499.0,,136.0,220.0,8.5,213.0,5,32000.0,425.00000000000006,Petrol,Other_Market,0
+Bmw,128Ti,1998.0,,261.0,400.0,6.1,250.0,5,42000.0,621.4285714285713,Petrol,Other_Market,2
+Bmw,M135I Xdrive,1998.0,,302.0,450.0,4.8,250.0,5,30000.0,1006.6666666666666,Petrol,Other_Market,2
+Bmw,116D,1496.0,,116.0,280.0,10.3,200.0,5,30000.0,386.6666666666667,Diesel,Other_Market,0
+Bmw,120D Xdrive,1995.0,,190.0,400.0,6.9,230.0,5,38000.0,500.0,Diesel,Other_Market,2
+Bmw,116I,1499.0,,109.0,200.0,10.9,200.0,5,28000.0,389.2857142857143,Petrol,Other_Market,0
+Bmw,118D,1995.0,,150.0,380.0,8.4,216.0,5,34000.0,441.1764705882353,Diesel,Other_Market,0
+Bmw,120I,1998.0,,178.0,300.0,7.1,230.0,5,37000.0,481.08108108108104,Petrol,Other_Market,2
+Bmw,125I,1998.0,,224.0,400.0,6.1,240.0,5,42000.0,533.3333333333334,Petrol,Other_Market,2
+Bmw,114D,1496.0,,95.0,270.0,12.2,185.0,5,27000.0,351.85185185185185,Diesel,Other_Market,0
+Bmw,114I,1598.0,,102.0,200.0,11.2,195.0,5,26000.0,392.3076923076923,Petrol,Other_Market,0
+Bmw,125D,1995.0,,224.0,400.0,6.3,240.0,5,44000.0,509.0909090909091,Diesel,Other_Market,2
+Bmw,118I Xdrive,1499.0,,136.0,250.0,8.9,211.0,5,34000.0,400.0,Petrol,Other_Market,0
+Bmw,116D Efficientdynamics,1496.0,,116.0,270.0,10.9,200.0,5,30000.0,386.6666666666667,Diesel,Other_Market,0
+Bmw,118I Sportline,1499.0,,136.0,250.0,8.5,213.0,5,35000.0,388.57142857142856,Petrol,Other_Market,0
+Bmw,118I M Sport,1499.0,,136.0,250.0,8.5,213.0,5,37000.0,367.56756756756755,Petrol,Other_Market,0
+Bmw,120I M Sport,1998.0,,178.0,300.0,7.1,230.0,5,39000.0,456.41025641025635,Petrol,Other_Market,2
+Bmw,116I Efficientdynamics,1598.0,,109.0,200.0,10.9,195.0,5,29000.0,375.8620689655172,Petrol,Other_Market,0
+Bmw,116D Advantage,1496.0,,116.0,270.0,10.5,200.0,5,31000.0,374.19354838709677,Diesel,Other_Market,0
+Bmw,120D Efficientdynamics,1995.0,,163.0,400.0,7.7,225.0,5,39000.0,417.94871794871796,Diesel,Other_Market,0
+Bmw,118I Shadow Line,1499.0,,136.0,250.0,8.5,213.0,5,36000.0,377.77777777777777,Petrol,Other_Market,0
+Bmw,118D Sport Line,1995.0,,150.0,380.0,8.4,216.0,5,36000.0,416.6666666666667,Diesel,Other_Market,0
+Bmw,120I Xdrive,1998.0,,178.0,300.0,7.2,230.0,5,40000.0,445.0,Petrol,Other_Market,2
+Bmw,114D Sport Line,1496.0,,95.0,270.0,12.2,185.0,5,28000.0,339.2857142857143,Diesel,Other_Market,0
+Bmw,118I Urban Line,1499.0,,136.0,250.0,8.5,213.0,5,35000.0,388.57142857142856,Petrol,Other_Market,0
+Volvo,Xc90,1969.0,,247.0,400.0,6.5,200.0,7,60000.0,411.6666666666667,Petrol/Diesel,Other_Market,2
+Volvo,Xc60,1969.0,,247.0,400.0,6.4,220.0,5,55000.0,449.09090909090907,Petrol/Diesel,Other_Market,2
+Volvo,S90,1969.0,,295.0,400.0,5.9,250.0,5,60000.0,491.66666666666663,Petrol/Diesel,Other_Market,2
+Kia,Sportage Lx,2480.0,,187.0,250.0,8.0,200.0,5,27000.0,692.5925925925926,Petrol,Other_Market,0
+Kia,Sportage Ex,2480.0,,187.0,250.0,8.0,200.0,5,30000.0,623.3333333333333,Petrol,Other_Market,0
+Kia,Sportage Gt-Line,2480.0,,187.0,350.0,8.0,200.0,5,32000.0,584.375,Petrol,Other_Market,0
+Kia,Sportage Sx Turbo,1998.0,,240.0,400.0,6.7,210.0,5,36000.0,666.6666666666667,Petrol,Other_Market,2
+Kia,Sportage Nightfall Edition,2480.0,,187.0,350.0,8.0,200.0,5,33000.0,566.6666666666667,Petrol,Other_Market,0
+Honda,Civic Type R,1996.0,,315.0,400.0,5.7,272.0,5,44000.0,715.9090909090909,Petrol,Mass_Market_Mainstream,2
+Kia,Sportage Phev,,,261.0,350.0,8.0,180.0,5,41000.0,636.5853658536585,Plug-in Hybrid,Other_Market,0
+Kia,Sportage 2024(Base Model),2480.0,,187.0,250.0,8.0,200.0,5,26000.0,719.2307692307693,Petrol,Other_Market,0
+Kia,Sportage 2024(Top Trim),1998.0,,240.0,400.0,6.7,210.0,5,38000.0,631.578947368421,Petrol,Other_Market,2
+Kia,Sportage 2024(Base Awd),2480.0,,187.0,250.0,8.3,200.0,5,29000.0,644.8275862068965,Petrol/AWD,Other_Market,0
+Kia,Sportage X-Line,2480.0,,187.0,350.0,8.0,200.0,5,32500.0,575.3846153846154,Petrol,Other_Market,0
+Kia,Sportage 2024(S Trim),2480.0,,187.0,250.0,8.2,200.0,5,28000.0,667.8571428571429,Petrol,Other_Market,0
+Honda,Accord,1498.0,,192.0,370.0,7.1,201.0,5,29400.0,653.0612244897959,Petrol,Mass_Market_Mainstream,0
+Kia,Sportage 2024(Hybrid Awd),,,227.0,350.0,8.0,180.0,5,37000.0,613.5135135135134,Hybrid,Other_Market,0
+Kia,Sportage 2024(Plug-In Hybrid Awd),,,261.0,350.0,7.9,180.0,5,42000.0,621.4285714285713,Plug-in Hybrid,Other_Market,0
+Kia,Sportage 2024(X-Pro),2480.0,,187.0,400.0,8.1,200.0,5,36000.0,519.4444444444445,Petrol,Other_Market,0
+Kia,Sportage 2024(X-Pro Prestige),2480.0,,187.0,400.0,8.1,200.0,5,38000.0,492.10526315789474,Petrol,Other_Market,0
+Kia,Sportage 2024(Sx Turbo Awd),1998.0,,240.0,400.0,6.5,210.0,5,40000.0,600.0,Petrol/AWD,Other_Market,2
+Kia,Sportage 2024(Base Fwd),2480.0,,187.0,250.0,8.5,200.0,5,26500.0,705.6603773584906,Petrol,Other_Market,0
+Honda,Cr-V,1498.0,,190.0,400.0,8.2,186.0,5,30000.0,633.3333333333334,Petrol/Hybrid,Mass_Market_Mainstream,0
+Honda,Pilot,3471.0,,285.0,360.0,6.3,209.0,8,40000.0,712.5,Petrol,Mass_Market_Mainstream,2
+Honda,Civic Hatchback,1498.0,,180.0,300.0,6.8,220.0,5,26350.0,683.111954459203,Petrol,Mass_Market_Mainstream,2
+Toyota,Camry,3500.0,,301.0,250.0,6.0,220.0,5,27000.0,1114.8148148148148,Petrol/Hybrid,Mass_Market_Mainstream,2
+Toyota,Corolla,1798.0,,139.0,200.0,9.4,180.0,5,22500.0,617.7777777777777,Petrol/Hybrid,Mass_Market_Mainstream,0
+Toyota,Prius,1798.0,,121.0,142.0,10.5,180.0,5,26700.0,453.1835205992509,Hybrid,Mass_Market_Mainstream,0
+Toyota,Rav4,2494.0,,203.0,400.0,8.1,200.0,5,27100.0,749.0774907749078,Petrol/Hybrid,Mass_Market_Mainstream,0
+Toyota,Highlander,3456.0,,295.0,370.0,7.2,220.0,7,38400.0,768.2291666666666,Petrol/Hybrid,Mass_Market_Mainstream,2
+Toyota,4Runner,3956.0,,270.0,400.0,7.5,200.0,5,37400.0,721.9251336898395,Petrol,Mass_Market_Mainstream,2
+Toyota,Tacoma,2694.0,,159.0,400.0,9.5,180.0,5,26400.0,602.2727272727273,Petrol,Mass_Market_Mainstream,0
+Toyota,Tundra,5663.0,,381.0,650.0,6.7,220.0,5,39900.0,954.8872180451128,Petrol,Mass_Market_Mainstream,2
+Toyota,Avalon,3456.0,,301.0,400.0,6.9,220.0,5,41400.0,727.0531400966183,Petrol,Mass_Market_Mainstream,2
+Toyota,Mirai,1798.0,,151.0,335.0,9.2,180.0,5,52400.0,288.1679389312977,Hydrogen,Mass_Market_Mainstream,0
+Toyota,Sienna,2494.0,,245.0,360.0,8.0,190.0,7,44150.0,554.9263873159683,Petrol/Hybrid,Mass_Market_Mainstream,2
+Toyota,Venza,2494.0,,219.0,400.0,7.5,200.0,5,33400.0,655.688622754491,Hybrid,Mass_Market_Mainstream,0
+Toyota,Highlander Hybrid,3456.0,,240.0,350.0,8.2,220.0,7,40400.0,594.059405940594,Hybrid,Mass_Market_Mainstream,2
+Toyota,Land Cruiser Prado,3956.0,,282.0,450.0,7.2,200.0,7,49400.0,570.8502024291498,Petrol/Diesel,Mass_Market_Mainstream,2
+Toyota,Tundra Hybrid,3456.0,,344.0,650.0,6.2,220.0,5,43400.0,792.6267281105992,Hybrid,Mass_Market_Mainstream,2
+Toyota,Yaris,1496.0,,106.0,150.0,11.2,180.0,5,18400.0,576.0869565217391,Petrol,Mass_Market_Mainstream,0
+Toyota,C-Hr,1986.0,,144.0,250.0,10.2,200.0,5,24400.0,590.1639344262295,Petrol/Hybrid,Mass_Market_Mainstream,0
+Toyota,Bz4X,,64.8,218.0,330.0,7.5,200.0,5,43400.0,502.30414746543784,Electric,Mass_Market_Mainstream,0
+Toyota,Crown,2494.0,,236.0,400.0,7.6,200.0,5,38400.0,614.5833333333333,Hybrid,Mass_Market_Mainstream,0
+Toyota,Mr2,1986.0,,168.0,400.0,6.9,200.0,2,29000.0,579.3103448275862,Petrol,Mass_Market_Mainstream,0
+Toyota,Celica,1986.0,,140.0,250.0,8.5,200.0,5,25000.0,560.0,Petrol,Mass_Market_Mainstream,0
+Honda,City,1497.0,,119.0,145.0,10.2,180.0,5,15400.0,772.7272727272727,Petrol/Hybrid,Mass_Market_Mainstream,0
+Honda,Civic,1996.0,,158.0,400.0,8.5,200.0,5,20400.0,774.5098039215686,Petrol,Mass_Market_Mainstream,0
+Hyundai,I10,1197.0,,87.0,120.0,12.2,160.0,5,12400.0,701.6129032258065,Petrol,Other_Market,0
+Hyundai,I20,1396.0,,99.0,250.0,10.5,180.0,5,15400.0,642.8571428571429,Petrol/Hybrid,Other_Market,0
+Hyundai,Elantra,1999.0,,147.0,250.0,9.5,200.0,5,18400.0,798.9130434782608,Petrol/Hybrid,Other_Market,0
+Mahindra,Xuv500,2179.0,,155.0,400.0,10.5,180.0,7,18400.0,842.3913043478261,Diesel,Other_Market,0
+Mahindra,Scorpio,2179.0,,140.0,280.0,11.2,160.0,7,16400.0,853.6585365853659,Diesel,Other_Market,0
+Mahindra,Thar,1997.0,,150.0,320.0,10.5,180.0,4,20400.0,735.2941176470588,Petrol/Diesel,Other_Market,0
+Maruti Suzuki,Swift,1197.0,,83.0,113.0,12.2,160.0,5,10400.0,798.0769230769231,Petrol,Other_Market,0
+Maruti Suzuki,Dzire,1197.0,,83.0,113.0,12.2,160.0,5,11400.0,728.0701754385965,Petrol/Diesel,Other_Market,0
+Maruti Suzuki,Brezza,1462.0,,103.0,200.0,11.5,180.0,5,14400.0,715.2777777777778,Petrol,Other_Market,0
+Toyota,Prius Prime,1998.0,,220.0,220.0,6.7,180.0,5,31100.0,707.395498392283,Plug-in Hybrid,Mass_Market_Mainstream,0
+Toyota,Gr Corolla,1618.0,,300.0,370.0,2.5,230.0,5,36995.0,810.9203946479253,Petrol,Mass_Market_Mainstream,2
+Toyota,Land Cruiser 300,3346.0,,305.0,650.0,6.8,210.0,7,58500.0,521.3675213675214,Petrol/Diesel,Mass_Market_Mainstream,2
+Toyota,Tundra I-Force Max,3445.0,,437.0,750.0,6.2,180.0,5,56000.0,780.3571428571429,Hybrid,Mass_Market_Mainstream,2
+Toyota,Corolla Hatchback Xse,1987.0,,169.0,250.0,8.2,190.0,5,25390.0,665.6163844033083,Petrol,Mass_Market_Mainstream,0
+Toyota,Mirai,,1.24,152.0,335.0,9.0,180.0,5,49500.0,307.07070707070704,Hydrogen,Mass_Market_Mainstream,0
+Toyota,Hilux Gr Sport,2755.0,,224.0,500.0,10.0,170.0,5,50000.0,447.99999999999994,Petrol/Diesel,Mass_Market_Mainstream,0
+Toyota,Alphard Executive Lounge,2494.0,,296.0,400.0,8.5,180.0,7,60000.0,493.3333333333333,Petrol,Mass_Market_Mainstream,2
+Toyota,Fortuner Gr Sport,2755.0,,204.0,500.0,10.5,175.0,7,55000.0,370.90909090909093,Diesel/Petrol,Mass_Market_Mainstream,0
+Toyota,Innova Hycross,1987.0,,184.0,250.0,9.5,165.0,7,40000.0,460.0,Hybrid,Mass_Market_Mainstream,0
+Toyota,Urban Cruiser Taisor,1490.0,,114.0,130.0,11.0,170.0,5,25000.0,456.0,Petrol,Mass_Market_Mainstream,0
+Toyota,Aygo X,998.0,,71.0,93.0,14.8,160.0,4,18000.0,394.4444444444445,Petrol,Mass_Market_Mainstream,0
+Toyota,Hilux Revo Rocco,2755.0,,204.0,500.0,10.0,175.0,5,50000.0,408.00000000000006,Diesel,Mass_Market_Mainstream,0
+Toyota,Proace Verso Electric,,75.0,136.0,280.0,13.5,130.0,7,55000.0,247.27272727272728,Electric,Mass_Market_Mainstream,0
+Toyota,Century Suv,3456.0,,406.0,500.0,6.0,200.0,5,170000.0,238.82352941176472,Petrol,Mass_Market_Mainstream,2
+Toyota,Corolla Sedan Hybrid,1798.0,,134.0,300.0,10.0,180.0,5,24000.0,558.3333333333334,Hybrid,Mass_Market_Mainstream,0
+Toyota,Bz3,,65.0,241.0,340.0,7.5,160.0,5,35000.0,688.5714285714286,Electric,Mass_Market_Mainstream,0
+Toyota,Gr Yaris,1618.0,,268.0,390.0,5.5,230.0,4,45000.0,595.5555555555555,Petrol,Mass_Market_Mainstream,2
+Hyundai,Santa Fe,1600.0,,253.0,420.0,9.3,180.0,7,50000.0,506.0,Petrol/Hybrid,Other_Market,0
+Hyundai,Ioniq 5,,72.6,225.0,350.0,7.4,185.0,5,41000.0,548.780487804878,Electric,Other_Market,0
+Hyundai,Santa Cruz,2500.0,,281.0,400.0,6.5,215.0,5,40799.0,688.7423711365475,Petrol,Other_Market,2
+Hyundai,Kona,1591.0,,147.0,400.0,7.5,185.0,5,20500.0,717.0731707317074,Petrol/EV,Other_Market,0
+Hyundai,Elantra,2000.0,,147.0,250.0,8.3,210.0,5,19950.0,736.8421052631579,Petrol/Hybrid,Other_Market,0
+Nissan,Urvan,,,2488.0,356.0,14.0,140.0,15,28000.0,8885.714285714286,Diesel,Mass_Market_Mainstream,2
+Hyundai,Ioniq 6,,53.6,320.0,350.0,5.2,185.0,5,41450.0,772.0144752714114,Electric,Other_Market,2
+Hyundai,Tucson,2500.0,,187.0,400.0,6.1,180.0,5,30500.0,613.1147540983607,Petrol/Hybrid,Other_Market,2
+Hyundai,Palisade,3800.0,,291.0,355.0,6.3,240.0,7,52000.0,559.6153846153846,Petrol,Other_Market,2
+Hyundai,Sonata,2500.0,,191.0,250.0,8.0,240.0,5,25000.0,764.0,Petrol/Hybrid,Other_Market,2
+Hyundai,Accent,1600.0,,120.0,151.0,9.8,180.0,5,15000.0,800.0,Petrol,Other_Market,0
+Hyundai,Venue,1600.0,,121.0,240.0,9.5,180.0,5,18000.0,672.2222222222223,Petrol,Other_Market,0
+Hyundai,Kona Electric,,39.2,200.0,395.0,6.1,200.0,5,40000.0,500.0,Electric,Other_Market,0
+Hyundai,Veloster,2000.0,,275.0,264.0,6.0,220.0,4,25000.0,1100.0,Petrol,Other_Market,2
+Hyundai,Nexo,,1.56,161.0,400.0,7.8,180.0,5,38000.0,423.6842105263158,Hydrogen,Other_Market,0
+Hyundai,Ioniq,1600.0,,139.0,295.0,8.5,160.0,5,18000.0,772.2222222222223,Hybrid/Electric,Other_Market,0
+Hyundai,Genesis,3800.0,,291.0,400.0,6.3,240.0,5,52000.0,559.6153846153846,Petrol,Other_Market,2
+Hyundai,Azera,3300.0,,278.0,250.0,6.5,240.0,5,55000.0,505.4545454545455,Petrol,Other_Market,2
+Hyundai,Equus,3300.0,,278.0,400.0,6.5,240.0,5,55000.0,505.4545454545455,Petrol,Other_Market,2
+Hyundai,Tiburon,2000.0,,160.0,320.0,8.2,200.0,4,19000.0,842.1052631578947,Petrol,Other_Market,0
+Hyundai,Elantra Gt,2000.0,,160.0,320.0,8.3,200.0,5,22000.0,727.2727272727273,Petrol,Other_Market,0
+Volkswagen,Golf,,,110.0,250.0,8.5,210.0,5,23000.0,478.2608695652174,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Golf,,,320.0,250.0,8.5,210.0,5,23000.0,1391.304347826087,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Passat,1984.0,,215.0,250.0,7.8,210.0,5,25000.0,860.0,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Tiguan,1984.0,,190.0,300.0,8.5,209.0,7,28505.0,666.549728117874,"Petrol, Hybrid",Mass_Market_Mainstream,0
+Volkswagen,Jetta,1498.0,,189.0,250.0,7.7,210.0,5,21995.0,859.2862014094113,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Polo,999.0,,80.0,175.0,9.5,190.0,5,18000.0,444.44444444444446,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Polo,999.0,,200.0,175.0,9.5,190.0,5,18000.0,1111.111111111111,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Arteon,1984.0,,215.0,350.0,5.6,250.0,5,46000.0,467.3913043478261,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Id.4,,77.0,251.5,310.0,7.8,160.0,5,39735.0,632.9432490247892,Electric,Mass_Market_Mainstream,0
+Volkswagen,Up!,,32.3,82.0,95.0,13.0,160.0,4,15000.0,546.6666666666666,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Touareg,2967.0,,231.0,600.0,5.9,235.0,5,55000.0,420.0,"Petrol, Diesel",Mass_Market_Mainstream,2
+Volkswagen,Touareg,2967.0,,500.0,600.0,5.9,235.0,5,55000.0,909.090909090909,"Petrol, Diesel",Mass_Market_Mainstream,2
+Volkswagen,Scirocco,1984.0,,202.5,350.0,6.0,233.0,4,35000.0,578.5714285714286,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Beetle,1984.0,,157.5,240.0,7.0,205.0,4,20000.0,787.5,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Amarok,2967.0,,210.5,550.0,7.9,180.0,5,40000.0,526.25,Diesel,Mass_Market_Mainstream,0
+Volkswagen,T-Roc,1984.0,,207.5,320.0,7.2,205.0,5,30000.0,691.6666666666666,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Sharan,1984.0,,185.0,280.0,9.3,200.0,7,33000.0,560.6060606060606,"Petrol, Diesel",Mass_Market_Mainstream,0
+Volkswagen,Caddy,1498.0,,126.0,250.0,10.5,185.0,7,28000.0,449.99999999999994,"Petrol, Diesel",Mass_Market_Mainstream,0
+Nissan,Nv1500,3954.0,,261.0,385.0,9.5,160.0,12,33000.0,790.9090909090909,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Taigo,1498.0,,122.5,200.0,10.0,183.0,5,24000.0,510.4166666666667,Petrol,Mass_Market_Mainstream,0
+Volkswagen,California,1984.0,,177.0,340.0,13.0,180.0,7,70000.0,252.85714285714286,Diesel,Mass_Market_Mainstream,0
+Volkswagen,Id.3,,58.0,204.0,310.0,7.3,160.0,5,35000.0,582.8571428571429,Electric,Mass_Market_Mainstream,0
+Volkswagen,Id. Buzz,,77.0,204.0,310.0,10.2,145.0,7,59995.0,340.0283356946412,Electric,Mass_Market_Mainstream,0
+Volkswagen,Golf Gti,1984.0,,245.0,350.0,5.9,250.0,5,31965.0,766.4633192554356,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Golf R,1984.0,,315.0,420.0,4.6,250.0,5,44640.0,705.6451612903226,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Passat Alltrack,1968.0,,215.0,400.0,7.8,220.0,5,36000.0,597.2222222222223,Diesel,Mass_Market_Mainstream,0
+Volkswagen,Polo Gti,1984.0,,204.0,320.0,6.7,238.0,5,28000.0,728.5714285714286,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Up! Gti,999.0,,115.0,200.0,8.8,196.0,4,20000.0,575.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,T-Cross,999.0,,95.0,250.0,10.2,200.0,5,25000.0,380.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,T-Cross,999.0,,150.0,250.0,10.2,200.0,5,25000.0,600.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Id.5,,77.0,236.5,310.0,8.4,180.0,5,45000.0,525.5555555555555,Electric,Mass_Market_Mainstream,0
+Volkswagen,Id. Buzz Cargo,,77.0,204.0,310.0,10.2,145.0,3,55000.0,370.90909090909093,Electric,Mass_Market_Mainstream,0
+Volkswagen,Touareg R,2995.0,,462.0,700.0,5.1,250.0,5,70000.0,660.0,Hybrid,Mass_Market_Mainstream,2
+Volkswagen,Multivan,1395.0,,150.0,350.0,9.4,190.0,7,50000.0,300.0,"Petrol, Hybrid",Mass_Market_Mainstream,0
+Volkswagen,Multivan,1395.0,,218.0,350.0,9.4,190.0,7,50000.0,436.0,"Petrol, Hybrid",Mass_Market_Mainstream,0
+Volkswagen,Polo Bluemotion,1199.0,,85.0,250.0,10.5,190.0,5,22000.0,386.3636363636364,Diesel,Mass_Market_Mainstream,0
+Volkswagen,Golf Sportsvan,1498.0,,140.0,250.0,8.9,210.0,5,30000.0,466.6666666666667,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Golf Alltrack,1968.0,,173.5,350.0,7.1,210.0,5,35000.0,495.7142857142857,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Scirocco R,1984.0,,280.0,350.0,5.5,250.0,4,40000.0,700.0,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Tiguan Allspace,1984.0,,207.0,320.0,7.6,215.0,7,35000.0,591.4285714285714,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Arteon 4Motion,1984.0,,255.0,350.0,5.6,250.0,5,48000.0,531.25,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Id.4 Gtx,,77.0,299.0,460.0,6.2,180.0,5,50000.0,598.0,Electric,Mass_Market_Mainstream,2
+Volkswagen,Id.3 Pro,,58.0,204.0,310.0,7.3,160.0,5,35000.0,582.8571428571429,Electric,Mass_Market_Mainstream,0
+Volkswagen,Golf Variant,1498.0,,130.0,320.0,7.5,220.0,5,32000.0,406.25,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Golf Variant,1498.0,,150.0,320.0,7.5,220.0,5,32000.0,468.75,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Crafter,1968.0,,139.5,410.0,13.0,160.0,3,40000.0,348.75,Diesel,Mass_Market_Mainstream,0
+Volkswagen,Lupo,1390.0,,60.0,120.0,14.3,170.0,4,15000.0,400.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Lupo,1390.0,,75.0,120.0,14.3,170.0,4,15000.0,500.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Corrado,2861.0,,190.0,245.0,6.4,235.0,4,25000.0,760.0,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Phaeton,2967.0,,240.0,560.0,6.1,250.0,5,85000.0,282.3529411764706,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Phaeton,2967.0,,450.0,560.0,6.1,250.0,5,85000.0,529.4117647058823,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Golf Cabriolet,1197.0,,105.0,200.0,8.4,217.0,4,30000.0,350.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Golf Cabriolet,1197.0,,210.0,200.0,8.4,217.0,4,30000.0,700.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Santana,1498.0,,110.0,145.0,12.9,190.0,5,15000.0,733.3333333333334,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Polo Vivo,1390.0,,85.0,132.0,10.8,170.0,5,14000.0,607.1428571428571,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Polo Vivo,1390.0,,105.0,132.0,10.8,170.0,5,14000.0,750.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Karmann Ghia,1192.0,,47.0,106.0,23.0,138.0,2,25000.0,188.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Fox,1198.0,,55.0,93.0,17.5,148.0,5,12000.0,458.3333333333333,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Fox,1198.0,,75.0,93.0,17.5,148.0,5,12000.0,625.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Vento,1598.0,,105.0,153.0,11.7,186.0,5,18000.0,583.3333333333334,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Vento,1598.0,,110.0,153.0,11.7,186.0,5,18000.0,611.1111111111112,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Golf Electric,,35.8,136.0,290.0,10.4,140.0,5,33000.0,412.1212121212121,Electric,Mass_Market_Mainstream,0
+Volkswagen,Bora,1598.0,,100.0,220.0,9.4,200.0,5,20000.0,500.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Bora,1598.0,,150.0,220.0,9.4,200.0,5,20000.0,750.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Teramont,1984.0,,235.0,350.0,8.6,190.0,7,32000.0,734.375,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Teramont,1984.0,,276.0,350.0,8.6,190.0,7,32000.0,862.5000000000001,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Taos,1498.0,,158.0,250.0,8.4,193.0,5,24000.0,658.3333333333334,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Up! Cabriolet,999.0,,98.5,95.0,12.4,160.0,4,18000.0,547.2222222222222,Petrol,Mass_Market_Mainstream,0
+Volkswagen,T-Roc Cabriolet,999.0,,115.0,250.0,9.6,205.0,4,35000.0,328.5714285714286,Petrol,Mass_Market_Mainstream,0
+Volkswagen,T-Roc Cabriolet,999.0,,150.0,250.0,9.6,205.0,4,35000.0,428.5714285714286,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Passat Cc,1984.0,,240.0,280.0,7.3,240.0,5,40000.0,600.0,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Transporter,1968.0,,153.0,340.0,12.2,180.0,9,35000.0,437.1428571428571,Diesel,Mass_Market_Mainstream,0
+Volkswagen,Amarok V6,2967.0,,231.0,580.0,7.9,191.0,5,45000.0,513.3333333333334,Diesel,Mass_Market_Mainstream,0
+Volkswagen,Id.2,,50.0,170.0,220.0,8.0,160.0,5,25000.0,680.0,Electric,Mass_Market_Mainstream,0
+Volkswagen,Polo Tdi,1390.0,,75.0,250.0,9.9,190.0,5,20000.0,375.0,Diesel,Mass_Market_Mainstream,0
+Volkswagen,Polo Tdi,1390.0,,105.0,250.0,9.9,190.0,5,20000.0,525.0,Diesel,Mass_Market_Mainstream,0
+Volkswagen,Golf Gte,1395.0,,204.0,350.0,7.6,222.0,5,40000.0,510.00000000000006,Hybrid,Mass_Market_Mainstream,0
+Volkswagen,Touareg V8,3956.0,,421.0,770.0,4.9,250.0,5,70000.0,601.4285714285714,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Beetle Dune,1395.0,,150.0,250.0,7.5,200.0,4,30000.0,500.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Passat B8,1498.0,,150.0,250.0,8.7,210.0,5,28000.0,535.7142857142857,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Passat B8,1498.0,,280.0,250.0,8.7,210.0,5,28000.0,1000.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Id.4 Pro S,,77.0,201.0,310.0,7.8,180.0,5,45000.0,446.66666666666663,Electric,Mass_Market_Mainstream,0
+Volkswagen,Golf Cabriolet,1197.0,,105.0,200.0,8.4,217.0,4,30000.0,350.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Golf Cabriolet,1197.0,,210.0,200.0,8.4,217.0,4,30000.0,700.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Golf Country,1781.0,,98.0,170.0,12.0,165.0,5,25000.0,392.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Jetta Gli,1984.0,,228.0,350.0,6.5,250.0,5,31000.0,735.483870967742,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Arteon Shooting Brake,1984.0,,235.0,420.0,5.6,250.0,5,50000.0,470.0,Petrol,Mass_Market_Mainstream,2
+Volkswagen,T-Cross R-Line,999.0,,115.0,250.0,8.5,200.0,5,27000.0,425.9259259259259,Petrol,Mass_Market_Mainstream,0
+Volkswagen,T-Cross R-Line,999.0,,150.0,250.0,8.5,200.0,5,27000.0,555.5555555555555,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Golf R32,3189.0,,240.0,320.0,6.2,250.0,5,40000.0,600.0,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Passat B7,1598.0,,120.0,280.0,8.5,220.0,5,26000.0,461.5384615384616,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Passat B7,1598.0,,240.0,280.0,8.5,220.0,5,26000.0,923.0769230769232,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Scirocco 16V,1781.0,,137.0,230.0,7.1,220.0,4,35000.0,391.4285714285714,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Polo Bluemotion,1199.0,,85.0,210.0,10.5,190.0,5,20000.0,425.00000000000006,Diesel,Mass_Market_Mainstream,0
+Volkswagen,Golf Variant Gtd,1968.0,,184.0,380.0,7.5,230.0,5,38000.0,484.2105263157895,Diesel,Mass_Market_Mainstream,0
+Volkswagen,Polo Gti R5,1598.0,,272.0,400.0,4.1,200.0,5,45000.0,604.4444444444445,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Id. Buzz Pro,,77.0,204.0,310.0,10.2,145.0,7,60000.0,340.0,Electric,Mass_Market_Mainstream,0
+Volkswagen,Jetta Hybrid,1395.0,,170.0,250.0,8.6,210.0,5,28000.0,607.1428571428571,Hybrid,Mass_Market_Mainstream,0
+Volkswagen,Golf Variant Alltrack,1968.0,,175.0,320.0,7.8,220.0,5,35000.0,500.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Volkswagen Xl1,800.0,,68.0,140.0,11.9,160.0,2,150000.0,45.33333333333333,Hybrid,Mass_Market_Mainstream,0
+Volkswagen,Golf Tdi,1968.0,,167.0,350.0,8.0,220.0,5,28000.0,596.4285714285714,Diesel,Mass_Market_Mainstream,0
+Volkswagen,Passat Variant,1498.0,,150.0,280.0,8.5,220.0,5,30000.0,500.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Passat Variant,1498.0,,240.0,280.0,8.5,220.0,5,30000.0,800.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Polo Gti Clubsport,1984.0,,300.0,320.0,6.7,240.0,5,30000.0,1000.0,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Jetta Hybrid,1395.0,,170.0,250.0,8.6,210.0,5,28000.0,607.1428571428571,Hybrid,Mass_Market_Mainstream,0
+Volkswagen,Id.3 Gtx,,77.0,299.0,310.0,6.2,180.0,5,45000.0,664.4444444444445,Electric,Mass_Market_Mainstream,2
+Volkswagen,Arteon R-Line,1984.0,,235.0,420.0,5.6,250.0,5,50000.0,470.0,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Golf Tgi,1498.0,,130.0,200.0,8.8,220.0,5,30000.0,433.3333333333333,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Scirocco Gts,1984.0,,220.0,350.0,6.5,246.0,4,35000.0,628.5714285714286,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Caddy Maxi,1968.0,,136.0,250.0,12.0,180.0,7,25000.0,544.0,Diesel,Mass_Market_Mainstream,0
+Volkswagen,Volkswagen Lupo 3L,1199.0,,61.0,140.0,14.5,165.0,4,20000.0,305.0,Diesel,Mass_Market_Mainstream,0
+Volkswagen,Polo Beats,999.0,,95.0,175.0,9.5,187.0,5,22000.0,431.8181818181818,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Passat Hybrid,1395.0,,215.0,330.0,7.4,210.0,5,32000.0,671.875,Hybrid,Mass_Market_Mainstream,0
+Volkswagen,Golf Tcr,1984.0,,290.0,370.0,5.6,250.0,5,40000.0,725.0,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Tiguan R-Line,1984.0,,210.0,420.0,4.9,250.0,5,45000.0,466.6666666666667,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Sharan Business,1968.0,,167.0,350.0,8.3,200.0,7,35000.0,477.14285714285717,Diesel,Mass_Market_Mainstream,0
+Volkswagen,Id. Buzz Cargo Pro,,77.0,204.0,310.0,10.2,145.0,2,55000.0,370.90909090909093,Electric,Mass_Market_Mainstream,0
+Volkswagen,Arteon 280 Tsi,1984.0,,280.0,350.0,5.6,250.0,5,50000.0,560.0,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Jetta Gli 35Th,1984.0,,228.0,350.0,6.5,250.0,5,31000.0,735.483870967742,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Beetle Final Edition,1984.0,,174.0,250.0,7.0,205.0,4,25000.0,696.0,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Golf Variant Tdi,1968.0,,167.0,350.0,7.8,220.0,5,30000.0,556.6666666666666,Diesel,Mass_Market_Mainstream,0
+Volkswagen,Golf 4Motion,1968.0,,167.0,400.0,4.9,250.0,5,40000.0,417.5,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Jetta Sportwagen,1395.0,,147.0,250.0,8.5,200.0,5,27000.0,544.4444444444445,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Jetta Sportwagen,1395.0,,150.0,250.0,8.5,200.0,5,27000.0,555.5555555555555,Petrol,Mass_Market_Mainstream,0
+Volkswagen,Polo Gti Plus,1984.0,,207.0,320.0,6.7,237.0,5,30000.0,690.0,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Touareg V6,2967.0,,231.0,450.0,7.5,235.0,5,60000.0,385.0,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Touareg V6,2967.0,,340.0,450.0,7.5,235.0,5,60000.0,566.6666666666667,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Tiguan Ehybrid,1395.0,,245.0,400.0,7.5,200.0,5,42000.0,583.3333333333334,Hybrid,Mass_Market_Mainstream,0
+Volkswagen,Up! E-Up!,,32.3,83.0,210.0,11.9,130.0,4,23000.0,360.8695652173913,Electric,Mass_Market_Mainstream,0
+Volkswagen,Amarok V8,3996.0,,325.0,580.0,7.4,210.0,5,70000.0,464.2857142857143,Diesel,Mass_Market_Mainstream,2
+Volkswagen,Golf R Cabriolet,1984.0,,265.0,380.0,5.9,250.0,4,45000.0,588.8888888888889,Petrol,Mass_Market_Mainstream,2
+Volkswagen,Passat Alltrack Tdi,1968.0,,190.0,400.0,8.0,220.0,5,40000.0,475.0,Diesel,Mass_Market_Mainstream,0
+Volkswagen,Id. Buzz Cargo Ev,,77.0,204.0,310.0,10.2,145.0,2,55000.0,370.90909090909093,Electric,Mass_Market_Mainstream,0
+Nissan,Versa,1598.0,,122.0,154.0,10.4,180.0,5,16700.0,730.5389221556886,Petrol,Mass_Market_Mainstream,0
+Nissan,Micra,999.0,,100.0,160.0,10.8,175.0,5,15500.0,645.1612903225806,Petrol,Mass_Market_Mainstream,0
+Nissan,Patrol Platinum,5552.0,,400.0,560.0,7.3,210.0,7,77000.0,519.4805194805194,Petrol,Mass_Market_Mainstream,2
+Nissan,Qashqai,1332.0,,156.0,260.0,8.9,195.0,5,26000.0,600.0,Petrol,Mass_Market_Mainstream,0
+Nissan,Murano,3498.0,,260.0,325.0,7.5,210.0,5,39000.0,666.6666666666667,Petrol,Mass_Market_Mainstream,2
+Nissan,Maxima Platinum,3498.0,,300.0,353.0,6.2,220.0,5,45000.0,666.6666666666667,Petrol,Mass_Market_Mainstream,2
+Nissan,Armada,5552.0,,400.0,560.0,6.5,210.0,8,51000.0,784.313725490196,Petrol,Mass_Market_Mainstream,2
+Nissan,Kicks,1598.0,,122.0,154.0,10.7,180.0,5,20000.0,610.0,Petrol,Mass_Market_Mainstream,0
+Nissan,X-Trail,1498.0,,201.0,305.0,8.0,200.0,5,29000.0,693.1034482758621,Hybrid,Mass_Market_Mainstream,0
+Nissan,Z (Fairlady Z),2997.0,,400.0,475.0,4.5,250.0,2,40000.0,1000.0,Petrol,Mass_Market_Mainstream,2
+Nissan,Almera,999.0,,100.0,160.0,10.7,185.0,5,14500.0,689.6551724137931,Petrol,Mass_Market_Mainstream,0
+Nissan,Sylphy,1798.0,,137.0,174.0,9.6,190.0,5,18000.0,761.1111111111111,Petrol,Mass_Market_Mainstream,0
+Nissan,Note,1198.0,,109.0,150.0,11.5,170.0,5,16000.0,681.25,Hybrid,Mass_Market_Mainstream,0
+Nissan,Sunny,1598.0,,118.0,156.0,11.0,180.0,5,15000.0,786.6666666666666,Petrol,Mass_Market_Mainstream,0
+Nissan,Cube,1798.0,,122.0,171.0,10.6,175.0,5,14500.0,841.3793103448276,Petrol,Mass_Market_Mainstream,0
+Nissan,Juke,999.0,,117.0,180.0,10.4,180.0,5,25000.0,468.0,Petrol,Mass_Market_Mainstream,0
+Nissan,Terrano,1461.0,,110.0,248.0,13.5,168.0,5,15500.0,709.6774193548388,Diesel,Mass_Market_Mainstream,0
+Nissan,Magnite,999.0,,100.0,160.0,13.0,160.0,5,12000.0,833.3333333333334,Petrol,Mass_Market_Mainstream,0
+Nissan,Xterra,3954.0,,261.0,381.0,7.8,200.0,7,35000.0,745.7142857142858,Petrol,Mass_Market_Mainstream,2
+Nissan,Patrol,5552.0,,400.0,560.0,7.3,210.0,7,77000.0,519.4805194805194,Petrol,Mass_Market_Mainstream,2
+Nissan,Gt-R Nismo,3799.0,,600.0,652.0,2.9,330.0,2,220000.0,272.72727272727275,Petrol,Mass_Market_Mainstream,1
+Nissan,370Z Roadster,3696.0,,332.0,366.0,5.5,250.0,2,41820.0,793.8785270205643,Petrol,Mass_Market_Mainstream,2
+Nissan,Ariya,,87.0,389.0,600.0,5.1,200.0,5,58950.0,659.8812553011027,Electric,Mass_Market_Mainstream,2
+Nissan,Patrol Royale,5552.0,,400.0,560.0,6.6,210.0,7,85000.0,470.5882352941176,Petrol,Mass_Market_Mainstream,2
+Nissan,Infiniti Qx80*,5552.0,,400.0,560.0,6.5,210.0,7,70600.0,566.57223796034,Petrol,Mass_Market_Mainstream,2
+Nissan,Tiida,1598.0,,126.0,154.0,10.1,190.0,5,14500.0,868.9655172413793,Petrol,Mass_Market_Mainstream,0
+Nissan,Pulsar,1197.0,,115.0,190.0,10.7,190.0,5,19000.0,605.2631578947369,Petrol,Mass_Market_Mainstream,0
+Nissan,Latio,1498.0,,102.0,139.0,11.5,175.0,5,13000.0,784.6153846153846,Petrol,Mass_Market_Mainstream,0
+Nissan,Bluebird Sylphy,1997.0,,133.0,191.0,10.5,185.0,5,18500.0,718.9189189189188,Petrol,Mass_Market_Mainstream,0
+Nissan,March,1198.0,,79.0,106.0,13.7,170.0,5,12000.0,658.3333333333334,Petrol,Mass_Market_Mainstream,0
+Nissan,Rogue Sport,1997.0,,141.0,199.0,9.8,190.0,5,24960.0,564.9038461538462,Petrol,Mass_Market_Mainstream,0
+Nissan,X-Trail Hybrid,1997.0,,179.0,207.0,9.4,180.0,5,28500.0,628.0701754385965,Hybrid,Mass_Market_Mainstream,0
+Nissan,Pathfinder Rock Creek,3498.0,,284.0,351.0,7.4,190.0,7,42820.0,663.2414759458197,Petrol,Mass_Market_Mainstream,2
+Nissan,Armada Platinum,5552.0,,400.0,560.0,6.5,210.0,8,65300.0,612.5574272588055,Petrol,Mass_Market_Mainstream,2
+Nissan,Terrano Xl,1598.0,,104.0,145.0,12.5,165.0,5,14000.0,742.8571428571429,Petrol,Mass_Market_Mainstream,0
+Nissan,Gt-R50 By Italdesign,3799.0,,720.0,780.0,2.5,315.0,2,1100000.0,65.45454545454545,Petrol,Mass_Market_Mainstream,1
+Nissan,370Z Nismo,3696.0,,350.0,374.0,5.2,250.0,2,45790.0,764.3590303559729,Petrol,Mass_Market_Mainstream,2
+Nissan,Ariya E-4Orce,,87.0,389.0,600.0,5.1,200.0,5,60000.0,648.3333333333333,Electric,Mass_Market_Mainstream,2
+Nissan,Patrol Nismo,5552.0,,428.0,560.0,6.5,210.0,7,105000.0,407.61904761904765,Petrol,Mass_Market_Mainstream,2
+Nissan,Infiniti Q60*,2997.0,,300.0,400.0,5.0,250.0,4,41750.0,718.562874251497,Petrol,Mass_Market_Mainstream,2
+Nissan,Primera,1998.0,,140.0,190.0,9.6,200.0,5,20000.0,700.0,Petrol,Mass_Market_Mainstream,0
+Nissan,Skyline,2997.0,,400.0,475.0,5.0,250.0,5,50000.0,800.0,Petrol,Mass_Market_Mainstream,2
+Nissan,Cedric,1998.0,,150.0,190.0,10.5,190.0,5,22000.0,681.8181818181818,Petrol,Mass_Market_Mainstream,0
+Nissan,Gloria,2498.0,,210.0,250.0,8.6,210.0,5,30000.0,700.0,Petrol,Mass_Market_Mainstream,0
+Nissan,Stanza,1796.0,,120.0,170.0,11.0,175.0,5,18500.0,648.6486486486486,Petrol,Mass_Market_Mainstream,0
+Nissan,Patrol Super Safari,4750.0,,280.0,451.0,8.2,190.0,7,55000.0,509.0909090909091,Petrol,Mass_Market_Mainstream,2
+Nissan,Pathfinder Hybrid,2488.0,,250.0,329.0,7.7,190.0,7,42500.0,588.2352941176471,Hybrid,Mass_Market_Mainstream,2
+Nissan,X-Terra Pro-4X,2498.0,,190.0,240.0,10.8,175.0,7,40000.0,475.0,Petrol,Mass_Market_Mainstream,0
+Nissan,Rogue Platinum,1497.0,,201.0,300.0,8.2,180.0,5,38000.0,528.9473684210526,Petrol,Mass_Market_Mainstream,0
+Nissan,Qashqai Tekna,1332.0,,158.0,270.0,9.2,190.0,5,36000.0,438.8888888888889,Hybrid,Mass_Market_Mainstream,0
+Nissan,Gt-R V-Spec,3799.0,,600.0,652.0,2.8,330.0,2,175000.0,342.85714285714283,Petrol,Mass_Market_Mainstream,1
+Nissan,Skyline Nismo,2997.0,,420.0,475.0,4.7,270.0,5,55000.0,763.6363636363636,Petrol,Mass_Market_Mainstream,2
+Nissan,Ariya Lounge Edition,,87.0,389.0,600.0,5.1,200.0,5,63000.0,617.4603174603175,Electric,Mass_Market_Mainstream,2
+Nissan,Patrol Titanium,5552.0,,428.0,560.0,6.5,210.0,7,98000.0,436.73469387755097,Petrol,Mass_Market_Mainstream,2
+Nissan,Infiniti Fx50*,5026.0,,390.0,500.0,5.6,250.0,5,61750.0,631.578947368421,Petrol,Mass_Market_Mainstream,2
+Nissan,Avenir,1998.0,,140.0,186.0,9.8,180.0,5,20000.0,700.0,Petrol,Mass_Market_Mainstream,0
+Nissan,Wingroad,1798.0,,125.0,168.0,10.8,175.0,5,18000.0,694.4444444444445,Petrol,Mass_Market_Mainstream,0
+Nissan,Presea,1838.0,,115.0,161.0,11.5,170.0,5,17500.0,657.1428571428572,Petrol,Mass_Market_Mainstream,0
+Nissan,Leopard,2960.0,,210.0,265.0,8.4,200.0,5,32000.0,656.25,Petrol,Mass_Market_Mainstream,0
+Nissan,Sunny Nismo Edition,1598.0,,190.0,240.0,7.5,200.0,5,24000.0,791.6666666666667,Petrol,Mass_Market_Mainstream,0
+Nissan,Paladin,2438.0,,150.0,217.0,10.6,180.0,5,20000.0,750.0,Petrol,Mass_Market_Mainstream,0
+Nissan,Hardbody Suv,2498.0,,158.0,225.0,11.0,175.0,5,18500.0,854.0540540540541,Petrol,Mass_Market_Mainstream,0
+Nissan,Patrol Desert Edition,5552.0,,428.0,560.0,6.5,210.0,7,95000.0,450.5263157894737,Petrol,Mass_Market_Mainstream,2
+Nissan,Pathfinder Armada,5552.0,,400.0,560.0,6.5,200.0,7,60000.0,666.6666666666667,Petrol,Mass_Market_Mainstream,2
+Nissan,Rogue Midnight Edition,1497.0,,201.0,300.0,8.2,180.0,5,39000.0,515.3846153846154,Petrol,Mass_Market_Mainstream,0
+Nissan,Gt-R Black Edition,3799.0,,600.0,652.0,2.8,330.0,2,185000.0,324.3243243243243,Petrol,Mass_Market_Mainstream,1
+Nissan,Fairlady Z Heritage,2997.0,,400.0,475.0,4.2,250.0,2,48000.0,833.3333333333334,Petrol,Mass_Market_Mainstream,2
+Nissan,Skyline Gt-R R34,2568.0,,276.0,392.0,5.6,250.0,4,70000.0,394.2857142857143,Petrol,Mass_Market_Mainstream,2
+Nissan,Ariya Premiere,,87.0,389.0,600.0,5.1,200.0,5,67000.0,580.5970149253732,Electric,Mass_Market_Mainstream,2
+Nissan,Infiniti Qx55*,1997.0,,268.0,380.0,6.5,230.0,5,50000.0,536.0,Petrol,Mass_Market_Mainstream,2
+Nissan,Nv350 Caravan,2488.0,,129.0,356.0,12.5,155.0,8,28000.0,460.7142857142857,Diesel,Mass_Market_Mainstream,0
+Nissan,Navara,2298.0,,190.0,450.0,10.2,180.0,5,32000.0,593.75,Diesel,Mass_Market_Mainstream,0
+Nissan,Titan Xd,5552.0,,400.0,560.0,6.9,195.0,6,55000.0,727.2727272727273,Petrol,Mass_Market_Mainstream,2
+Nissan,Evalia,1461.0,,85.0,200.0,15.0,140.0,7,25000.0,340.0,Diesel,Mass_Market_Mainstream,0
+Nissan,Cabstar,2488.0,,130.0,350.0,14.8,145.0,3,27000.0,481.4814814814815,Diesel,Mass_Market_Mainstream,0
+Nissan,Cherry,1397.0,,67.0,110.0,14.0,145.0,5,14000.0,478.57142857142856,Petrol,Mass_Market_Mainstream,0
+Nissan,Laurel,2825.0,,94.0,184.0,12.5,160.0,5,22000.0,427.27272727272725,Diesel,Mass_Market_Mainstream,0
+Nissan,Silvia,1998.0,,247.0,275.0,5.9,235.0,4,45000.0,548.8888888888889,Petrol,Mass_Market_Mainstream,2
+Nissan,Nx Coupe,1998.0,,140.0,180.0,9.0,200.0,4,22000.0,636.3636363636364,Petrol,Mass_Market_Mainstream,0
+Nissan,Ad Wagon,1498.0,,105.0,150.0,12.3,165.0,5,16000.0,656.25,Petrol,Mass_Market_Mainstream,0
+Nissan,Patrol Super Safari Y61,4750.0,,280.0,451.0,8.2,190.0,7,58000.0,482.7586206896552,Petrol,Mass_Market_Mainstream,2
+Nissan,Pathfinder Rock Creek Edition,3498.0,,284.0,351.0,7.2,195.0,7,44000.0,645.4545454545454,Petrol,Mass_Market_Mainstream,2
+Nissan,Terrano Ii,2664.0,,125.0,278.0,12.9,160.0,5,28000.0,446.4285714285714,Diesel,Mass_Market_Mainstream,0
+Nissan,Murano Crosscabriolet,3498.0,,260.0,325.0,7.6,195.0,4,47000.0,553.1914893617021,Petrol,Mass_Market_Mainstream,2
+Nissan,X-Trail Tekna,1497.0,,204.0,305.0,8.0,190.0,5,43000.0,474.4186046511628,Hybrid,Mass_Market_Mainstream,0
+Nissan,Gt-R Lm Nismo,3000.0,,500.0,650.0,3.0,320.0,2,600000.0,83.33333333333334,Hybrid,Mass_Market_Mainstream,1
+Nissan,Skyline 400R,2997.0,,400.0,475.0,4.5,250.0,5,70000.0,571.4285714285714,Petrol,Mass_Market_Mainstream,2
+Nissan,Infiniti G37*,3696.0,,328.0,365.0,5.5,250.0,5,42000.0,780.952380952381,Petrol,Mass_Market_Mainstream,2
+Nissan,Patrol Black Edition,5552.0,,400.0,560.0,6.5,200.0,7,85000.0,470.5882352941176,Petrol,Mass_Market_Mainstream,2
+Nissan,Ariya Empower+,,87.0,389.0,600.0,5.1,200.0,5,68000.0,572.0588235294118,Electric,Mass_Market_Mainstream,2
+Nissan,Datsun 510 (Classic),1595.0,,96.0,135.0,10.2,175.0,4,25000.0,384.0,Petrol,Mass_Market_Mainstream,0
+Nissan,200Sx,1998.0,,200.0,265.0,7.2,240.0,4,30000.0,666.6666666666667,Petrol,Mass_Market_Mainstream,2
+Nissan,300Zx,2960.0,,300.0,384.0,5.9,250.0,4,50000.0,600.0,Petrol,Mass_Market_Mainstream,2
+Nissan,R390 Gt1 Road Car,3495.0,,550.0,637.0,3.3,354.0,2,1000000.0,55.0,Petrol,Mass_Market_Mainstream,1
+Nissan,Figaro,987.0,,76.0,103.0,12.8,170.0,4,20000.0,380.0,Petrol,Mass_Market_Mainstream,0
+Nissan,Hardbody Truck,2389.0,,134.0,206.0,10.6,160.0,5,25000.0,536.0,Petrol,Mass_Market_Mainstream,0
+Nissan,Atlas,2999.0,,130.0,300.0,18.0,130.0,3,35000.0,371.42857142857144,Diesel,Mass_Market_Mainstream,0
+Nissan,Clipper,659.0,,48.0,62.0,18.5,110.0,4,10000.0,479.99999999999994,Petrol,Mass_Market_Mainstream,0
+Nissan,Nv200,1998.0,,131.0,188.0,14.0,140.0,7,28000.0,467.8571428571429,Petrol,Mass_Market_Mainstream,0
+Nissan,Violet,1770.0,,85.0,130.0,13.8,155.0,5,18000.0,472.22222222222223,Petrol,Mass_Market_Mainstream,0
+Nissan,Bluebird Z,1998.0,,140.0,180.0,11.0,190.0,5,23000.0,608.695652173913,Petrol,Mass_Market_Mainstream,0
+Nissan,Stanza Wagon,2389.0,,138.0,205.0,12.0,160.0,7,22000.0,627.2727272727273,Petrol,Mass_Market_Mainstream,0
+Nissan,180Sx,1998.0,,205.0,275.0,6.8,240.0,4,35000.0,585.7142857142857,Petrol,Mass_Market_Mainstream,2
+Nissan,Sunny California,1597.0,,110.0,140.0,11.0,170.0,5,18000.0,611.1111111111112,Petrol,Mass_Market_Mainstream,0
+Nissan,Patrol Warrior,5552.0,,428.0,580.0,6.3,205.0,7,95000.0,450.5263157894737,Petrol,Mass_Market_Mainstream,2
+Nissan,Pathfinder Armada Platinum,5552.0,,400.0,560.0,6.8,190.0,7,70000.0,571.4285714285714,Petrol,Mass_Market_Mainstream,2
+Nissan,Rogue Sport Sl,1998.0,,141.0,195.0,9.0,190.0,5,32000.0,440.62499999999994,Petrol,Mass_Market_Mainstream,0
+Nissan,X-Trail Platinum Edition,1497.0,,204.0,305.0,8.0,190.0,5,46000.0,443.4782608695652,Hybrid,Mass_Market_Mainstream,0
+Nissan,Qashqai E-Power,1497.0,,187.0,330.0,7.5,200.0,5,40000.0,467.50000000000006,Hybrid,Mass_Market_Mainstream,0
+Nissan,Gt-R Egoist,3799.0,,565.0,637.0,2.8,315.0,2,220000.0,256.8181818181818,Petrol,Mass_Market_Mainstream,1
+Nissan,Infiniti M45*,4494.0,,325.0,451.0,5.8,250.0,5,50000.0,650.0,Petrol,Mass_Market_Mainstream,2
+Nissan,Skyline 50Th Anniversary,2997.0,,400.0,475.0,4.5,250.0,5,75000.0,533.3333333333334,Petrol,Mass_Market_Mainstream,2
+Nissan,Ariya Dual Motor Awd,,87.0,389.0,600.0,5.1,200.0,5,70000.0,555.7142857142857,Electric,Mass_Market_Mainstream,2
+Nissan,Patrol Legend Edition,5552.0,,428.0,580.0,6.3,205.0,7,95000.0,450.5263157894737,Petrol,Mass_Market_Mainstream,2
+Nissan,Datsun 240Z (Classic),2393.0,,151.0,198.0,8.0,210.0,2,45000.0,335.55555555555554,Petrol,Mass_Market_Mainstream,0
+Nissan,100Nx,1597.0,,110.0,135.0,9.6,185.0,4,18000.0,611.1111111111112,Petrol,Mass_Market_Mainstream,0
+Nissan,Cedric Special Edition,2960.0,,250.0,330.0,8.5,225.0,5,60000.0,416.6666666666667,Petrol,Mass_Market_Mainstream,2
+Nissan,300Zx Turbo,2960.0,,300.0,384.0,5.9,250.0,4,55000.0,545.4545454545455,Petrol,Mass_Market_Mainstream,2
+Nissan,Silvia S15 Spec-R,1998.0,,250.0,300.0,5.6,240.0,4,35000.0,714.2857142857142,Petrol,Mass_Market_Mainstream,2
+Nissan,Nv400,2298.0,,135.0,360.0,15.0,150.0,3,40000.0,337.5,Diesel,Mass_Market_Mainstream,0
+Nissan,Titan Warrior,5552.0,,400.0,560.0,7.0,180.0,5,55000.0,727.2727272727273,Petrol,Mass_Market_Mainstream,2
+Nissan,Caravan Coach,2498.0,,127.0,260.0,14.0,140.0,7,30000.0,423.33333333333337,Diesel,Mass_Market_Mainstream,0
+Nissan,Serena E-Power,1198.0,,134.0,320.0,12.0,160.0,7,35000.0,382.85714285714283,Hybrid,Mass_Market_Mainstream,0
+Nissan,Elgrand,3498.0,,280.0,344.0,8.5,200.0,7,50000.0,560.0,Petrol,Mass_Market_Mainstream,2
+Nissan,Datsun 510,1595.0,,96.0,135.0,10.2,175.0,4,25000.0,384.0,Petrol,Mass_Market_Mainstream,0
+Nissan,Prairie,1998.0,,120.0,170.0,11.0,175.0,5,18000.0,666.6666666666667,Petrol,Mass_Market_Mainstream,0
+Nissan,Pulsar Gti-R,1998.0,,230.0,280.0,6.0,225.0,5,30000.0,766.6666666666666,Petrol,Mass_Market_Mainstream,2
+Nissan,Almera Tino,1769.0,,114.0,160.0,12.5,180.0,5,15000.0,760.0,Petrol,Mass_Market_Mainstream,0
+Nissan,Lucino,1597.0,,115.0,150.0,10.5,185.0,5,12000.0,958.3333333333333,Petrol,Mass_Market_Mainstream,0
+Nissan,Rasheen,1497.0,,105.0,135.0,13.0,165.0,5,10000.0,1050.0,Petrol,Mass_Market_Mainstream,0
+Nissan,Mistral,2663.0,,125.0,260.0,12.5,160.0,7,25000.0,500.0,Diesel,Mass_Market_Mainstream,0
+Nissan,Patrol Y60,4169.0,,155.0,330.0,12.0,160.0,7,45000.0,344.44444444444446,Diesel,Mass_Market_Mainstream,0
+Nissan,X-Trail Gt,1998.0,,280.0,310.0,6.4,215.0,5,38000.0,736.8421052631579,Petrol,Mass_Market_Mainstream,2
+Nissan,Terrano Regulus,3275.0,,170.0,290.0,10.0,175.0,5,28000.0,607.1428571428571,Petrol,Mass_Market_Mainstream,0
+Nissan,President,4494.0,,280.0,400.0,7.5,210.0,5,70000.0,400.0,Petrol,Mass_Market_Mainstream,2
+Nissan,Cima,4130.0,,270.0,390.0,8.0,210.0,5,60000.0,449.99999999999994,Petrol,Mass_Market_Mainstream,2
+Nissan,Leopard J. Ferie,2960.0,,255.0,340.0,6.5,215.0,5,45000.0,566.6666666666667,Petrol,Mass_Market_Mainstream,2
+Nissan,Gloria Gran Turismo,2960.0,,255.0,340.0,6.5,220.0,5,50000.0,510.00000000000006,Petrol,Mass_Market_Mainstream,2
+Nissan,Infiniti Q45*,4494.0,,340.0,450.0,6.2,240.0,5,50000.0,680.0,Petrol,Mass_Market_Mainstream,2
+Nissan,Datsun 240Z,2393.0,,151.0,198.0,8.0,210.0,2,45000.0,335.55555555555554,Petrol,Mass_Market_Mainstream,0
+Nissan,280Zx,2753.0,,145.0,210.0,9.5,205.0,2,35000.0,414.2857142857143,Petrol,Mass_Market_Mainstream,0
+Nissan,Silvia S13,1809.0,,175.0,230.0,6.8,215.0,4,20000.0,875.0000000000001,Petrol,Mass_Market_Mainstream,0
+Nissan,200Sx,1998.0,,200.0,260.0,7.0,225.0,4,25000.0,800.0,Petrol,Mass_Market_Mainstream,2
+Nissan,Nx Coupe,1839.0,,140.0,180.0,9.0,200.0,4,18000.0,777.7777777777777,Petrol,Mass_Market_Mainstream,0
+Nissan,Nv2500,3954.0,,261.0,385.0,10.0,160.0,2,36000.0,725.0,Petrol,Mass_Market_Mainstream,0
+Nissan,Nv3500,5552.0,,375.0,525.0,9.0,170.0,2,42000.0,892.8571428571428,Petrol,Mass_Market_Mainstream,2
+Nissan,Nt400 Cabstar,2953.0,,150.0,350.0,15.0,140.0,3,35000.0,428.5714285714286,Diesel,Mass_Market_Mainstream,0
+Porsche,Panamera,2894.0,,330.0,450.0,5.6,270.0,4,88000.0,375.0,Petrol,Premium_Performance,2
+Porsche,Panamera 4,2894.0,,330.0,450.0,5.4,270.0,4,92000.0,358.695652173913,Petrol,Premium_Performance,2
+Porsche,Panamera 4S,2894.0,,440.0,550.0,4.4,289.0,4,105000.0,419.04761904761904,Petrol,Premium_Performance,1
+Porsche,Panamera Turbo S,3996.0,,620.0,820.0,3.1,315.0,4,180000.0,344.44444444444446,Petrol,Premium_Performance,1
+Porsche,Panamera Gts,3996.0,,473.0,620.0,3.9,300.0,4,130000.0,363.8461538461538,Petrol,Premium_Performance,1
+Porsche,Panamera Platinum Edition,2894.0,,330.0,450.0,5.4,270.0,4,102000.0,323.5294117647059,Petrol,Premium_Performance,2
+Porsche,Panamera E-Hybrid,,17.9,455.0,700.0,4.4,280.0,4,115000.0,395.6521739130435,Hybrid (Petrol),Premium_Performance,1
+Porsche,Panamera 4 E-Hybrid Sport Turismo,,17.9,455.0,700.0,4.4,280.0,4,120000.0,379.1666666666667,Hybrid (Petrol),Premium_Performance,1
+Porsche,Panamera Turbo S E-Hybrid,,17.9,690.0,870.0,3.2,315.0,4,190000.0,363.1578947368421,Hybrid (Petrol),Premium_Performance,1
+Porsche,Panamera 4 Executive,2894.0,,330.0,450.0,5.6,270.0,4,95000.0,347.36842105263156,Petrol,Premium_Performance,2
+Porsche,Cayenne,2995.0,,335.0,450.0,5.9,245.0,5,80000.0,418.75,Petrol,Premium_Performance,2
+Porsche,Cayenne Coupe,2995.0,,335.0,450.0,6.0,245.0,5,85000.0,394.11764705882354,Petrol,Premium_Performance,2
+Porsche,Cayenne S,2894.0,,434.0,550.0,5.0,265.0,5,95000.0,456.8421052631579,Petrol,Premium_Performance,2
+Porsche,Cayenne Turbo,3996.0,,541.0,770.0,4.0,286.0,5,130000.0,416.15384615384613,Petrol,Premium_Performance,1
+Porsche,Cayenne Gts,3996.0,,453.0,620.0,4.5,270.0,5,110000.0,411.81818181818187,Petrol,Premium_Performance,2
+Porsche,Cayenne Turbo S E-Hybrid,,17.9,670.0,900.0,3.6,295.0,5,170000.0,394.11764705882354,Hybrid (Petrol),Premium_Performance,1
+Porsche,Macan,1984.0,,261.0,400.0,6.2,232.0,5,60000.0,434.99999999999994,Petrol,Premium_Performance,2
+Porsche,Macan S,2894.0,,375.0,520.0,4.8,259.0,5,75000.0,500.0,Petrol,Premium_Performance,2
+Porsche,Macan Gts,2894.0,,434.0,550.0,4.5,272.0,5,85000.0,510.5882352941176,Petrol,Premium_Performance,2
+Porsche,Macan T,1984.0,,261.0,400.0,6.2,232.0,5,65000.0,401.5384615384615,Petrol,Premium_Performance,2
+Porsche,911 Carrera,2981.0,,379.0,450.0,4.2,293.0,4,110000.0,344.54545454545456,Petrol,Premium_Performance,1
+Porsche,911 Carrera S,2981.0,,443.0,528.0,3.5,308.0,4,131300.0,337.3952779893374,Petrol,Premium_Performance,1
+Porsche,911 Carrera 4,2981.0,,379.0,450.0,4.2,293.0,4,106500.0,355.868544600939,Petrol,Premium_Performance,1
+Porsche,911 Carrera 4S,2981.0,,443.0,528.0,3.4,306.0,4,113300.0,390.99735216240066,Petrol,Premium_Performance,1
+Porsche,911 Targa 4,2981.0,,379.0,450.0,4.4,289.0,4,121300.0,312.4484748557296,Petrol,Premium_Performance,1
+Porsche,911 Turbo,3745.0,,572.0,750.0,2.7,320.0,4,197200.0,290.06085192697765,Petrol,Premium_Performance,1
+Porsche,911 Turbo S,3745.0,,640.0,800.0,2.6,330.0,4,230400.0,277.77777777777777,Petrol,Premium_Performance,1
+Porsche,911 Gt3,3996.0,,502.0,469.0,3.4,318.0,2,161100.0,311.6076970825574,Petrol,Premium_Performance,1
+Porsche,911 Gt3 Rs,3996.0,,518.0,465.0,3.2,296.0,2,241300.0,214.67053460422707,Petrol,Premium_Performance,1
+Porsche,911 Dakar,2981.0,,473.0,570.0,3.4,240.0,2,222000.0,213.06306306306308,Petrol,Premium_Performance,1
+Porsche,Taycan,,79.2,402.0,344.0,5.4,230.0,4,86700.0,463.6678200692041,Electric,Premium_Performance,2
+Porsche,Taycan 4S,,79.2,522.0,640.0,4.0,250.0,4,103800.0,502.89017341040466,Electric,Premium_Performance,2
+Porsche,Taycan Turbo,,93.4,670.0,850.0,3.2,260.0,4,150900.0,444.00265076209405,Electric,Premium_Performance,1
+Porsche,Taycan Turbo S,,93.4,750.0,1050.0,2.8,260.0,4,185000.0,405.4054054054054,Electric,Premium_Performance,1
+Porsche,Taycan Gts,,93.4,590.0,850.0,3.5,250.0,4,132750.0,444.44444444444446,Electric,Premium_Performance,2
+Porsche,Taycan Cross Turismo,,93.4,469.0,500.0,4.8,220.0,5,97700.0,480.0409416581371,Electric,Premium_Performance,2
+Porsche,Taycan Sport Turismo,,79.2,509.0,650.0,4.1,240.0,5,104000.0,489.42307692307696,Electric,Premium_Performance,2
+Porsche,718 Cayman,1988.0,,300.0,380.0,4.9,275.0,2,63400.0,473.18611987381706,Petrol,Premium_Performance,1
+Porsche,718 Cayman S,2497.0,,350.0,420.0,4.4,285.0,2,75400.0,464.19098143236073,Petrol,Premium_Performance,1
+Porsche,718 Cayman Gt4,3995.0,,414.0,420.0,4.2,302.0,2,100200.0,413.1736526946108,Petrol,Premium_Performance,1
+Porsche,718 Cayman Gt4 Rs,3996.0,,493.0,450.0,3.2,315.0,2,141700.0,347.9181369089626,Petrol,Premium_Performance,1
+Porsche,718 Boxster,1988.0,,300.0,380.0,4.9,275.0,2,65500.0,458.01526717557255,Petrol,Premium_Performance,1
+Porsche,718 Boxster T,1988.0,,300.0,380.0,4.7,275.0,2,69600.0,431.0344827586207,Petrol,Premium_Performance,1
+Porsche,718 Boxster Gts,3995.0,,394.0,430.0,4.3,293.0,2,90300.0,436.3233665559247,Petrol,Premium_Performance,1
+Porsche,718 Spyder,3995.0,,414.0,420.0,4.1,301.0,2,98300.0,421.1597151576806,Petrol,Premium_Performance,1
+Porsche,Panamera Base,2894.0,,325.0,450.0,5.6,265.0,4,92300.0,352.11267605633805,Petrol,Premium_Performance,2
+Porsche,Panamera 4 E-Hybrid,2894.0,,462.0,700.0,4.4,280.0,4,113300.0,407.7669902912621,Hybrid,Premium_Performance,1
+Porsche,Panamera 4 Sport Turismo,2894.0,,325.0,450.0,5.5,265.0,4,101400.0,320.5128205128205,Petrol,Premium_Performance,2
+Porsche,Panamera Turbo S E-Hybrid Sport Turismo,3996.0,,690.0,870.0,3.2,315.0,4,200200.0,344.65534465534466,Hybrid,Premium_Performance,1
+Porsche,Panamera 4S E-Hybrid Executive,2894.0,,560.0,750.0,3.7,295.0,4,128900.0,434.4453064391001,Hybrid,Premium_Performance,1
+Porsche,Panamera Platinum Edition,2894.0,,325.0,450.0,5.6,265.0,4,98300.0,330.6205493387589,Petrol,Premium_Performance,2
+Porsche,Panamera Gts Sport Turismo,3996.0,,473.0,620.0,3.9,300.0,4,136900.0,345.5076698319941,Petrol,Premium_Performance,1
+Porsche,Panamera Turbo Executive,3996.0,,550.0,770.0,3.8,306.0,4,175200.0,313.9269406392694,Petrol,Premium_Performance,1
+Porsche,Panamera Turbo S Exclusive Series,3996.0,,570.0,800.0,3.8,310.0,4,290000.0,196.55172413793102,Petrol,Premium_Performance,1
+Porsche,Panamera 4S,2894.0,,443.0,550.0,4.1,289.0,4,105000.0,421.90476190476187,Petrol,Premium_Performance,1
+Porsche,Macan Base,1984.0,,265.0,400.0,6.4,232.0,5,58000.0,456.89655172413796,Petrol,Premium_Performance,2
+Porsche,Macan T,1984.0,,265.0,400.0,6.2,233.0,5,63000.0,420.63492063492066,Petrol,Premium_Performance,2
+Porsche,Macan S,2894.0,,375.0,520.0,4.6,259.0,5,70400.0,532.6704545454545,Petrol,Premium_Performance,2
+Porsche,Macan Gts,2894.0,,434.0,550.0,4.3,272.0,5,82900.0,523.5223160434258,Petrol,Premium_Performance,2
+Porsche,Macan Ev,,95.0,603.0,750.0,4.0,240.0,5,85000.0,709.4117647058823,Electric,Premium_Performance,2
+Porsche,Cayenne Base,2995.0,,335.0,450.0,5.9,245.0,5,72200.0,463.98891966759,Petrol,Premium_Performance,2
+Porsche,Cayenne E-Hybrid,2995.0,,455.0,700.0,4.8,253.0,5,91000.0,500.0,Hybrid,Premium_Performance,2
+Porsche,Cayenne S Coupe,2894.0,,434.0,550.0,4.7,263.0,4,94300.0,460.23329798515374,Petrol,Premium_Performance,2
+Porsche,Cayenne Turbo Gt,3996.0,,631.0,850.0,3.3,300.0,4,182150.0,346.4177875377436,Petrol,Premium_Performance,1
+Porsche,Cayenne Platinum Edition,2995.0,,335.0,450.0,5.8,245.0,5,79000.0,424.0506329113924,Petrol,Premium_Performance,2
+Porsche,Cayenne Turbo S E-Hybrid Coupe,3996.0,,670.0,900.0,3.6,295.0,4,167800.0,399.284862932062,Hybrid,Premium_Performance,1
+Porsche,Cayenne Gts Coupe,3996.0,,453.0,620.0,4.5,270.0,4,111200.0,407.37410071942446,Petrol,Premium_Performance,1
+Porsche,Cayenne Diesel (Regional Markets),2967.0,,262.0,580.0,7.3,221.0,5,69000.0,379.71014492753625,Diesel,Premium_Performance,2
+Porsche,Cayenne S Hybrid,2995.0,,380.0,580.0,6.5,242.0,5,85500.0,444.44444444444446,Hybrid,Premium_Performance,2
+Porsche,Cayenne Coupe Turbo E-Hybrid,3996.0,,728.0,950.0,3.6,295.0,4,182900.0,398.03171131765987,Hybrid,Premium_Performance,1
+Porsche,Taycan Base,,79.2,321.0,345.0,5.4,230.0,4,86700.0,370.24221453287197,Electric,Premium_Performance,2
+Cadillac,Ct4,2000.0,,237.0,350.0,6.0,250.0,5,34395.0,689.0536415176625,Petrol,Premium_Performance,2
+Cadillac,Ct4-V,2700.0,,325.0,500.0,4.9,260.0,5,46595.0,697.4997317308723,Petrol,Premium_Performance,2
+Cadillac,Ct5,2000.0,,237.0,350.0,6.6,240.0,5,38195.0,620.5000654535934,Petrol,Premium_Performance,2
+Cadillac,Ct5-V,3000.0,,360.0,550.0,4.6,250.0,5,50995.0,705.9515638788117,Petrol,Premium_Performance,2
+Porsche,Taycan Cross Turismo 4,,93.4,375.0,500.0,5.1,240.0,4,94800.0,395.5696202531646,Electric,Premium_Performance,2
+Porsche,Taycan Cross Turismo Gts,,93.4,590.0,620.0,3.8,250.0,4,139400.0,423.24246771879484,Electric,Premium_Performance,2
+Porsche,Taycan Sport Turismo Base,,79.2,375.0,500.0,5.4,230.0,4,90500.0,414.36464088397787,Electric,Premium_Performance,2
+Porsche,Taycan Sport Turismo Gts,,93.4,590.0,620.0,3.7,250.0,4,136700.0,431.60204828090707,Electric,Premium_Performance,2
+Porsche,Taycan Turbo S Cross Turismo,,93.4,750.0,1050.0,2.9,260.0,4,190000.0,394.7368421052632,Electric,Premium_Performance,1
+Porsche,911 Carrera Base,2981.0,,379.0,450.0,4.2,293.0,4,106100.0,357.2101790763431,Petrol,Premium_Performance,1
+Porsche,911 Carrera S Cabriolet,2981.0,,443.0,530.0,3.9,304.0,4,129900.0,341.03156274056965,Petrol,Premium_Performance,1
+Porsche,911 Carrera 4,2981.0,,379.0,450.0,4.4,293.0,4,113300.0,334.5101500441306,Petrol,Premium_Performance,1
+Porsche,911 Carrera 4 Gts,2981.0,,473.0,570.0,3.3,311.0,4,137000.0,345.2554744525548,Petrol,Premium_Performance,1
+Porsche,911 Targa 4 Gts,2981.0,,473.0,570.0,3.5,307.0,4,157300.0,300.6993006993007,Petrol,Premium_Performance,1
+Porsche,911 Turbo Cabriolet,3745.0,,572.0,750.0,2.9,320.0,4,184100.0,310.7007061379685,Petrol,Premium_Performance,1
+Porsche,911 Turbo S Coupe,3745.0,,640.0,800.0,2.7,330.0,4,207000.0,309.17874396135267,Petrol,Premium_Performance,1
+Porsche,911 Gt3 Touring,3996.0,,502.0,470.0,3.9,318.0,2,170000.0,295.29411764705884,Petrol,Premium_Performance,1
+Porsche,911 Gt3 Rs Clubsport,3996.0,,525.0,465.0,3.2,296.0,2,223800.0,234.58445040214477,Petrol,Premium_Performance,1
+Porsche,911 Dakar Limited Edition,2981.0,,473.0,570.0,3.4,240.0,4,222000.0,213.06306306306308,Petrol,Premium_Performance,1
+Porsche,911 Carrera Gts Lightweight,2981.0,,473.0,570.0,3.2,311.0,4,145300.0,325.5333792154164,Petrol,Premium_Performance,1
+Porsche,911 Targa 4 Lightweight,2981.0,,379.0,450.0,4.3,289.0,4,135500.0,279.7047970479705,Petrol,Premium_Performance,1
+Porsche,911 Turbo Exclusive Series,3745.0,,607.0,750.0,2.9,330.0,4,258000.0,235.2713178294574,Petrol,Premium_Performance,1
+Porsche,911 Gt2 Rs,3745.0,,700.0,750.0,2.8,340.0,2,293200.0,238.7448840381992,Petrol,Premium_Performance,1
+Porsche,911 Gt3 Cup,3996.0,,510.0,470.0,3.4,290.0,1,245000.0,208.16326530612244,Petrol,Premium_Performance,1
+Porsche,911 Gt4 Rs,3996.0,,500.0,450.0,3.4,315.0,2,222000.0,225.22522522522522,Petrol,Premium_Performance,1
+Porsche,911 Rsr (Motorsport Edition),4194.0,,515.0,480.0,3.1,296.0,1,750000.0,68.66666666666667,Petrol,Premium_Performance,1
+Porsche,911 Sport Turismo,2981.0,,379.0,450.0,4.4,293.0,4,116000.0,326.7241379310345,Petrol,Premium_Performance,1
+Porsche,911 Turbo Cabriolet Lightweight,3745.0,,572.0,750.0,3.0,318.0,4,191300.0,299.0067956089911,Petrol,Premium_Performance,1
+Porsche,911 Dakar Sport,2981.0,,473.0,570.0,3.5,240.0,4,233000.0,203.00429184549355,Petrol,Premium_Performance,1
+Tata Motors,Tiago,1199.0,,86.0,113.0,13.0,170.0,5,8200.0,1048.780487804878,Petrol,Other_Market,0
+Tata Motors,Tiago Ev,,24.0,74.0,114.0,5.7,120.0,5,11000.0,672.7272727272727,Electric,Other_Market,0
+Tata Motors,Altroz,1199.0,,86.0,113.0,12.0,170.0,5,10400.0,826.923076923077,Petrol/Diesel,Other_Market,0
+Tata Motors,Altroz,1199.0,,89.0,200.0,12.0,170.0,5,10400.0,855.7692307692308,Petrol/Diesel,Other_Market,0
+Tata Motors,Altroz Dca,1199.0,,86.0,113.0,12.5,170.0,5,11300.0,761.0619469026549,Petrol,Other_Market,0
+Tata Motors,Altroz Iturbo,1199.0,,110.0,140.0,10.0,180.0,5,12000.0,916.6666666666666,Petrol,Other_Market,0
+Tata Motors,Altroz Cng,1199.0,,86.0,113.0,12.0,165.0,5,11800.0,728.8135593220338,CNG/Petrol,Other_Market,0
+Tata Motors,Tiago Nrg,1199.0,,86.0,113.0,13.5,170.0,5,9200.0,934.7826086956522,Petrol,Other_Market,0
+Tata Motors,Nano Genx,624.0,,37.0,51.0,29.0,105.0,4,4000.0,925.0,Petrol,Other_Market,0
+Tata Motors,Indica Ev2,1396.0,,70.0,140.0,16.0,155.0,5,6200.0,1129.032258064516,Diesel,Other_Market,0
+Tata Motors,Indica V2 Xeta,1193.0,,65.0,100.0,16.0,140.0,5,5000.0,1300.0,Petrol,Other_Market,0
+Tata Motors,Tigor,1199.0,,86.0,113.0,13.0,170.0,5,9400.0,914.8936170212766,Petrol,Other_Market,0
+Tata Motors,Tigor Ev,,26.0,74.0,114.0,5.7,120.0,5,14500.0,510.3448275862069,Electric,Other_Market,0
+Tata Motors,Zest,1248.0,,75.0,140.0,15.0,165.0,5,8700.0,862.0689655172414,Diesel/Petrol,Other_Market,0
+Tata Motors,Zest,1248.0,,90.0,190.0,15.0,165.0,5,8700.0,1034.4827586206895,Diesel/Petrol,Other_Market,0
+Tata Motors,Indigo Ecs,1396.0,,70.0,140.0,16.5,155.0,5,6500.0,1076.923076923077,Diesel,Other_Market,0
+Cadillac,Escalade,6200.0,,420.0,624.0,6.8,210.0,7,79295.0,529.6676965760767,Petrol,Premium_Performance,2
+Tata Motors,Indigo Marina,1396.0,,70.0,115.0,17.0,150.0,5,8300.0,843.3734939759037,Diesel/Petrol,Other_Market,0
+Tata Motors,Indigo Marina,1396.0,,85.0,135.0,17.0,150.0,5,8300.0,1024.0963855421687,Diesel/Petrol,Other_Market,0
+Tata Motors,Manza,1248.0,,75.0,115.0,14.0,160.0,5,9000.0,833.3333333333334,Diesel/Petrol,Other_Market,0
+Tata Motors,Manza,1248.0,,90.0,200.0,14.0,160.0,5,9000.0,1000.0,Diesel/Petrol,Other_Market,0
+Tata Motors,Indigo Lx,1396.0,,70.0,140.0,17.0,150.0,5,7000.0,1000.0,Diesel,Other_Market,0
+Tata Motors,Indigo Glx,1396.0,,85.0,115.0,15.0,160.0,5,7200.0,1180.5555555555554,Petrol,Other_Market,0
+Cadillac,Escalade Esv,6200.0,,420.0,624.0,6.9,205.0,7,82295.0,510.3590740628228,Petrol,Premium_Performance,2
+Tata Motors,Nexon,1199.0,,110.0,170.0,10.0,180.0,5,14000.0,785.7142857142858,Petrol/Diesel,Other_Market,0
+Tata Motors,Nexon,1199.0,,118.0,260.0,10.0,180.0,5,14000.0,842.8571428571429,Petrol/Diesel,Other_Market,0
+Tata Motors,Nexon Ev Max,,40.5,143.0,250.0,9.0,140.0,5,25000.0,572.0,Electric,Other_Market,0
+Tata Motors,Harrier,1956.0,,168.0,350.0,11.0,180.0,5,23000.0,730.4347826086956,Diesel,Other_Market,0
+Tata Motors,Safari,1956.0,,168.0,350.0,11.0,180.0,7,25500.0,658.8235294117648,Diesel,Other_Market,0
+Tata Motors,Punch,1199.0,,86.0,113.0,16.0,160.0,5,10500.0,819.047619047619,Petrol,Other_Market,0
+Tata Motors,Hexa,2179.0,,154.0,400.0,12.0,180.0,7,20000.0,770.0,Diesel,Other_Market,0
+Tata Motors,Aria,2179.0,,138.0,320.0,13.0,162.0,7,19000.0,726.3157894736842,Diesel,Other_Market,0
+Tata Motors,Sumo Gold,2956.0,,85.0,250.0,17.6,125.0,7,15000.0,566.6666666666667,Diesel,Other_Market,0
+Tata Motors,Sumo Grande,2179.0,,118.0,250.0,15.0,140.0,7,16500.0,715.1515151515151,Diesel,Other_Market,0
+Tata Motors,Nexon Ev Prime,,30.2,129.0,245.0,9.4,120.0,5,22000.0,586.3636363636364,Electric,Other_Market,0
+Tata Motors,Tiago Ev,,24.0,74.0,114.0,5.7,120.0,5,11000.0,672.7272727272727,Electric,Other_Market,0
+Tesla,Model S,,100.0,670.0,967.0,3.1,250.0,5,88490.0,757.1477003051192,Electric,Electric_Specialist,2
+Tesla,Model S Plaid,,100.0,1020.0,1400.0,2.1,322.0,5,108490.0,940.1788183242695,Electric,Electric_Specialist,1
+Tesla,Model 3,,60.0,283.0,420.0,5.8,225.0,5,40240.0,703.2803180914514,Electric,Electric_Specialist,2
+Tesla,Model 3 Performance,,82.0,450.0,660.0,3.1,261.0,5,53240.0,845.229151014275,Electric,Electric_Specialist,2
+Tesla,Model X,,100.0,670.0,967.0,3.8,250.0,7,98490.0,680.2721088435374,Electric,Electric_Specialist,2
+Tesla,Model X Plaid,,100.0,1020.0,1400.0,2.6,262.0,6,113490.0,898.7575997885275,Electric,Electric_Specialist,2
+Tesla,Model Y,,75.0,346.0,498.0,5.0,217.0,5,47490.0,728.5744367235208,Electric,Electric_Specialist,2
+Tesla,Model Y Long Range,,82.0,384.0,559.0,4.8,217.0,5,50490.0,760.5466428995841,Electric,Electric_Specialist,2
+Tesla,Cybertruck,,200.0,800.0,1355.0,2.9,209.0,6,69900.0,1144.492131616595,Electric,Electric_Specialist,2
+Tesla,Roadster 2,,200.0,1288.0,10000.0,1.9,402.0,4,200000.0,644.0,Electric,Electric_Specialist,3
+Jeep,Wrangler,3600.0,,285.0,353.0,6.8,180.0,4,35195.0,809.7741156414264,Petrol,Other_Market,2
+Jeep,Wrangler Rubicon,2000.0,,270.0,400.0,7.1,180.0,4,42100.0,641.3301662707839,Petrol,Other_Market,0
+Jeep,Grand Cherokee,3600.0,,293.0,352.0,7.0,209.0,5,41530.0,705.514086202745,Petrol,Other_Market,2
+Jeep,Grand Cherokee L,3600.0,,293.0,352.0,7.2,209.0,7,43530.0,673.0990121755111,Petrol,Other_Market,2
+Jeep,Cherokee,2400.0,,180.0,230.0,8.5,195.0,5,37695.0,477.516912057302,Petrol,Other_Market,0
+Jeep,Compass,2000.0,,200.0,320.0,7.8,200.0,5,31590.0,633.1117442228554,Petrol,Other_Market,0
+Jeep,Renegade,1300.0,,177.0,285.0,8.7,200.0,5,28345.0,624.4487563944258,Petrol,Other_Market,0
+Jeep,Gladiator,3600.0,,285.0,353.0,8.1,177.0,5,38775.0,735.0096711798839,Petrol,Other_Market,2
+Jeep,Wagoneer,5700.0,,392.0,548.0,7.4,190.0,8,63595.0,616.400660429279,Petrol,Other_Market,2
+Jeep,Grand Wagoneer,6400.0,,471.0,617.0,6.0,190.0,8,91495.0,514.7822285370785,Petrol,Other_Market,2
+Jeep,Grand Cherokee 4Xe,,17.3,375.0,637.0,6.0,210.0,5,59865.0,626.4094211976948,Hybrid,Other_Market,2
+Jeep,Wrangler 4Xe,,17.3,375.0,637.0,6.4,180.0,5,50695.0,739.717920899497,Hybrid,Other_Market,0
+Jeep,Compass 4Xe,,11.4,240.0,270.0,7.3,200.0,5,46500.0,516.1290322580645,Hybrid,Other_Market,0
+Jeep,Renegade 4Xe,,11.4,240.0,270.0,7.5,200.0,5,44500.0,539.3258426966291,Hybrid,Other_Market,0
+Mazda,Mazda2,1500.0,,108.0,142.0,10.2,180.0,5,18500.0,583.7837837837837,Petrol,Mass_Market_Mainstream,0
+Jeep,Wagoneer S (Electric),,100.0,600.0,850.0,4.5,177.0,5,80000.0,750.0,Electric,Other_Market,2
+Jeep,Gladiator Mojave Edition,3600.0,,285.0,353.0,8.6,177.0,5,51570.0,552.6468877254217,Petrol,Other_Market,2
+Jeep,Grand Cherokee Summit Reserve,5700.0,,357.0,529.0,7.3,190.0,5,66575.0,536.237326323695,Petrol,Other_Market,2
+Jeep,Jeep Cherokee X Edition,3200.0,,271.0,324.0,7.6,195.0,5,41295.0,656.2537837510594,Petrol,Other_Market,2
+Jeep,Wrangler 392,6400.0,,470.0,637.0,4.5,160.0,4,82495.0,569.7314988787199,Petrol,Other_Market,2
+Cadillac,Xt4,2000.0,,235.0,350.0,7.6,220.0,5,37490.0,626.8338223526274,Petrol,Premium_Performance,2
+Cadillac,Xt5,3600.0,,310.0,366.0,6.5,210.0,5,44195.0,701.4368141192442,Petrol,Premium_Performance,2
+Cadillac,Xt6,3600.0,,310.0,366.0,6.9,210.0,7,48595.0,637.9257125218644,Petrol,Premium_Performance,2
+Cadillac,Lyriq Ev,,100.0,340.0,440.0,5.7,190.0,5,58590.0,580.3038061102577,Electric,Premium_Performance,2
+Cadillac,Escalade V,6200.0,,682.0,885.0,4.4,200.0,7,149990.0,454.6969797986532,Petrol,Premium_Performance,2
+Cadillac,Escalade Platinum,6200.0,,420.0,624.0,6.8,210.0,7,104595.0,401.54883120608065,Petrol,Premium_Performance,2
+Cadillac,Ct5-V Blackwing,6200.0,,668.0,893.0,3.4,320.0,5,92000.0,726.0869565217391,Petrol,Premium_Performance,1
+Cadillac,Ct4-V Blackwing,3600.0,,472.0,603.0,3.9,290.0,5,60495.0,780.2297710554592,Petrol,Premium_Performance,2
+Cadillac,Xt4 Sport,2000.0,,235.0,350.0,7.4,220.0,5,41390.0,567.7699927518725,Petrol,Premium_Performance,2
+Cadillac,Xt5 Sport,3600.0,,310.0,366.0,6.5,210.0,5,51095.0,606.7129856150308,Petrol,Premium_Performance,2
+Cadillac,Xt6 Sport,3600.0,,310.0,366.0,6.9,210.0,7,57095.0,542.9547245818374,Petrol,Premium_Performance,2
+Cadillac,Lyriq Launch Edition,,100.0,340.0,440.0,5.7,190.0,5,59990.0,566.7611268544757,Electric,Premium_Performance,2
+Cadillac,Lyriq Ev Premium,,100.0,500.0,620.0,4.5,210.0,5,64990.0,769.3491306354823,Electric,Premium_Performance,2
+Cadillac,Ct5 Premium Luxury,2000.0,,237.0,350.0,6.8,240.0,5,41290.0,573.9888592879632,Petrol,Premium_Performance,2
+Chevrolet,Spark,1400.0,,98.0,127.0,10.7,180.0,5,14595.0,671.462829736211,Petrol,Mass_Market_Mainstream,0
+Chevrolet,Sonic,1400.0,,138.0,200.0,8.5,190.0,5,16720.0,825.3588516746412,Petrol,Mass_Market_Mainstream,0
+Chevrolet,Malibu,1500.0,,160.0,250.0,8.0,210.0,5,25000.0,640.0,Petrol,Mass_Market_Mainstream,0
+Chevrolet,Camaro,2000.0,,275.0,400.0,5.4,240.0,4,26400.0,1041.6666666666665,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Corvette,6200.0,,495.0,637.0,3.0,312.0,2,65895.0,751.1950830867289,Petrol,Mass_Market_Mainstream,1
+Chevrolet,Traverse,3600.0,,310.0,360.0,7.0,210.0,7,35915.0,863.1491020464987,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Equinox,1500.0,,170.0,275.0,8.9,200.0,5,26600.0,639.0977443609023,Petrol,Mass_Market_Mainstream,0
+Chevrolet,Blazer,3600.0,,308.0,366.0,6.6,220.0,5,44000.0,700.0,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Tahoe,5300.0,,355.0,519.0,7.5,200.0,7,56995.0,622.8616545310991,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Suburban,5300.0,,355.0,519.0,7.6,190.0,8,59900.0,592.6544240400668,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Colorado,2700.0,,310.0,583.0,6.8,190.0,5,30695.0,1009.936471738068,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Silverado 1500,5300.0,,355.0,519.0,7.0,180.0,6,42795.0,829.5361607664447,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Silverado 2500Hd,6600.0,,401.0,629.0,8.0,170.0,6,41500.0,966.2650602409637,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Silverado 3500Hd,6600.0,,445.0,1234.0,8.5,160.0,6,45500.0,978.021978021978,Diesel,Mass_Market_Mainstream,2
+Chevrolet,Bolt Ev,,66.0,200.0,360.0,6.5,150.0,5,27495.0,727.4049827241316,Electric,Mass_Market_Mainstream,0
+Chevrolet,Bolt Euv,,66.0,200.0,360.0,7.0,150.0,5,28795.0,694.5650286508074,Electric,Mass_Market_Mainstream,0
+Chevrolet,Trailblazer,1300.0,,155.0,236.0,9.4,200.0,5,23100.0,670.995670995671,Petrol,Mass_Market_Mainstream,0
+Chevrolet,Malibu Premier,2000.0,,250.0,353.0,5.8,240.0,5,33500.0,746.2686567164179,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Camaro Zl1,6200.0,,650.0,881.0,3.5,318.0,4,67300.0,965.8246656760773,Petrol,Mass_Market_Mainstream,1
+Chevrolet,Corvette Stingray,6200.0,,495.0,637.0,3.0,312.0,2,65895.0,751.1950830867289,Petrol,Mass_Market_Mainstream,1
+Chevrolet,Silverado 1500 High Country,5300.0,,355.0,519.0,7.0,180.0,6,61595.0,576.3454825878724,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Silverado 1500 Trail Boss,5300.0,,355.0,519.0,7.0,180.0,6,55895.0,635.1194203417122,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Silverado 1500 Rst,5300.0,,355.0,519.0,7.1,180.0,6,50895.0,697.5144906179389,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Colorado Zr2,2800.0,,181.0,500.0,9.1,160.0,5,48295.0,374.77999792939227,Diesel,Mass_Market_Mainstream,0
+Chevrolet,Traverse Premier,3600.0,,310.0,360.0,7.0,210.0,7,46600.0,665.2360515021459,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Equinox Premier,1500.0,,170.0,275.0,8.8,200.0,5,33400.0,508.9820359281437,Petrol,Mass_Market_Mainstream,0
+Chevrolet,Blazer Rs,3600.0,,308.0,366.0,6.6,220.0,5,48900.0,629.8568507157464,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Bolt Ev 2Lt,,66.0,200.0,360.0,6.7,150.0,5,28795.0,694.5650286508074,Electric,Mass_Market_Mainstream,0
+Chevrolet,Camaro Ss,6200.0,,455.0,617.0,4.3,290.0,4,43500.0,1045.9770114942528,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Corvette Grand Sport,6200.0,,460.0,630.0,3.9,290.0,2,65900.0,698.0273141122913,Petrol,Mass_Market_Mainstream,1
+Chevrolet,Traverse Rs,3600.0,,310.0,360.0,7.0,210.0,7,43700.0,709.3821510297483,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Blazer Premier,3600.0,,308.0,366.0,6.6,220.0,5,45000.0,684.4444444444445,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Malibu Lt,1500.0,,160.0,250.0,8.5,210.0,5,25800.0,620.1550387596899,Petrol,Mass_Market_Mainstream,0
+Chevrolet,Spark Activ,1400.0,,98.0,127.0,11.0,180.0,5,17595.0,556.9764137539073,Petrol,Mass_Market_Mainstream,0
+Chevrolet,Trax Lt,1200.0,,137.0,220.0,9.2,200.0,5,24100.0,568.4647302904565,Petrol,Mass_Market_Mainstream,0
+Chevrolet,Equinox Lt,1500.0,,170.0,275.0,8.9,200.0,5,28400.0,598.5915492957746,Petrol,Mass_Market_Mainstream,0
+Chevrolet,Silverado 3500Hd High Country,6600.0,,445.0,1234.0,8.5,160.0,6,75700.0,587.8467635402907,Diesel,Mass_Market_Mainstream,2
+Chevrolet,Colorado Wt,2700.0,,310.0,583.0,6.9,190.0,5,29200.0,1061.6438356164383,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Suburban High Country,6200.0,,420.0,624.0,7.0,200.0,8,82400.0,509.7087378640777,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Silverado Custom,4300.0,,285.0,413.0,8.5,180.0,6,33900.0,840.7079646017698,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Spark Ls,1400.0,,98.0,127.0,10.9,180.0,5,14395.0,680.791941646405,Petrol,Mass_Market_Mainstream,0
+Chevrolet,Traverse Lt,3600.0,,310.0,360.0,7.1,210.0,7,37200.0,833.3333333333334,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Blazer Lt,2500.0,,193.0,255.0,9.0,200.0,5,36100.0,534.6260387811635,Petrol,Mass_Market_Mainstream,0
+Chevrolet,Malibu Premier,2000.0,,250.0,353.0,5.8,240.0,5,34500.0,724.6376811594203,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Equinox Rs,1500.0,,170.0,275.0,8.8,200.0,5,31900.0,532.9153605015674,Petrol,Mass_Market_Mainstream,0
+Chevrolet,Silverado 1500 Custom,4300.0,,285.0,413.0,8.6,180.0,6,34900.0,816.6189111747851,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Silverado 2500Hd Ltz,6600.0,,445.0,1234.0,8.4,160.0,6,56400.0,789.0070921985815,Diesel,Mass_Market_Mainstream,2
+Chevrolet,Tahoe Rst,5300.0,,355.0,519.0,7.4,180.0,7,64100.0,553.8221528861155,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Suburban Lt,5300.0,,355.0,519.0,5.1,180.0,8,64400.0,551.2422360248447,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Bolt Ev Premier,,66.0,200.0,360.0,6.5,150.0,5,31700.0,630.9148264984227,Electric,Mass_Market_Mainstream,0
+Chevrolet,Tahoe Ls,5300.0,,355.0,519.0,7.5,180.0,8,56995.0,622.8616545310991,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Tahoe Lt,5300.0,,355.0,519.0,7.4,180.0,8,62495.0,568.0454436354909,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Tahoe Rst,5300.0,,355.0,519.0,7.4,180.0,7,64100.0,553.8221528861155,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Tahoe Z71,5300.0,,355.0,519.0,7.6,180.0,7,66700.0,532.2338830584708,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Tahoe Premier,6200.0,,420.0,624.0,6.8,200.0,7,71600.0,586.5921787709497,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Tahoe High Country,6200.0,,420.0,624.0,6.7,200.0,7,76700.0,547.5880052151239,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Tahoe Midnight Edition,5300.0,,355.0,519.0,7.5,180.0,8,65500.0,541.9847328244275,Petrol,Mass_Market_Mainstream,2
+Chevrolet,Tahoe Sport Edition,6200.0,,420.0,624.0,6.8,200.0,7,70000.0,600.0,Petrol,Mass_Market_Mainstream,2
+Gmc,Terrain,1500.0,,175.0,275.0,9.5,190.0,5,29900.0,585.2842809364548,Petrol,Other_Market,0
+Gmc,Acadia,2000.0,,228.0,350.0,7.8,200.0,7,36800.0,619.5652173913043,Petrol,Other_Market,2
+Gmc,Yukon,5300.0,,355.0,519.0,7.4,180.0,8,57400.0,618.4668989547038,Petrol,Other_Market,2
+Gmc,Yukon Xl,6200.0,,420.0,624.0,6.9,200.0,8,61100.0,687.3977086743045,Petrol,Other_Market,2
+Gmc,Canyon,2700.0,,310.0,583.0,7.6,190.0,5,36900.0,840.1084010840108,Petrol,Other_Market,2
+Gmc,Sierra 1500,5300.0,,355.0,519.0,7.3,180.0,6,37100.0,956.8733153638815,Petrol,Other_Market,2
+Gmc,Sierra 2500Hd,6600.0,,401.0,629.0,7.5,175.0,6,43900.0,913.4396355353075,Diesel,Other_Market,2
+Gmc,Sierra 3500Hd,6600.0,,445.0,1234.0,7.4,175.0,6,49000.0,908.1632653061224,Diesel,Other_Market,2
+Gmc,Hummer Ev Pickup,,212.0,625.0,1000.0,3.0,170.0,5,108700.0,574.9770009199632,Electric,Other_Market,2
+Gmc,Hummer Ev Suv,,212.0,625.0,1000.0,3.5,170.0,5,105600.0,591.8560606060606,Electric,Other_Market,2
+Gmc,Yukon Denali,6200.0,,420.0,624.0,6.8,200.0,8,72800.0,576.9230769230769,Petrol,Other_Market,2
+Gmc,Sierra Denali,6200.0,,420.0,624.0,6.7,190.0,6,66800.0,628.7425149700598,Petrol,Other_Market,2
+Gmc,Terrain At4,1500.0,,175.0,275.0,9.6,190.0,5,36500.0,479.45205479452056,Petrol,Other_Market,0
+Gmc,Acadia At4,3600.0,,310.0,366.0,7.6,210.0,6,41400.0,748.792270531401,Petrol,Other_Market,2
+Gmc,Sierra 1500 At4,5300.0,,355.0,519.0,7.4,180.0,6,53800.0,659.8513011152417,Petrol,Other_Market,2
+Gmc,Sierra 2500Hd Denali,6600.0,,401.0,1234.0,7.5,175.0,6,72200.0,555.4016620498616,Diesel,Other_Market,2
+Gmc,Sierra Elevation,2700.0,,310.0,583.0,7.6,190.0,5,45000.0,688.8888888888889,Petrol,Other_Market,2
+Gmc,Canyon At4,2700.0,,310.0,583.0,7.5,190.0,5,43900.0,706.1503416856492,Petrol,Other_Market,2
+Gmc,Canyon Denali,2700.0,,310.0,583.0,7.5,190.0,5,48000.0,645.8333333333334,Petrol,Other_Market,2
+Gmc,Yukon Xl Denali Ultimate,6200.0,,420.0,624.0,6.7,200.0,8,93800.0,447.7611940298508,Petrol,Other_Market,2
+Gmc,Terrain Denali,1500.0,,175.0,275.0,9.5,190.0,5,38600.0,453.36787564766837,Petrol,Other_Market,0
+Gmc,Acadia Denali,3564.0,,310.0,366.0,6.5,210.0,7,54300.0,570.902394106814,Petrol,Other_Market,2
+Gmc,Yukon At4,5327.0,,355.0,519.0,7.1,210.0,8,71505.0,496.46877840710437,Petrol,Other_Market,2
+Gmc,Yukon Xl At4,5327.0,,355.0,519.0,7.3,210.0,8,73305.0,484.27801650637747,Petrol,Other_Market,2
+Gmc,Sierra 1500 Elevation,2713.0,,310.0,569.0,7.0,180.0,5,52000.0,596.1538461538462,Petrol,Other_Market,2
+Gmc,Sierra 1500 Slt,5327.0,,355.0,519.0,6.8,180.0,5,56000.0,633.9285714285714,Petrol,Other_Market,2
+Gmc,Sierra 2500Hd At4,6600.0,,401.0,629.0,7.5,170.0,5,70000.0,572.8571428571429,Petrol,Other_Market,2
+Gmc,Sierra 3500Hd At4,6600.0,,401.0,629.0,7.7,170.0,5,72000.0,556.9444444444445,Petrol,Other_Market,2
+Gmc,Canyon Elevation,2488.0,,200.0,259.0,8.5,175.0,5,36300.0,550.9641873278237,Petrol,Other_Market,0
+Gmc,Canyon Denali Black Edition,3564.0,,308.0,373.0,6.9,180.0,5,44000.0,700.0,Petrol,Other_Market,2
+Gmc,Sierra 1500 Denali Ultimate,6162.0,,420.0,624.0,5.8,200.0,5,80000.0,525.0,Petrol,Other_Market,2
+Gmc,Yukon Xl Denali Reserve,6162.0,,420.0,624.0,6.0,210.0,7,82000.0,512.1951219512196,Petrol,Other_Market,2
+Gmc,Terrain Elevation Edition,1490.0,,170.0,275.0,9.3,200.0,5,28700.0,592.3344947735192,Petrol,Other_Market,0
+Gmc,Acadia Black Edition,3564.0,,310.0,366.0,6.5,210.0,7,45000.0,688.8888888888889,Petrol,Other_Market,2
+Gmc,Hummer Ev Suv Edition 1,,200.0,830.0,15590.0,3.5,170.0,5,96550.0,859.658208182289,Electric,Other_Market,3
+Gmc,Hummer Ev Pickup Edition 1,,200.0,1000.0,15590.0,3.0,170.0,5,96550.0,1035.732780942517,Electric,Other_Market,3
+Gmc,Sierra Denali Carbonpro,6162.0,,420.0,624.0,5.8,200.0,5,65000.0,646.1538461538461,Petrol,Other_Market,2
+Gmc,Yukon Denali Performance,6162.0,,420.0,624.0,6.0,210.0,8,76805.0,546.8393984766617,Petrol,Other_Market,2
+Gmc,Sierra 2500Hd Denali Black Edition,6600.0,,401.0,629.0,7.5,170.0,5,75000.0,534.6666666666666,Petrol,Other_Market,2
+Gmc,Canyon At4X,3564.0,,308.0,373.0,6.9,180.0,5,50000.0,616.0,Petrol,Other_Market,2
+Gmc,Yukon Xl Slt,5327.0,,355.0,519.0,7.3,210.0,8,65000.0,546.1538461538461,Petrol,Other_Market,2
+Gmc,Sierra 1500 Pro,4300.0,,285.0,413.0,7.5,180.0,3,37700.0,755.9681697612732,Petrol,Other_Market,2
+Gmc,Sierra 2500Hd Pro,6600.0,,401.0,629.0,7.7,170.0,3,60000.0,668.3333333333334,Petrol,Other_Market,2
+Gmc,Sierra 3500Hd Pro,6600.0,,401.0,629.0,7.8,170.0,3,62000.0,646.7741935483871,Petrol,Other_Market,2
+Gmc,Terrain Slt,1490.0,,170.0,275.0,9.4,200.0,5,31000.0,548.3870967741935,Petrol,Other_Market,0
+Gmc,Acadia Sle,3564.0,,310.0,366.0,6.6,210.0,7,40000.0,775.0,Petrol,Other_Market,2
+Gmc,Canyon Slt,2488.0,,200.0,259.0,8.6,175.0,5,38000.0,526.3157894736842,Petrol,Other_Market,0
+Gmc,Yukon Xl Elevation,5327.0,,355.0,519.0,7.4,210.0,8,75000.0,473.3333333333333,Petrol,Other_Market,2
+Gmc,Sierra 1500 At4X,6162.0,,420.0,624.0,5.9,200.0,5,82000.0,512.1951219512196,Petrol,Other_Market,2
+Gmc,Hummer Ev Suv Extreme Off-Road,,200.0,830.0,15590.0,3.6,170.0,5,110000.0,754.5454545454545,Electric,Other_Market,3
+Gmc,Sierra Ev Denali,,200.0,754.0,1064.0,4.5,170.0,5,108700.0,693.6522539098436,Electric,Other_Market,2
+Gmc,Hummer Ev Omega Edition,,200.0,1000.0,15590.0,3.0,170.0,5,112700.0,887.3114463176574,Electric,Other_Market,3
+Gmc,Canyon At4X Edition 1,3564.0,,308.0,373.0,6.8,180.0,5,55000.0,560.0,Petrol,Other_Market,2
+Gmc,Yukon Denali Ultimate Black,6162.0,,420.0,624.0,6.0,210.0,8,90000.0,466.6666666666667,Petrol,Other_Market,2
+Gmc,Sierra Hd Denali Reserve,6600.0,,401.0,629.0,7.5,170.0,5,85000.0,471.7647058823529,Petrol,Other_Market,2
+Gmc,Acadia Denali Ultimate,3564.0,,310.0,366.0,6.5,210.0,7,60000.0,516.6666666666666,Petrol,Other_Market,2
+Gmc,Terrain All-Terrain Edition,1490.0,,170.0,275.0,9.3,200.0,5,35000.0,485.71428571428567,Petrol,Other_Market,0
+Gmc,Yukon Trailering Edition,5327.0,,355.0,519.0,7.5,210.0,8,78000.0,455.1282051282051,Petrol,Other_Market,2
+Gmc,Hummer Ev Adventure Series,,200.0,830.0,15590.0,3.6,170.0,5,105000.0,790.4761904761904,Electric,Other_Market,3
+Kia,Rio,1591.0,,120.0,151.0,10.3,180.0,5,17000.0,705.8823529411765,Petrol,Other_Market,0
+Kia,Rio 5-Door,1591.0,,120.0,151.0,10.3,180.0,5,18000.0,666.6666666666667,Petrol,Other_Market,0
+Kia,Seltos Nightfall Edition,1591.0,,175.0,264.0,7.5,210.0,5,28000.0,625.0,Petrol,Other_Market,0
+Peugeot,508 Pse (Peugeot Sport Engineered),1599.0,,360.0,520.0,5.2,250.0,5,55000.0,654.5454545454545,Hybrid,Other_Market,2
+Kia,Sorento X-Line,2500.0,,277.0,421.0,7.0,220.0,7,42000.0,659.5238095238095,Petrol,Other_Market,2
+Kia,Telluride Sx,3778.0,,291.0,355.0,7.0,240.0,7,50000.0,582.0,Petrol,Other_Market,2
+Kia,Forte Lxs,1999.0,,147.0,179.0,9.2,190.0,5,19000.0,773.6842105263158,Petrol,Other_Market,0
+Kia,K5 Ex,1591.0,,180.0,264.0,7.8,220.0,5,28500.0,631.578947368421,Petrol,Other_Market,0
+Kia,Niro Plug-In Hybrid,1591.0,,139.0,265.0,10.5,180.0,5,33000.0,421.21212121212125,Hybrid,Other_Market,0
+Kia,Ev6 Wind,,77.4,225.0,350.0,5.2,190.0,5,50000.0,449.99999999999994,Electric,Other_Market,2
+Kia,Soul Turbo,1591.0,,201.0,264.0,6.5,200.0,5,28000.0,717.8571428571428,Petrol,Other_Market,2
+Kia,Seltos Sx,1591.0,,175.0,264.0,7.5,210.0,5,28500.0,614.0350877192982,Petrol,Other_Market,0
+Kia,Stinger Scorpion Edition,2500.0,,300.0,422.0,5.0,270.0,5,55000.0,545.4545454545455,Petrol,Other_Market,2
+Kia,Sorento Hybrid Sx Prestige,1591.0,,227.0,352.0,7.9,200.0,7,47000.0,482.9787234042553,Hybrid,Other_Market,0
+Kia,Carnival Ex,3500.0,,290.0,355.0,8.0,220.0,8,42500.0,682.3529411764706,Petrol,Other_Market,2
+Kia,Telluride Nightfall Edition,3778.0,,291.0,355.0,7.0,240.0,7,51000.0,570.5882352941176,Petrol,Other_Market,2
+Peugeot,508 Plug-In Hybrid,1598.0,,225.0,360.0,7.5,210.0,5,44000.0,511.3636363636364,Hybrid,Other_Market,0
+Kia,Ev6 First Edition,,77.4,320.0,450.0,5.0,230.0,5,58000.0,551.7241379310344,Electric,Other_Market,2
+Kia,Niro Touring,1591.0,,139.0,265.0,10.5,180.0,5,33000.0,421.21212121212125,Hybrid,Other_Market,0
+Kia,Forte Gt-Line,1591.0,,201.0,264.0,6.5,200.0,5,25000.0,804.0,Petrol,Other_Market,2
+Kia,Seltos Ex,1999.0,,146.0,179.0,9.0,190.0,5,23500.0,621.2765957446809,Petrol,Other_Market,0
+Peugeot,3008 Plug-In Hybrid,1598.0,,225.0,360.0,7.0,210.0,5,42000.0,535.7142857142857,Hybrid,Other_Market,0
+Kia,Sorento Lx,2500.0,,191.0,246.0,8.5,210.0,7,35500.0,538.0281690140845,Petrol,Other_Market,2
+Kia,Telluride Ex,3778.0,,291.0,355.0,7.0,240.0,7,44000.0,661.3636363636364,Petrol,Other_Market,2
+Kia,Soul Ex,1999.0,,147.0,179.0,9.5,190.0,5,22000.0,668.1818181818182,Petrol,Other_Market,0
+Kia,Forte Fe,1999.0,,147.0,179.0,9.2,190.0,5,18500.0,794.5945945945946,Petrol,Other_Market,0
+Kia,K5 Gt-Line,1591.0,,180.0,264.0,7.8,220.0,5,29000.0,620.6896551724137,Petrol,Other_Market,0
+Kia,Carnival Lxs,3500.0,,290.0,355.0,8.0,220.0,8,39500.0,734.1772151898734,Petrol,Other_Market,2
+Kia,Ev6 Light,,77.4,225.0,350.0,5.2,190.0,5,46000.0,489.13043478260875,Electric,Other_Market,2
+Kia,Niro Ex,1591.0,,139.0,265.0,10.5,180.0,5,30000.0,463.3333333333333,Hybrid,Other_Market,0
+Kia,Stinger Gt,3300.0,,365.0,510.0,4.7,270.0,5,51500.0,708.7378640776699,Petrol,Other_Market,2
+Kia,Sorento Sx Prestige,1591.0,,227.0,352.0,7.9,200.0,7,48000.0,472.91666666666663,Hybrid,Other_Market,0
+Kia,Telluride Sx Prestige,3778.0,,291.0,355.0,7.0,240.0,7,52000.0,559.6153846153846,Petrol,Other_Market,2
+Peugeot,508 Hybrid4,1598.0,,300.0,520.0,6.0,235.0,5,47000.0,638.2978723404254,Hybrid,Other_Market,2
+Kia,Ev6 Gt Performance,,77.4,577.0,740.0,3.5,260.0,5,65000.0,887.6923076923077,Electric,Other_Market,2
+Kia,Niro Sx Touring,1591.0,,139.0,265.0,10.5,180.0,5,34500.0,402.89855072463763,Hybrid,Other_Market,0
+Kia,Carnival Sx Prestige,3500.0,,290.0,355.0,8.0,220.0,8,47000.0,617.0212765957447,Petrol,Other_Market,2
+Kia,Seltos Sx Turbo,1591.0,,175.0,264.0,7.5,210.0,5,32000.0,546.875,Petrol,Other_Market,0
+Kia,Forte Ex Premium,1999.0,,147.0,179.0,9.2,190.0,5,22500.0,653.3333333333334,Petrol,Other_Market,0
+Kia,Soul Ex Designer Edition,1999.0,,147.0,179.0,9.5,190.0,5,23500.0,625.531914893617,Petrol,Other_Market,0
+Kia,Rio S,1591.0,,120.0,151.0,10.3,180.0,5,17500.0,685.7142857142857,Petrol,Other_Market,0
+Kia,Rio 5-Door S,1591.0,,120.0,151.0,10.3,180.0,5,18000.0,666.6666666666667,Petrol,Other_Market,0
+Kia,Soul S,1999.0,,147.0,179.0,9.5,190.0,5,20500.0,717.0731707317074,Petrol,Other_Market,0
+Kia,Seltos Lx,1999.0,,146.0,179.0,9.2,190.0,5,23000.0,634.7826086956521,Petrol,Other_Market,0
+Peugeot,3008 Hybrid4,1599.0,,300.0,520.0,6.0,235.0,5,45000.0,666.6666666666667,Hybrid,Other_Market,2
+Kia,Sorento Hybrid Ex,1591.0,,227.0,352.0,7.9,200.0,7,47000.0,482.9787234042553,Hybrid,Other_Market,0
+Kia,Telluride Lx,3778.0,,291.0,355.0,7.0,240.0,7,41500.0,701.2048192771084,Petrol,Other_Market,2
+Kia,Carnival Mpv Ex,3500.0,,290.0,355.0,8.0,220.0,8,43500.0,666.6666666666667,Petrol,Other_Market,2
+Kia,Ev6 Awd Gt-Line,,77.4,320.0,450.0,5.0,230.0,5,60000.0,533.3333333333334,Electric,Other_Market,2
+Kia,Forte Gt Turbo,1591.0,,201.0,264.0,6.5,200.0,5,25500.0,788.2352941176471,Petrol,Other_Market,2
+Kia,Soul Gt Designer Edition,1999.0,,147.0,179.0,9.5,190.0,5,23000.0,639.1304347826087,Petrol,Other_Market,0
+Kia,Seltos X-Line Turbo,1591.0,,175.0,264.0,7.5,210.0,5,30000.0,583.3333333333334,Petrol,Other_Market,0
+Peugeot,E-2008 Gt,,50.0,136.0,260.0,8.5,200.0,5,40000.0,340.0,Electric,Other_Market,0
+Kia,Telluride Limited Edition,3778.0,,291.0,355.0,7.0,240.0,7,53000.0,549.0566037735849,Petrol,Other_Market,2
+Kia,Stinger Gt-Line,2500.0,,300.0,422.0,5.0,270.0,5,50000.0,600.0,Petrol,Other_Market,2
+Kia,Carnival Special Edition,3500.0,,290.0,355.0,8.0,220.0,8,45500.0,637.3626373626374,Petrol,Other_Market,2
+Kia,Niro Sx Hybrid,1591.0,,139.0,265.0,10.5,180.0,5,36000.0,386.11111111111114,Hybrid,Other_Market,0
+Kia,Ev6 First Edition Awd,,77.4,320.0,450.0,5.0,230.0,5,62000.0,516.1290322580645,Electric,Other_Market,2
+Kia,Sorento X-Pro Hybrid,1591.0,,227.0,352.0,7.8,200.0,7,49000.0,463.265306122449,Hybrid,Other_Market,0
+Kia,Forte Limited Edition,1999.0,,147.0,179.0,9.2,190.0,5,22500.0,653.3333333333334,Petrol,Other_Market,0
+Bugatti,Chiron,7993.0,,1500.0,1600.0,2.5,420.0,2,3000000.0,50.0,Petrol,Other_Market,1
+Bugatti,Chiron Pur Sport,7993.0,,1500.0,1600.0,2.3,350.0,2,3300000.0,45.45454545454545,Petrol,Other_Market,1
+Bugatti,Chiron Super Sport,7993.0,,1600.0,1600.0,2.4,490.0,2,3500000.0,45.714285714285715,Petrol,Other_Market,1
+Bugatti,Chiron Sport,7993.0,,1500.0,1600.0,2.4,420.0,2,3300000.0,45.45454545454545,Petrol,Other_Market,1
+Bugatti,Chiron Noire,7993.0,,1500.0,1600.0,2.5,420.0,2,3300000.0,45.45454545454545,Petrol,Other_Market,1
+Bugatti,Divo,7993.0,,1500.0,1600.0,2.4,380.0,2,5800000.0,25.862068965517242,Petrol,Other_Market,1
+Bugatti,Centodieci,7993.0,,1600.0,1600.0,2.4,380.0,2,9000000.0,17.77777777777778,Petrol,Other_Market,1
+Bugatti,La Voiture Noire,7993.0,,1500.0,1600.0,2.5,420.0,2,18000000.0,8.333333333333334,Petrol,Other_Market,1
+Bugatti,Bolide,7993.0,,1850.0,1600.0,2.2,500.0,2,4500000.0,41.111111111111114,Petrol,Other_Market,1
+Bugatti,Mistral,7993.0,,1600.0,1600.0,2.4,420.0,2,5000000.0,32.0,Petrol,Other_Market,1
+Volvo,Volvo Fh,13000.0,,540.0,2600.0,15.0,120.0,2,120000.0,449.99999999999994,Diesel,Other_Market,1
+Volvo,Volvo Fh16,16100.0,,750.0,3500.0,14.5,120.0,2,160000.0,468.75,Diesel,Other_Market,1
+Volvo,Volvo Fm,12800.0,,460.0,2200.0,16.0,110.0,2,100000.0,460.0,Diesel,Other_Market,1
+Volvo,Volvo Fmx,13000.0,,500.0,2500.0,16.5,110.0,2,110000.0,454.5454545454545,Diesel,Other_Market,1
+Volvo,Volvo Vnl,12800.0,,500.0,2400.0,15.0,120.0,2,125000.0,400.0,Diesel,Other_Market,1
+Volvo,Volvo Vnr,12800.0,,400.0,1800.0,17.0,110.0,2,95000.0,421.05263157894734,Diesel,Other_Market,1
+Volvo,Volvo Vhd,12800.0,,500.0,2500.0,18.0,100.0,2,120000.0,416.6666666666667,Diesel,Other_Market,1
+Volvo,Volvo Fe,7700.0,,280.0,1200.0,20.0,90.0,2,85000.0,329.4117647058824,Diesel,Other_Market,0
+Volvo,Volvo Fl,5100.0,,180.0,800.0,22.0,80.0,2,75000.0,239.99999999999997,Diesel,Other_Market,0
+Jaguar Land Rover,Jaguar F-Type,2995.0,,335.0,450.0,5.1,260.0,2,70000.0,478.57142857142856,Petrol,Other_Market,1
+Jaguar Land Rover,Jaguar F-Type,2995.0,,335.0,450.0,5.1,260.0,2,70000.0,478.57142857142856,Petrol,Other_Market,1
+Jaguar Land Rover,Jaguar Xe,1999.0,,250.0,365.0,6.5,250.0,5,45000.0,555.5555555555555,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar Xf,1999.0,,250.0,365.0,6.5,250.0,5,50000.0,500.0,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar Xj,2995.0,,300.0,400.0,6.0,250.0,5,85000.0,352.94117647058823,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar E-Pace,1999.0,,200.0,430.0,7.0,230.0,5,50000.0,400.0,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar I-Pace,,90.0,400.0,696.0,4.8,200.0,5,70000.0,571.4285714285714,Electric,Other_Market,2
+Jaguar Land Rover,Jaguar F-Pace,1999.0,,250.0,365.0,5.4,230.0,5,55000.0,454.5454545454545,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar F-Pace,1999.0,,340.0,480.0,7.2,230.0,5,65000.0,523.0769230769231,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar X-Type,1998.0,,160.0,215.0,9.0,215.0,5,40000.0,400.0,Petrol,Other_Market,0
+Jaguar Land Rover,Jaguar F-Pace R-Dynamic,1999.0,,340.0,480.0,5.4,250.0,5,65000.0,523.0769230769231,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar F-Pace R-Dynamic,1999.0,,340.0,480.0,5.4,250.0,5,65000.0,523.0769230769231,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar Xe R-Dynamic,1999.0,,340.0,450.0,5.4,250.0,5,60000.0,566.6666666666667,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar F-Type Svr,5000.0,,575.0,700.0,3.7,320.0,2,120000.0,479.16666666666663,Petrol,Other_Market,1
+Jaguar Land Rover,Jaguar I-Pace Electric Performance,,90.0,400.0,696.0,4.5,200.0,5,85000.0,470.5882352941176,Electric,Other_Market,2
+Jaguar Land Rover,Jaguar F-Pace Svr,5000.0,,550.0,700.0,4.0,283.0,5,85000.0,647.0588235294118,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar Xe S,1999.0,,340.0,450.0,5.3,250.0,5,55000.0,618.1818181818181,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar Xf R-Dynamic,1999.0,,340.0,480.0,5.4,250.0,5,65000.0,523.0769230769231,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar Xf R-Dynamic,1999.0,,340.0,480.0,5.4,250.0,5,65000.0,523.0769230769231,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar Xj Lwb (Long Wheelbase),2995.0,,300.0,400.0,6.0,250.0,5,90000.0,333.33333333333337,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar F-Type Heritage Edition,5000.0,,550.0,680.0,3.9,300.0,2,110000.0,500.0,Petrol,Other_Market,1
+Jaguar Land Rover,Jaguar E-Pace S,1999.0,,200.0,430.0,7.0,230.0,5,50000.0,400.0,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar I-Pace Hse,,90.0,400.0,696.0,4.5,200.0,5,90000.0,444.44444444444446,Electric,Other_Market,2
+Jaguar Land Rover,Jaguar F-Type V8 R,5000.0,,550.0,680.0,3.9,300.0,2,100000.0,550.0,Petrol,Other_Market,1
+Jaguar Land Rover,Jaguar F-Type R-Dynamic,1999.0,,300.0,400.0,5.1,250.0,2,70000.0,428.5714285714286,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar F-Type R-Dynamic,1999.0,,300.0,400.0,5.1,250.0,2,70000.0,428.5714285714286,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar Xe P300 R-Dynamic,1999.0,,300.0,400.0,5.5,250.0,5,55000.0,545.4545454545455,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar Xf Sportbrake,1999.0,,250.0,400.0,6.5,250.0,5,60000.0,416.6666666666667,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar Xf Sportbrake,1999.0,,250.0,400.0,6.5,250.0,5,60000.0,416.6666666666667,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar I-Pace Ev400 Hse,,90.0,400.0,696.0,4.5,200.0,5,85000.0,470.5882352941176,Electric,Other_Market,2
+Jaguar Land Rover,Jaguar F-Pace S 30T Awd,1999.0,,247.0,365.0,6.4,225.0,5,60000.0,411.6666666666667,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar E-Pace R-Dynamic,1999.0,,246.0,430.0,6.8,230.0,5,55000.0,447.27272727272725,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar Xj50,2995.0,,300.0,400.0,6.0,250.0,5,80000.0,375.0,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar F-Type 75Th Anniversary Edition,5000.0,,550.0,680.0,3.9,300.0,2,100000.0,550.0,Petrol,Other_Market,1
+Jaguar Land Rover,Jaguar F-Pace S Awd,1999.0,,340.0,480.0,5.4,250.0,5,65000.0,523.0769230769231,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar F-Pace S Awd,1999.0,,340.0,480.0,5.4,250.0,5,65000.0,523.0769230769231,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar Xe Se,1999.0,,250.0,365.0,6.2,240.0,5,50000.0,500.0,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar F-Type V6 S Convertible,2995.0,,380.0,460.0,4.8,280.0,2,80000.0,475.0,Petrol,Other_Market,1
+Jaguar Land Rover,Jaguar Xe R-Sport Awd,1999.0,,300.0,400.0,5.5,250.0,5,55000.0,545.4545454545455,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar Xe R-Sport Awd,1999.0,,300.0,400.0,5.5,250.0,5,55000.0,545.4545454545455,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar Xf Portfolio Awd,1999.0,,340.0,450.0,5.4,250.0,5,60000.0,566.6666666666667,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar Xf Portfolio Awd,1999.0,,340.0,450.0,5.4,250.0,5,60000.0,566.6666666666667,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar F-Type Coupe R,5000.0,,550.0,680.0,3.9,300.0,2,100000.0,550.0,Petrol,Other_Market,1
+Jaguar Land Rover,Jaguar I-Pace First Edition,,90.0,400.0,696.0,4.5,200.0,5,85000.0,470.5882352941176,Electric,Other_Market,2
+Jaguar Land Rover,Jaguar F-Pace Prestige Awd,1999.0,,340.0,480.0,5.4,250.0,5,65000.0,523.0769230769231,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar F-Pace Prestige Awd,1999.0,,340.0,480.0,5.4,250.0,5,65000.0,523.0769230769231,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar Xj Supercharged,5000.0,,510.0,625.0,4.2,280.0,5,90000.0,566.6666666666667,Petrol,Other_Market,2
+Jaguar Land Rover,Jaguar F-Type P450 Awd,5000.0,,450.0,600.0,4.0,290.0,2,90000.0,500.0,Petrol,Other_Market,1
+Jaguar Land Rover,Jaguar F-Pace P400E Plug-In Hybrid,1999.0,,398.0,640.0,5.1,220.0,5,75000.0,530.6666666666667,Plug-in Hybrid,Other_Market,2
+Jaguar Land Rover,Jaguar F-Type P300 Coupe,1999.0,,300.0,400.0,5.5,250.0,2,60000.0,500.0,Petrol,Other_Market,2
+Acura,Nsx Type S,3493.0,,600.0,666.0,2.9,307.0,2,157000.0,382.1656050955414,Hybrid,Other_Market,1
+Acura,Tlx Pmc Edition,3500.0,,290.0,362.0,5.7,250.0,5,62000.0,467.741935483871,Petrol,Other_Market,2
+Acura,Mdx Advance,3500.0,,290.0,362.0,6.0,190.0,7,60000.0,483.33333333333337,Petrol,Other_Market,2
+Acura,Rdx Technology,1500.0,,272.0,400.0,6.6,210.0,5,45000.0,604.4444444444445,Petrol,Other_Market,2
+Acura,Ilx Premium,2400.0,,201.0,180.0,6.6,200.0,5,30000.0,670.0,Petrol,Other_Market,2
+Acura,Tlx A-Spec,3500.0,,290.0,362.0,5.7,250.0,5,50000.0,580.0,Petrol,Other_Market,2
+Acura,Rdx Sh-Awd,1500.0,,272.0,400.0,6.6,210.0,5,50000.0,544.0,Petrol,Other_Market,2
+Acura,Mdx Sh-Awd,3500.0,,290.0,362.0,6.0,190.0,7,55000.0,527.2727272727273,Petrol,Other_Market,2
+Acura,Rdx Platinum Elite,1500.0,,272.0,400.0,6.6,210.0,5,55000.0,494.54545454545456,Petrol,Other_Market,2
+Acura,Tlx A-Spec Sedan,3500.0,,290.0,362.0,5.7,250.0,5,50000.0,580.0,Petrol,Other_Market,2
+Acura,Tlx 2.4L,2400.0,,206.0,247.0,6.0,210.0,5,35000.0,588.5714285714286,Petrol,Other_Market,2
+Acura,Mdx Hybrid,3500.0,,321.0,335.0,6.0,190.0,7,55000.0,583.6363636363636,Hybrid,Other_Market,2
+Acura,Rdx Hybrid,1500.0,,247.0,400.0,6.6,210.0,5,50000.0,494.0,Hybrid,Other_Market,2
+Acura,Ilx Technology Package,2400.0,,201.0,180.0,6.6,200.0,5,30000.0,670.0,Petrol,Other_Market,2
+Acura,Nsx Gt3 (Track Version),3493.0,,500.0,600.0,3.0,300.0,2,150000.0,333.33333333333337,Hybrid,Other_Market,1
+Acura,Rdx Turbo Awd,1500.0,,272.0,400.0,6.6,210.0,5,45000.0,604.4444444444445,Petrol,Other_Market,2
+Acura,Tlx 3.5L V6,3500.0,,290.0,362.0,5.7,250.0,5,50000.0,580.0,Petrol,Other_Market,2
+Acura,Ilx Special Edition,2400.0,,201.0,180.0,6.6,200.0,5,30000.0,670.0,Petrol,Other_Market,2
+Acura,Mdx Sh-Awd W/Technology Package,3500.0,,290.0,362.0,6.0,190.0,7,55000.0,527.2727272727273,Petrol,Other_Market,2
+Acura,Nsx 3.5L Hybrid Coupe,3493.0,,537.0,666.0,2.9,307.0,2,157000.0,342.03821656050957,Hybrid,Other_Market,1
+Acura,Mdx Elite,3500.0,,290.0,362.0,6.0,190.0,7,58000.0,500.0,Petrol,Other_Market,2
+Acura,Tlx V6 Advance,3500.0,,290.0,362.0,5.7,250.0,5,46000.0,630.4347826086956,Petrol,Other_Market,2
+Acura,Nsx Carbon Edition,3493.0,,537.0,666.0,2.9,307.0,2,157000.0,342.03821656050957,Hybrid,Other_Market,1
+Acura,Rdx Turbo Sh-Awd,1500.0,,272.0,400.0,6.6,210.0,5,42000.0,647.6190476190477,Petrol,Other_Market,2
+Acura,Ilx Technology Plus,2400.0,,201.0,180.0,6.6,200.0,5,28000.0,717.8571428571428,Petrol,Other_Market,2
+Acura,Tlx Type S Pmc Edition,3000.0,,355.0,480.0,5.1,250.0,5,54000.0,657.4074074074074,Petrol,Other_Market,2
+Acura,Mdx Sport Hybrid,3500.0,,321.0,335.0,6.0,190.0,7,52000.0,617.3076923076924,Hybrid,Other_Market,2
+Peugeot,208,1199.0,,82.0,160.0,10.5,180.0,5,22000.0,372.7272727272727,Petrol,Other_Market,0
+Peugeot,2008,1199.0,,100.0,205.0,9.0,190.0,5,25000.0,400.0,Petrol,Other_Market,0
+Peugeot,301,1598.0,,115.0,150.0,10.0,185.0,5,23500.0,489.36170212765956,Petrol,Other_Market,0
+Peugeot,308,1598.0,,130.0,230.0,8.0,200.0,5,28000.0,464.2857142857143,Petrol,Other_Market,0
+Peugeot,3008,1598.0,,180.0,400.0,7.5,210.0,5,32000.0,562.5,Petrol,Other_Market,0
+Peugeot,5008,1998.0,,165.0,400.0,9.5,200.0,7,35000.0,471.42857142857144,Diesel,Other_Market,0
+Peugeot,508,1998.0,,180.0,300.0,8.0,235.0,5,35500.0,507.0422535211267,Petrol,Other_Market,2
+Peugeot,Partner,1560.0,,75.0,200.0,12.0,160.0,5,22500.0,333.33333333333337,Diesel,Other_Market,0
+Peugeot,Expert,1997.0,,120.0,300.0,10.0,180.0,3,30000.0,400.0,Diesel,Other_Market,0
+Peugeot,Boxer,2200.0,,140.0,340.0,11.0,160.0,3,32000.0,437.50000000000006,Diesel,Other_Market,0
+Peugeot,E-208,,50.0,136.0,260.0,8.1,150.0,5,35000.0,388.57142857142856,Electric,Other_Market,0
+Peugeot,E-2008,,50.0,136.0,260.0,8.5,150.0,5,38000.0,357.89473684210526,Electric,Other_Market,0
+Peugeot,208 Gti,1598.0,,208.0,300.0,6.5,230.0,5,28000.0,742.8571428571429,Petrol,Other_Market,2
+Peugeot,308 Gti,1598.0,,270.0,330.0,6.0,250.0,5,35000.0,771.4285714285714,Petrol,Other_Market,2
+Peugeot,508 Pse (Peugeot Sport Engineered),1598.0,,360.0,520.0,5.2,250.0,5,55000.0,654.5454545454545,Hybrid,Other_Market,2
+Peugeot,308 Allure,1199.0,,130.0,230.0,9.3,205.0,5,25000.0,520.0,Petrol,Other_Market,0
+Peugeot,2008 Allure,1199.0,,130.0,230.0,9.7,200.0,5,27000.0,481.4814814814815,Petrol,Other_Market,0
+Peugeot,3008 Allure,1499.0,,180.0,250.0,8.0,210.0,5,30000.0,600.0,Petrol,Other_Market,0
+Peugeot,5008 Allure,1499.0,,180.0,250.0,8.5,200.0,7,33000.0,545.4545454545455,Petrol,Other_Market,0
+Peugeot,508 Allure,1499.0,,180.0,250.0,8.0,225.0,5,35000.0,514.2857142857142,Petrol,Other_Market,0
+Peugeot,3008 Gt,1598.0,,200.0,280.0,7.5,220.0,5,35000.0,571.4285714285714,Petrol,Other_Market,0
+Peugeot,508 Gt,1598.0,,225.0,300.0,6.8,235.0,5,40000.0,562.5,Petrol,Other_Market,2
+Peugeot,3008 Gt Hybrid,1598.0,,300.0,400.0,6.0,235.0,5,45000.0,666.6666666666667,Hybrid,Other_Market,2
+Peugeot,5008 Gt Hybrid,1598.0,,300.0,400.0,6.5,210.0,7,48000.0,625.0,Hybrid,Other_Market,2
+Peugeot,208 Allure Premium,1199.0,,130.0,230.0,9.5,200.0,5,28000.0,464.2857142857143,Petrol,Other_Market,0
+Peugeot,Partner Tepee,1560.0,,100.0,260.0,12.0,170.0,5,25000.0,400.0,Diesel,Other_Market,0
+Peugeot,Expert L2H1,1997.0,,120.0,320.0,13.0,160.0,3,30000.0,400.0,Diesel,Other_Market,0
+Peugeot,Boxer L2H2,2200.0,,130.0,350.0,14.0,140.0,3,35000.0,371.42857142857144,Diesel,Other_Market,0
+Peugeot,Partner Electric,,,136.0,260.0,9.0,130.0,5,40000.0,340.0,Electric,Other_Market,0
+Peugeot,Expert Electric,,,136.0,260.0,9.5,130.0,5,45000.0,302.22222222222223,Electric,Other_Market,0
+Peugeot,208 Pse (Peugeot Sport Engineered),1598.0,,225.0,360.0,5.5,250.0,5,45000.0,500.0,Hybrid,Other_Market,2
+Peugeot,308 Pse,1598.0,,360.0,520.0,5.0,250.0,5,55000.0,654.5454545454545,Hybrid,Other_Market,2
+Peugeot,508 Pse,1598.0,,360.0,520.0,5.2,250.0,5,60000.0,600.0,Hybrid,Other_Market,2
+Peugeot,3008 Pse,1598.0,,300.0,400.0,6.0,235.0,5,50000.0,600.0,Hybrid,Other_Market,2
+Peugeot,2008 Active,1199.0,,100.0,205.0,11.2,190.0,5,22000.0,454.5454545454545,Petrol,Other_Market,0
+Peugeot,3008 Active,1499.0,,130.0,240.0,10.0,200.0,5,30000.0,433.3333333333333,Petrol,Other_Market,0
+Peugeot,5008 Active,1499.0,,130.0,240.0,10.5,190.0,7,33000.0,393.93939393939394,Petrol,Other_Market,0
+Peugeot,3008 Allure Premium,1499.0,,130.0,240.0,9.8,200.0,5,32000.0,406.25,Petrol,Other_Market,0
+Peugeot,5008 Allure Premium,1499.0,,130.0,240.0,10.2,190.0,7,35000.0,371.42857142857144,Petrol,Other_Market,0
+Peugeot,3008 Gt Line,1598.0,,180.0,250.0,8.5,210.0,5,35000.0,514.2857142857142,Petrol,Other_Market,0
+Peugeot,5008 Gt Line,1598.0,,180.0,250.0,9.0,200.0,7,38000.0,473.68421052631584,Petrol,Other_Market,0
+Peugeot,2008 Gt,1199.0,,130.0,230.0,9.3,200.0,5,25000.0,520.0,Petrol,Other_Market,0
+Peugeot,5008 Gt,1598.0,,180.0,250.0,8.2,210.0,7,40000.0,449.99999999999994,Petrol,Other_Market,0
+Peugeot,508 Sw (Station Wagon),1598.0,,180.0,300.0,8.4,220.0,5,35000.0,514.2857142857142,Petrol,Other_Market,0
+Peugeot,508 Saloon,1598.0,,180.0,300.0,8.6,210.0,5,37000.0,486.48648648648646,Petrol,Other_Market,0
+Peugeot,308 Saloon,1199.0,,130.0,230.0,9.0,200.0,5,28000.0,464.2857142857143,Petrol,Other_Market,0
+Peugeot,301 Sedan,1199.0,,82.0,115.0,12.0,180.0,5,20000.0,410.00000000000006,Petrol,Other_Market,0
+Peugeot,208 Sedan,1199.0,,100.0,205.0,11.2,190.0,5,22000.0,454.5454545454545,Petrol,Other_Market,0
+Ford,Fusion (Mondeo),1500.0,,160.0,200.0,7.5,220.0,5,25000.0,640.0,Petrol/Hybrid,Mass_Market_Mainstream,0
+Ford,Fusion (Mondeo),1500.0,,250.0,400.0,7.5,220.0,5,40000.0,625.0,Petrol/Hybrid,Mass_Market_Mainstream,0
+Ford,Taurus,2000.0,,200.0,300.0,6.5,220.0,5,30000.0,666.6666666666667,Petrol,Mass_Market_Mainstream,2
+Ford,Taurus,2000.0,,365.0,500.0,6.5,220.0,5,45000.0,811.1111111111111,Petrol,Mass_Market_Mainstream,2
+Ford,Fiesta,1000.0,,85.0,130.0,7.0,200.0,5,15000.0,566.6666666666667,Petrol,Mass_Market_Mainstream,0
+Ford,Fiesta,1000.0,,200.0,290.0,7.0,200.0,5,25000.0,800.0,Petrol,Mass_Market_Mainstream,0
+Ford,Focus,1000.0,,120.0,150.0,6.5,220.0,5,20000.0,600.0,Petrol,Mass_Market_Mainstream,0
+Ford,Focus,1000.0,,300.0,400.0,6.5,220.0,5,30000.0,1000.0,Petrol,Mass_Market_Mainstream,2
+Ford,Ka+,1200.0,,70.0,100.0,10.5,165.0,5,12000.0,583.3333333333334,Petrol,Mass_Market_Mainstream,0
+Ford,Ka+,1200.0,,85.0,140.0,10.5,165.0,5,15000.0,566.6666666666667,Petrol,Mass_Market_Mainstream,0
+Ford,Ecosport,1000.0,,123.0,170.0,9.0,180.0,5,20000.0,615.0,Petrol,Mass_Market_Mainstream,0
+Ford,Ecosport,1000.0,,166.0,200.0,9.0,180.0,5,25000.0,664.0,Petrol,Mass_Market_Mainstream,0
+Ford,Escape (Kuga),1500.0,,181.0,200.0,7.5,190.0,5,25000.0,724.0,Petrol/Hybrid,Mass_Market_Mainstream,0
+Ford,Escape (Kuga),1500.0,,200.0,230.0,7.5,190.0,5,38000.0,526.3157894736842,Petrol/Hybrid,Mass_Market_Mainstream,0
+Ford,Edge,2000.0,,250.0,400.0,6.5,200.0,5,35000.0,714.2857142857142,Petrol,Mass_Market_Mainstream,2
+Ford,Edge,2000.0,,335.0,475.0,6.5,200.0,5,45000.0,744.4444444444445,Petrol,Mass_Market_Mainstream,2
+Ford,Explorer,2300.0,,300.0,420.0,6.0,200.0,7,35000.0,857.1428571428572,Petrol,Mass_Market_Mainstream,2
+Ford,Explorer,2300.0,,400.0,500.0,6.0,200.0,7,55000.0,727.2727272727273,Petrol,Mass_Market_Mainstream,2
+Ford,Expedition,3500.0,,375.0,650.0,6.5,180.0,8,50000.0,750.0,Petrol,Mass_Market_Mainstream,2
+Ford,Expedition,3500.0,,400.0,800.0,6.5,180.0,8,75000.0,533.3333333333334,Petrol,Mass_Market_Mainstream,2
+Ford,Bronco,2300.0,,275.0,400.0,7.5,200.0,4,30000.0,916.6666666666666,Petrol,Mass_Market_Mainstream,2
+Ford,Bronco,2300.0,,310.0,600.0,7.5,200.0,4,55000.0,563.6363636363636,Petrol,Mass_Market_Mainstream,2
+Ford,Bronco Sport,1500.0,,181.0,250.0,7.0,185.0,5,26000.0,696.1538461538462,Petrol,Mass_Market_Mainstream,0
+Ford,Bronco Sport,1500.0,,250.0,375.0,7.0,185.0,5,38000.0,657.8947368421052,Petrol,Mass_Market_Mainstream,0
+Ford,F-150,3300.0,,290.0,400.0,5.0,200.0,5,35000.0,828.5714285714286,Petrol/Diesel,Mass_Market_Mainstream,2
+Ford,F-150,3300.0,,450.0,700.0,6.5,200.0,5,75000.0,600.0,Petrol/Diesel,Mass_Market_Mainstream,2
+Ford,F-250 Super Duty,6200.0,,385.0,700.0,6.5,180.0,5,40000.0,962.5,Petrol/Diesel,Mass_Market_Mainstream,2
+Ford,F-250 Super Duty,6200.0,,475.0,1050.0,7.0,180.0,5,70000.0,678.5714285714286,Petrol/Diesel,Mass_Market_Mainstream,2
+Ford,F-350 Super Duty,6700.0,,450.0,1050.0,7.0,180.0,5,45000.0,1000.0,Diesel,Mass_Market_Mainstream,2
+Ford,F-350 Super Duty,6700.0,,475.0,1200.0,8.0,180.0,5,75000.0,633.3333333333334,Diesel,Mass_Market_Mainstream,2
+Ford,Maverick,2500.0,,191.0,250.0,6.5,180.0,5,22000.0,868.1818181818181,Hybrid/Petrol,Mass_Market_Mainstream,0
+Ford,Maverick,2500.0,,250.0,380.0,8.0,180.0,5,30000.0,833.3333333333334,Hybrid/Petrol,Mass_Market_Mainstream,0
+Ford,Ranger,2300.0,,270.0,400.0,6.0,180.0,5,25000.0,1080.0,Petrol/Diesel,Mass_Market_Mainstream,2
+Ford,Ranger,2300.0,,325.0,540.0,7.0,180.0,5,45000.0,722.2222222222222,Petrol/Diesel,Mass_Market_Mainstream,2
+Ford,Mustang Mach-E,,68.0,290.0,430.0,3.5,180.0,5,43000.0,674.4186046511628,Electric,Mass_Market_Mainstream,2
+Ford,Mustang Mach-E,,68.0,480.0,430.0,3.5,180.0,5,61000.0,786.8852459016393,Electric,Mass_Market_Mainstream,2
+Ford,F-150 Lightning,,98.0,452.0,1051.0,4.5,180.0,5,65000.0,695.3846153846155,Electric,Mass_Market_Mainstream,2
+Ford,Escape Hybrid,2500.0,,200.0,210.0,7.7,180.0,5,33000.0,606.060606060606,Hybrid,Mass_Market_Mainstream,0
+Ford,Explorer Hybrid,3300.0,,318.0,500.0,7.5,180.0,7,52500.0,605.7142857142858,Hybrid,Mass_Market_Mainstream,2
+Ford,Mustang,5000.0,,450.0,530.0,4.3,250.0,4,55000.0,818.1818181818182,Petrol,Mass_Market_Mainstream,2
+Ford,Gt,3500.0,,660.0,746.0,3.0,348.0,2,500000.0,132.0,Petrol,Mass_Market_Mainstream,1
+Ford,Focus St,2300.0,,280.0,420.0,5.7,250.0,5,30000.0,933.3333333333334,Petrol,Mass_Market_Mainstream,2
+Ford,Fiesta St,1500.0,,200.0,290.0,6.5,230.0,5,23000.0,869.5652173913044,Petrol,Mass_Market_Mainstream,2
+Ford,Bronco Raptor,3000.0,,400.0,583.0,5.5,220.0,4,70000.0,571.4285714285714,Petrol,Mass_Market_Mainstream,2
+Ford,Ranger Raptor,2700.0,,392.0,583.0,6.0,200.0,5,45000.0,871.1111111111111,Petrol,Mass_Market_Mainstream,2
+Ford,F-150 Raptor,3500.0,,450.0,691.0,5.0,200.0,5,70000.0,642.8571428571429,Petrol,Mass_Market_Mainstream,2
+Ford,Puma,1000.0,,123.0,200.0,9.6,191.0,5,28000.0,439.2857142857143,Petrol,Mass_Market_Mainstream,0
+Ford,Territory,1500.0,,140.0,225.0,11.0,180.0,5,32000.0,437.50000000000006,Petrol,Mass_Market_Mainstream,0
+Ford,Everest,2000.0,,210.0,500.0,10.5,190.0,7,52000.0,403.84615384615387,Diesel,Mass_Market_Mainstream,0
+Ford,Flex,3500.0,,287.0,345.0,7.9,200.0,7,31000.0,925.8064516129032,Petrol,Mass_Market_Mainstream,2
+Ford,Transit,2000.0,,170.0,405.0,12.0,160.0,8,43455.0,391.209296973881,Diesel,Mass_Market_Mainstream,0
+Ford,Transit Connect,2000.0,,162.0,200.0,10.5,175.0,4,29365.0,551.6771666950451,Petrol,Mass_Market_Mainstream,0
+Ford,F-450 Super Duty,6700.0,,475.0,1424.0,8.5,165.0,4,61625.0,770.7910750507099,Diesel,Mass_Market_Mainstream,2
+Ford,F-550 Super Duty,6700.0,,475.0,1424.0,8.8,165.0,4,64540.0,735.9776882553455,Diesel,Mass_Market_Mainstream,2
+Ford,Mustang Shelby Gt500,5200.0,,760.0,847.0,3.5,290.0,2,79420.0,956.9377990430621,Petrol,Mass_Market_Mainstream,1
+Ford,Mustang Shelby Gt350,5200.0,,526.0,582.0,4.0,280.0,2,59140.0,889.4149475820088,Petrol,Mass_Market_Mainstream,1
+Ford,F-150 Platinum,3500.0,,400.0,678.0,6.5,180.0,5,64695.0,618.2858026122575,Petrol,Mass_Market_Mainstream,2
+Ford,F-150 Limited,3500.0,,450.0,678.0,6.1,190.0,5,84910.0,529.9729124955835,Petrol,Mass_Market_Mainstream,2
+Ford,Explorer Platinum,3000.0,,400.0,563.0,6.0,230.0,7,56505.0,707.9019555791523,Petrol,Mass_Market_Mainstream,2
+Ford,Expedition King Ranch,3500.0,,440.0,691.0,6.8,210.0,8,79560.0,553.0417295123178,Petrol,Mass_Market_Mainstream,2
+Ford,Transit Custom,2000.0,,130.0,385.0,12.5,160.0,6,35000.0,371.42857142857144,Diesel,Mass_Market_Mainstream,0
+Ford,E-Series Cutaway,7300.0,,350.0,569.0,13.0,140.0,2,36000.0,972.2222222222223,Petrol,Mass_Market_Mainstream,0
+Ford,Transit Chassis Cab,2000.0,,170.0,405.0,11.5,160.0,2,37000.0,459.4594594594594,Diesel,Mass_Market_Mainstream,0
+Ford,Transit Electric (E-Transit),,89.0,266.0,430.0,9.0,140.0,7,52000.0,511.53846153846155,Electric,Mass_Market_Mainstream,0
+Ford,Explorer Plug-In Hybrid,3000.0,,457.0,825.0,6.0,225.0,7,53000.0,862.2641509433962,Hybrid,Mass_Market_Mainstream,2
+Ford,Maverick Hybrid,2500.0,,191.0,210.0,7.8,180.0,5,25000.0,764.0,Hybrid,Mass_Market_Mainstream,0
+Ford,Mustang (2024),5000.0,,450.0,570.0,4.5,250.0,4,60000.0,750.0,Petrol,Mass_Market_Mainstream,2
+Ford,Ranger (2024),2000.0,,210.0,500.0,8.0,180.0,5,40000.0,525.0,Diesel,Mass_Market_Mainstream,0
+Ford,Escape Plug-In Hybrid (2024),2500.0,,221.0,210.0,7.5,190.0,5,38000.0,581.578947368421,Hybrid,Mass_Market_Mainstream,0
+Ford,Bronco (2024),2700.0,,310.0,542.0,6.7,200.0,5,45000.0,688.8888888888889,Petrol,Mass_Market_Mainstream,2
+Ford,Explorer (2024),3000.0,,400.0,563.0,5.9,230.0,7,55000.0,727.2727272727273,Petrol,Mass_Market_Mainstream,2
+Mitsubishi,Mirage,1200.0,,78.0,100.0,12.0,170.0,5,17000.0,458.82352941176475,Petrol,Other_Market,0
+Mitsubishi,Mirage G4,1200.0,,78.0,100.0,12.0,170.0,5,18000.0,433.3333333333333,Petrol,Other_Market,0
+Mitsubishi,Outlander,2500.0,,181.0,245.0,9.5,190.0,7,31500.0,574.6031746031746,Petrol,Other_Market,0
+Mitsubishi,Outlander Phev,,,248.0,300.0,10.5,170.0,5,41000.0,604.8780487804878,Hybrid,Other_Market,0
+Mitsubishi,Eclipse Cross,1500.0,,152.0,250.0,9.8,180.0,5,26500.0,573.5849056603773,Petrol,Other_Market,0
+Mitsubishi,Asx (Outlander Sport),2000.0,,148.0,197.0,10.0,190.0,5,24500.0,604.0816326530612,Petrol,Other_Market,0
+Mitsubishi,Pajero,3200.0,,189.0,441.0,10.5,180.0,7,42500.0,444.70588235294116,Diesel,Other_Market,0
+Mitsubishi,Pajero Sport,2400.0,,181.0,430.0,11.0,180.0,7,37500.0,482.6666666666667,Diesel,Other_Market,0
+Mitsubishi,Triton (L200),2400.0,,181.0,430.0,10.5,177.0,5,30000.0,603.3333333333334,Diesel,Other_Market,0
+Mitsubishi,Lancer Evolution X,2000.0,,291.0,407.0,5.0,240.0,5,45000.0,646.6666666666666,Petrol,Other_Market,2
+Mitsubishi,I-Miev (Electric),,16.0,66.0,196.0,15.0,130.0,4,24500.0,269.3877551020408,Electric,Other_Market,0
+Mitsubishi,Xpander,1500.0,,105.0,141.0,13.5,170.0,7,22500.0,466.6666666666667,Petrol,Other_Market,0
+Mitsubishi,Delica D:5,2200.0,,145.0,360.0,11.0,175.0,7,37500.0,386.6666666666667,Diesel,Other_Market,0
+Mitsubishi,Colt,1100.0,,75.0,100.0,9.0,180.0,5,15000.0,500.0,Petrol,Other_Market,0
+Mitsubishi,Colt,1100.0,,150.0,180.0,12.0,180.0,5,20000.0,750.0,Petrol,Other_Market,0
+Mitsubishi,Grandis,2400.0,,165.0,217.0,11.0,190.0,7,27500.0,600.0,Petrol,Other_Market,0
+Mitsubishi,Outlander Black Edition,2500.0,,181.0,245.0,9.5,190.0,7,33500.0,540.2985074626865,Petrol,Other_Market,0
+Mitsubishi,Outlander Sel,2500.0,,181.0,245.0,9.5,190.0,7,32500.0,556.9230769230769,Petrol,Other_Market,0
+Mitsubishi,Outlander Se,2500.0,,181.0,245.0,9.5,190.0,7,30500.0,593.4426229508197,Petrol,Other_Market,0
+Mitsubishi,Eclipse Cross Black Edition,1500.0,,152.0,250.0,9.8,180.0,5,29000.0,524.1379310344828,Petrol,Other_Market,0
+Mitsubishi,Asx Exceed,2000.0,,148.0,197.0,10.0,190.0,5,27000.0,548.1481481481482,Petrol,Other_Market,0
+Mitsubishi,Triton Athlete,2400.0,,181.0,430.0,10.5,177.0,5,31000.0,583.8709677419355,Diesel,Other_Market,0
+Mitsubishi,Pajero Final Edition,3200.0,,189.0,441.0,10.5,180.0,7,47500.0,397.89473684210526,Diesel,Other_Market,0
+Mitsubishi,L200 Barbarian X,2400.0,,181.0,430.0,10.5,177.0,5,32500.0,556.9230769230769,Diesel,Other_Market,0
+Mitsubishi,Space Star,1200.0,,78.0,100.0,12.0,170.0,5,16000.0,487.5,Petrol,Other_Market,0
+Mitsubishi,Lancer Ex,1600.0,,117.0,154.0,10.0,200.0,5,20000.0,585.0,Petrol,Other_Market,0
+Mitsubishi,Lancer Ex,1600.0,,148.0,197.0,10.0,200.0,5,25000.0,592.0,Petrol,Other_Market,0
+Mitsubishi,Montero Sport,2400.0,,181.0,430.0,11.0,180.0,7,37500.0,482.6666666666667,Diesel,Other_Market,0
+Mitsubishi,Attrage,1200.0,,78.0,100.0,12.5,170.0,5,16000.0,487.5,Petrol,Other_Market,0
+Mitsubishi,Rvr Se,2000.0,,148.0,197.0,10.5,190.0,5,24000.0,616.6666666666666,Petrol,Other_Market,0
+Mitsubishi,Delica Van,2000.0,,145.0,360.0,11.5,175.0,7,30000.0,483.33333333333337,Diesel,Other_Market,0
+Mitsubishi,Delica Van,2000.0,,145.0,360.0,11.5,175.0,7,35000.0,414.2857142857143,Diesel,Other_Market,0
+Mitsubishi,Lancer Glx,1600.0,,115.0,154.0,11.5,190.0,5,18500.0,621.6216216216216,Petrol,Other_Market,0
+Mitsubishi,Pajero Gls,3200.0,,189.0,441.0,10.5,180.0,7,47500.0,397.89473684210526,Diesel,Other_Market,0
+Mitsubishi,Xpander Cross,1500.0,,105.0,141.0,12.0,170.0,7,22500.0,466.6666666666667,Petrol,Other_Market,0
+Mitsubishi,Eclipse Cross Phev,2400.0,,188.0,199.0,10.5,180.0,5,37500.0,501.3333333333333,Plug-in Hybrid,Other_Market,0
+Mitsubishi,Outlander Es,2500.0,,181.0,245.0,9.5,190.0,7,29000.0,624.1379310344828,Petrol,Other_Market,0
+Mitsubishi,Montero Glx,2400.0,,181.0,430.0,11.0,180.0,7,37500.0,482.6666666666667,Diesel,Other_Market,0
+Mitsubishi,Triton Glx-R,2400.0,,181.0,430.0,10.5,177.0,5,31000.0,583.8709677419355,Diesel,Other_Market,0
+Mitsubishi,Asx Dynamic,2000.0,,148.0,197.0,10.0,190.0,5,26500.0,558.4905660377358,Petrol,Other_Market,0
+Mitsubishi,Mirage Es,1200.0,,78.0,100.0,12.5,170.0,5,16000.0,487.5,Petrol,Other_Market,0
+Mitsubishi,Outlander Le,2500.0,,181.0,245.0,9.5,190.0,7,32500.0,556.9230769230769,Petrol,Other_Market,0
+Mitsubishi,Space Runner,1800.0,,140.0,170.0,10.5,185.0,5,21500.0,651.1627906976745,Petrol,Other_Market,0
+Mitsubishi,Toppo Bj,660.0,,52.0,60.0,15.0,130.0,4,11000.0,472.72727272727275,Petrol,Other_Market,0
+Mitsubishi,Chariot,2000.0,,140.0,170.0,10.5,185.0,7,21500.0,651.1627906976745,Petrol,Other_Market,0
+Mitsubishi,Lancer Se Limited,2000.0,,148.0,197.0,10.0,200.0,5,22500.0,657.7777777777778,Petrol,Other_Market,0
+Mitsubishi,Pajero Swb (Short Wheel Base),3200.0,,189.0,441.0,10.5,180.0,5,47500.0,397.89473684210526,Diesel,Other_Market,0
+Mitsubishi,Delica Space Gear,2400.0,,145.0,206.0,13.0,170.0,7,32500.0,446.15384615384613,Petrol,Other_Market,0
+Mitsubishi,I (Kei Car),660.0,,64.0,94.0,15.5,130.0,4,13500.0,474.0740740740741,Petrol,Other_Market,0
+Mitsubishi,Dion,2000.0,,135.0,181.0,11.5,180.0,7,16500.0,818.1818181818182,Petrol,Other_Market,0
+Mitsubishi,Airtrek,2400.0,,160.0,214.0,11.0,190.0,5,22500.0,711.1111111111112,Petrol,Other_Market,0
+Mitsubishi,Ek Space,660.0,,52.0,60.0,15.0,130.0,4,11000.0,472.72727272727275,Petrol,Other_Market,0
+Mitsubishi,Ek X,660.0,,64.0,94.0,13.5,140.0,4,13500.0,474.0740740740741,Petrol,Other_Market,0
+Mitsubishi,Colt Czc Convertible,1500.0,,147.0,210.0,9.5,200.0,4,27500.0,534.5454545454545,Petrol,Other_Market,0
+Mitsubishi,Galant Fortis,2000.0,,154.0,200.0,10.0,200.0,5,20000.0,770.0,Petrol,Other_Market,0
+Mitsubishi,Endeavor,3800.0,,225.0,343.0,9.5,190.0,5,31500.0,714.2857142857142,Petrol,Other_Market,0
+Mitsubishi,Grand Lancer,1800.0,,138.0,173.0,11.5,190.0,5,22500.0,613.3333333333334,Petrol,Other_Market,0
+Mitsubishi,Sigma,3000.0,,210.0,270.0,8.5,220.0,5,37500.0,560.0,Petrol,Other_Market,2
+Mitsubishi,Town Box,660.0,,48.0,60.0,16.0,120.0,4,11000.0,436.3636363636364,Petrol,Other_Market,0
+Mazda,Mazda3,2000.0,,155.0,213.0,8.9,200.0,5,24000.0,645.8333333333334,Petrol,Mass_Market_Mainstream,0
+Mazda,Mazda3 Hatchback,2500.0,,186.0,252.0,8.3,210.0,5,26000.0,715.3846153846154,Petrol,Mass_Market_Mainstream,0
+Mazda,Mazda6,2500.0,,250.0,420.0,6.4,240.0,5,31000.0,806.4516129032257,Petrol,Mass_Market_Mainstream,2
+Mazda,Cx-3,2000.0,,146.0,197.0,9.5,180.0,5,23000.0,634.7826086956521,Petrol,Mass_Market_Mainstream,0
+Mazda,Cx-30,2500.0,,186.0,252.0,8.7,204.0,5,25500.0,729.4117647058823,Petrol,Mass_Market_Mainstream,0
+Mazda,Cx-5,2500.0,,187.0,252.0,8.8,200.0,5,29000.0,644.8275862068965,Petrol,Mass_Market_Mainstream,0
+Mazda,Cx-50,2500.0,,256.0,434.0,6.9,220.0,5,32500.0,787.6923076923076,Petrol,Mass_Market_Mainstream,2
+Mazda,Cx-8,2200.0,,187.0,450.0,9.2,200.0,7,39000.0,479.4871794871795,Diesel,Mass_Market_Mainstream,0
+Mazda,Cx-9,2500.0,,250.0,420.0,7.2,210.0,7,41500.0,602.4096385542169,Petrol,Mass_Market_Mainstream,2
+Mazda,Cx-90,3300.0,,340.0,500.0,6.2,240.0,7,55000.0,618.1818181818181,Petrol,Mass_Market_Mainstream,2
+Mazda,Mx-5 Miata,2000.0,,181.0,205.0,6.5,225.0,2,30000.0,603.3333333333334,Petrol,Mass_Market_Mainstream,0
+Mazda,Mx-5 Miata Rf,2000.0,,181.0,205.0,6.5,225.0,2,36500.0,495.8904109589041,Petrol,Mass_Market_Mainstream,0
+Mazda,Mx-30 Electric,,35.5,143.0,271.0,9.7,140.0,5,35000.0,408.57142857142856,Electric,Mass_Market_Mainstream,0
+Mazda,Cx-4,2000.0,,158.0,202.0,9.6,190.0,5,25000.0,632.0,Petrol,Mass_Market_Mainstream,0
+Mazda,Cx-7,2300.0,,244.0,350.0,7.9,210.0,5,30500.0,800.0,Petrol,Mass_Market_Mainstream,2
+Mazda,Tribute,3000.0,,200.0,270.0,9.0,190.0,5,27000.0,740.7407407407408,Petrol,Mass_Market_Mainstream,0
+Mazda,B-Series Pickup,2500.0,,143.0,330.0,11.5,170.0,5,22500.0,635.5555555555555,Diesel,Mass_Market_Mainstream,0
+Mazda,Bt-50,3200.0,,200.0,470.0,10.0,180.0,5,31000.0,645.1612903225806,Diesel,Mass_Market_Mainstream,0
+Mazda,Rx-7,1300.0,,276.0,314.0,5.5,250.0,4,40000.0,690.0,Petrol,Mass_Market_Mainstream,2
+Mazda,Rx-3,1200.0,,110.0,145.0,8.9,180.0,4,17500.0,628.5714285714286,Petrol,Mass_Market_Mainstream,0
+Mazda,323F,1600.0,,105.0,145.0,10.5,180.0,5,16000.0,656.25,Petrol,Mass_Market_Mainstream,0
+Mazda,Familia Sedan,1500.0,,100.0,135.0,11.0,175.0,5,14000.0,714.2857142857142,Petrol,Mass_Market_Mainstream,0
+Mazda,Premacy,2000.0,,138.0,180.0,9.8,190.0,7,21000.0,657.1428571428572,Petrol,Mass_Market_Mainstream,0
+Mazda,Demio,1500.0,,108.0,142.0,10.2,180.0,5,15500.0,696.7741935483871,Petrol,Mass_Market_Mainstream,0
+Mazda,Millenia,2300.0,,210.0,280.0,8.2,215.0,5,27500.0,763.6363636363636,Petrol,Mass_Market_Mainstream,2
+Mazda,Eunos Cosmo,2000.0,,280.0,300.0,6.0,240.0,4,45000.0,622.2222222222222,Petrol,Mass_Market_Mainstream,2
+Mazda,Atenza,2500.0,,192.0,252.0,8.5,210.0,5,25000.0,768.0,Petrol,Mass_Market_Mainstream,0
+Mazda,Roadpacer Ap,1300.0,,130.0,165.0,11.5,170.0,5,22500.0,577.7777777777777,Petrol,Mass_Market_Mainstream,0
+Mazda,626,2000.0,,140.0,180.0,9.5,190.0,5,20000.0,700.0,Petrol,Mass_Market_Mainstream,0
+Mazda,929,3000.0,,205.0,270.0,8.0,220.0,5,27500.0,745.4545454545454,Petrol,Mass_Market_Mainstream,2
+Mazda,Luce,1800.0,,135.0,170.0,10.5,180.0,5,17500.0,771.4285714285714,Petrol,Mass_Market_Mainstream,0
+Mazda,Capella,1600.0,,110.0,145.0,11.2,175.0,5,16000.0,687.5,Petrol,Mass_Market_Mainstream,0
+Mazda,Carol,660.0,,63.0,90.0,15.5,140.0,4,10500.0,600.0,Petrol,Mass_Market_Mainstream,0
+Mazda,Autozam Az-1,657.0,,63.0,85.0,11.0,140.0,2,15000.0,420.0,Petrol,Mass_Market_Mainstream,0
+Mazda,Spiano,660.0,,54.0,80.0,16.0,130.0,4,9000.0,600.0,Petrol,Mass_Market_Mainstream,0
+Mazda,Verisa,1500.0,,113.0,140.0,11.0,170.0,5,16000.0,706.25,Petrol,Mass_Market_Mainstream,0
+Mazda,Mx-6,2500.0,,164.0,215.0,8.8,210.0,4,21000.0,780.952380952381,Petrol,Mass_Market_Mainstream,0
+Mazda,Mpv,3000.0,,200.0,265.0,9.5,185.0,7,27500.0,727.2727272727273,Petrol,Mass_Market_Mainstream,0
+Mazda,Proceed Marvie,2600.0,,120.0,200.0,12.0,160.0,5,22500.0,533.3333333333334,Petrol,Mass_Market_Mainstream,0
+Mazda,Sentia,3000.0,,200.0,265.0,9.0,200.0,5,25000.0,800.0,Petrol,Mass_Market_Mainstream,0
+Mazda,Cronos,2500.0,,160.0,210.0,8.5,190.0,5,20000.0,800.0,Petrol,Mass_Market_Mainstream,0
+Mazda,Scrum,660.0,,63.0,85.0,15.0,130.0,4,10000.0,630.0,Petrol,Mass_Market_Mainstream,0
+Mazda,Parkway,1800.0,,115.0,155.0,12.5,160.0,5,22500.0,511.11111111111114,Petrol,Mass_Market_Mainstream,0
+Mazda,Titan (Truck),3000.0,,130.0,300.0,15.0,120.0,2,27500.0,472.72727272727275,Diesel,Mass_Market_Mainstream,0
+Mazda,Cx-60,2500.0,,187.0,250.0,8.5,200.0,5,42500.0,440.0,Petrol/Diesel,Mass_Market_Mainstream,0
+Mazda,Cx-80,3000.0,,250.0,400.0,7.5,210.0,7,47500.0,526.3157894736842,Petrol,Mass_Market_Mainstream,2
+Mazda,T1500,1500.0,,75.0,105.0,18.0,120.0,2,16500.0,454.5454545454545,Petrol,Mass_Market_Mainstream,0
+Mazda,Bongo Van,2000.0,,100.0,140.0,14.0,160.0,3,20000.0,500.0,Petrol/Diesel,Mass_Market_Mainstream,0
+Mazda,Bongo Friendee,2500.0,,115.0,160.0,12.5,160.0,7,22000.0,522.7272727272727,Petrol/Diesel,Mass_Market_Mainstream,0
+Mazda,Revue,1300.0,,75.0,110.0,15.5,130.0,5,11000.0,681.8181818181818,Petrol,Mass_Market_Mainstream,0
+Mazda,Protegé,1800.0,,125.0,170.0,9.0,185.0,5,16500.0,757.5757575757576,Petrol,Mass_Market_Mainstream,0
+Mazda,Xedos 6,2500.0,,170.0,230.0,8.5,215.0,5,27500.0,618.1818181818181,Petrol,Mass_Market_Mainstream,0
+Mazda,Xedos 9,3000.0,,200.0,260.0,7.5,220.0,5,32500.0,615.3846153846154,Petrol,Mass_Market_Mainstream,2
+Mazda,121,1300.0,,70.0,110.0,13.0,155.0,5,13500.0,518.5185185185185,Petrol,Mass_Market_Mainstream,0
+Mazda,1200,1200.0,,60.0,90.0,16.0,130.0,4,11000.0,545.4545454545455,Petrol,Mass_Market_Mainstream,0
+Mazda,1500,1500.0,,85.0,120.0,14.0,145.0,5,13500.0,629.6296296296297,Petrol,Mass_Market_Mainstream,0
+Mazda,Rx-2,1308.0,,130.0,220.0,8.5,185.0,4,22500.0,577.7777777777777,Petrol,Mass_Market_Mainstream,0
+Mazda,Rx-5,1588.0,,135.0,210.0,8.0,190.0,4,27500.0,490.9090909090909,Petrol,Mass_Market_Mainstream,0
+Mazda,Rx-7 Spirit R,1308.0,,280.0,290.0,5.5,250.0,2,37500.0,746.6666666666666,Petrol,Mass_Market_Mainstream,2
+Mazda,Cosmo Sport (110S),1000.0,,110.0,150.0,10.0,170.0,2,32500.0,338.46153846153845,Petrol,Mass_Market_Mainstream,0
+Mazda,Eunos 500,1998.0,,135.0,170.0,9.0,200.0,5,26500.0,509.4339622641509,Petrol,Mass_Market_Mainstream,0
+Mazda,Eunos Roadster,1590.0,,116.0,140.0,9.5,180.0,2,16500.0,703.030303030303,Petrol,Mass_Market_Mainstream,0
+Mazda,Familia Astina,1800.0,,135.0,170.0,8.5,200.0,5,21000.0,642.8571428571429,Petrol,Mass_Market_Mainstream,0
+Mazda,Savanna Rx-7,1308.0,,165.0,230.0,7.5,230.0,2,30000.0,550.0,Petrol,Mass_Market_Mainstream,0
+Mazda,Capella Cargo,2000.0,,115.0,160.0,12.0,180.0,4,20000.0,575.0,Petrol,Mass_Market_Mainstream,0
+Mazda,818,1600.0,,100.0,130.0,12.5,170.0,5,16000.0,625.0,Petrol,Mass_Market_Mainstream,0
+Mazda,Sentia Hardtop Coupe,2500.0,,160.0,220.0,8.0,210.0,4,32500.0,492.3076923076923,Petrol,Mass_Market_Mainstream,0
+Mazda,Biante,2000.0,,150.0,200.0,10.0,185.0,7,24000.0,625.0,Petrol,Mass_Market_Mainstream,0
+Mazda,Premacy Hydrogen Re Hybrid,1308.0,,200.0,260.0,9.5,180.0,5,42500.0,470.5882352941176,Hybrid,Mass_Market_Mainstream,0
+Mazda,Carol P360,360.0,,26.0,45.0,35.0,85.0,4,9000.0,288.88888888888886,Petrol,Mass_Market_Mainstream,0
+Mazda,T2000,2000.0,,110.0,160.0,12.5,170.0,2,19000.0,578.9473684210527,Petrol,Mass_Market_Mainstream,0
+Mazda,Az-Offroad,1298.0,,85.0,130.0,12.0,145.0,5,16500.0,515.1515151515151,Petrol,Mass_Market_Mainstream,0
+Mazda,Scrum Wagon,657.0,,64.0,95.0,15.5,120.0,4,11000.0,581.8181818181818,Petrol,Mass_Market_Mainstream,0
+Mazda,Persona,1497.0,,92.0,130.0,13.5,160.0,5,14500.0,634.4827586206897,Petrol,Mass_Market_Mainstream,0
+Mazda,Astina,1800.0,,140.0,160.0,8.5,190.0,5,22000.0,636.3636363636364,Petrol,Mass_Market_Mainstream,0
+Mazda,Etude,1598.0,,105.0,135.0,10.0,170.0,5,15000.0,700.0,Petrol,Mass_Market_Mainstream,0
+Mazda,Porter,1497.0,,95.0,130.0,14.0,130.0,2,13500.0,703.7037037037037,Petrol,Mass_Market_Mainstream,0
+Mazda,Mx-3,1598.0,,130.0,140.0,8.5,190.0,4,20000.0,650.0,Petrol,Mass_Market_Mainstream,0
+Mazda,Mx-5 Superlight Concept,1798.0,,143.0,160.0,7.5,200.0,2,32500.0,440.0,Petrol,Mass_Market_Mainstream,0
+Mazda,Premacy Hydrogen Re,1308.0,,200.0,260.0,9.5,180.0,5,42500.0,470.5882352941176,Hybrid,Mass_Market_Mainstream,0
+Mazda,Bongo Truck,1998.0,,120.0,150.0,15.0,130.0,2,16500.0,727.2727272727273,Petrol,Mass_Market_Mainstream,0
+Mazda,Rotary Pickup,1308.0,,130.0,160.0,14.5,150.0,2,20000.0,650.0,Petrol,Mass_Market_Mainstream,0
+Mazda,Luce Rotary Coupe,1308.0,,135.0,180.0,12.0,175.0,4,27500.0,490.9090909090909,Petrol,Mass_Market_Mainstream,0
+Mazda,Millenia S,2500.0,,200.0,250.0,8.0,220.0,5,32500.0,615.3846153846154,Petrol,Mass_Market_Mainstream,2
+Mazda,787B (Race Car),2620.0,,700.0,500.0,3.5,320.0,1,6000000.0,11.666666666666666,Petrol,Mass_Market_Mainstream,1
+Toyota,Crown Signia,2487.0,,240.0,239.0,7.6,180.0,5,45795.0,524.0746806419914,Hybrid (Gas + Electric),Mass_Market_Mainstream,0
+Toyota,4Runner (6Th Gen),2393.0,,326.0,630.0,6.8,180.0,7,50000.0,652.0,Hybrid,Mass_Market_Mainstream,2
+Toyota,Corolla Cross,1987.0,,169.0,190.0,8.0,190.0,5,25210.0,670.3689012296708,Gas / Hybrid,Mass_Market_Mainstream,0
+Toyota,Corolla Cross,1987.0,,196.0,210.0,9.2,190.0,5,29135.0,672.7303929981122,Gas / Hybrid,Mass_Market_Mainstream,0
+Toyota,C-Hr+,1798.0,,140.0,190.0,7.9,180.0,5,33000.0,424.2424242424243,Hybrid,Mass_Market_Mainstream,0
+Toyota,C-Hr+,1798.0,,198.0,205.0,10.5,180.0,5,33000.0,600.0,Hybrid,Mass_Market_Mainstream,0
+Toyota,Rav4 (6Th Gen),2487.0,,219.0,221.0,6.0,200.0,5,29000.0,755.1724137931035,Hybrid / Plug-in,Mass_Market_Mainstream,2
+Toyota,Rav4 (6Th Gen),2487.0,,302.0,400.0,8.1,200.0,5,43000.0,702.3255813953489,Hybrid / Plug-in,Mass_Market_Mainstream,2

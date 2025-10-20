@@ -1,0 +1,6 @@
+company_name,car_name,engine_displacement_in_cc,battery_energy_capacity_in_kwh,horsepower_in_hp,torque_in_nm,performance_0_to_100_km_per_h,total_speed_in_km_per_h,seats_parsed,cars_price_amount,value_for_money,fuel_types_normalized,company_segment,value_for_money
+Toyota,Toyota 86,1998.0,77.4,205.0,205.0,6.4,226.0,4,27000.0,759.2592592592592,Petrol,Mass_Market_Mainstream,759.2592592592592
+Toyota,Toyota Gr86,2387.0,77.4,228.0,250.0,5.6,226.0,4,30000.0,760.0,Petrol,Mass_Market_Mainstream,760.0
+Nissan,370Z,3696.0,77.4,332.0,366.0,4.7,250.0,2,30000.0,1106.6666666666667,Petrol,Mass_Market_Mainstream,1106.6666666666667
+Nissan,Z Proto,2998.0,77.4,400.0,475.0,4.1,290.0,2,40000.0,1000.0,Petrol,Mass_Market_Mainstream,1000.0
+Nissan,Altima,2488.0,77.4,188.0,380.0,7.3,225.0,5,25000.0,752.0,Petrol,Mass_Market_Mainstream,752.0
