@@ -1,12 +1,12 @@
 Car Recommendation Pipeline
 Overview
 This project implements a car recommendation system using clustering and classification techniques. It processes raw car data, performs feature engineering and clustering, and finally provides top N car recommendations based on customer inputs.
---------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Dataset
 Raw Data: Cars-Datasets-2025-2.csv
 Contains all car information used for analysis and recommendation.
----------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Project Files
 1.cars_datasets.py
@@ -19,7 +19,7 @@ clustered_cars_data.csv contains the processed and clustered car data, which ser
 
 3.Classification_Pipeline.py
 Uses the clustered data to provide top N car recommendations based on customer inputs.
----------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Usage Instructions
 
@@ -51,10 +51,11 @@ Input: clustered_cars_data.csv (from Step 3)
 
 Output: top_recommendations.csv (top 5 car recommendations)
 
----------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Final Outputs
 
 clustered_cars_data.csv – Clustered and processed car data
+
 
 top_recommendations.csv – Top N car recommendations based on customer input
