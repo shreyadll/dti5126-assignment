@@ -11,7 +11,7 @@ from cars_datasets import main as load_cars_dataset
 
 # Load the preprocessed dataset
 df_final = load_cars_dataset()
-print("✅ Loaded cleaned car dataset.")
+print(" Loaded cleaned car dataset.")
 print(f"Shape: {df_final.shape}\n")
 print("Columns:", df_final.columns.tolist())
 
@@ -309,8 +309,9 @@ plt.show()
 
 # Cluster Interpretation / Profiling
 if best_algo[0] != 'None' and best_algo[1]['Silhouette'] > -1:
-    df_final['Final_Cluster'] = best_algo[1]['Labels']
-
+    # df_final['Final_Cluster'] = best_algo[1]['Labels']
+    df_final['Final_Cluster'] = df_final['KMeans_cluster']
+    best_algo = ('KMeans', metrics['KMeans'])
     # Define a core set of features for interpretation
     profile_features = ['cars_price_amount', 'horsepower_in_hp', 'value_for_money',
                         'performance_0_to_100_km_per_h', 'seats_parsed']
@@ -350,5 +351,39 @@ for name, data in metrics.items():
     })
 
 summary_df = pd.DataFrame(summary)
-print("\n📊 Clustering Summary Table")
+print("\n Clustering Summary Table")
 print(summary_df)
+
+# ---------------------------------------------
+#  Export clustered dataset for classification -- added by Prabha
+# ---------------------------------------------
+#  Include identifiers for better interpretability
+# ---------------------------------------------
+
+
+# Ensure we include the readable identifiers
+identifier_cols = []
+if 'company_name' in df_final.columns:
+    identifier_cols.append('company_name')
+if 'car_name' in df_final.columns:
+    identifier_cols.append('car_name')
+
+# If only normalized versions exist, rename them
+elif 'company_name_normalized' in df_final.columns:
+    df_final = df_final.rename(columns={'company_name_normalized': 'company_name'})
+    identifier_cols.append('company_name')
+
+if 'car_name_normalized' in df_final.columns:
+    df_final = df_final.rename(columns={'car_name_normalized': 'car_name'})
+    identifier_cols.append('car_name')
+
+# Define final export columns
+export_cols = identifier_cols + numeric_features + categorical_features + ['Final_Cluster']
+df_export = df_final[export_cols].copy()
+
+# Save clustered data
+df_export.to_csv('clustered_cars_data.csv', index=False)
+
+print(f" Clustered dataset exported with identifiers: {df_export.shape}")
+print(f"Included columns: {export_cols}")
+
