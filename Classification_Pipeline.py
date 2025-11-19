@@ -1,5 +1,8 @@
 # classification_pipeline.py
 
+# =====================================================
+# STEP 0: Imports 
+# =====================================================
 import numpy as np
 import pandas as pd
 import joblib
@@ -7,14 +10,8 @@ import os
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-
-from sklearn.model_selection import train_test_split, cross_val_score, cross_val_predict
-from sklearn.metrics import (
-    classification_report,
-    accuracy_score,
-    f1_score,
-    confusion_matrix
-)
+from sklearn.model_selection import StratifiedKFold
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 from sklearn.ensemble import RandomForestClassifier
 from xgboost import XGBClassifier
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
@@ -22,7 +19,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
 # =====================================================
-# STEP 1: Load clustered dataset
+# STEP 1: Load dataset
 # =====================================================
 os.makedirs('models', exist_ok=True)
 os.makedirs('plots', exist_ok=True)
@@ -33,9 +30,6 @@ print(f"Unique clusters: {sorted(df['Final_Cluster'].unique())}\n")
 
 identifier_cols = [col for col in ['company_name', 'car_name'] if col in df.columns]
 
-# =====================================================
-# STEP 2: Define features and target
-# =====================================================
 numeric_features = [
     'engine_displacement_in_cc',
     'battery_energy_capacity_in_kwh',
@@ -59,10 +53,10 @@ X = df[numeric_features + categorical_features].copy()
 y = df[target].astype(int)
 
 # =====================================================
-# STEP 3: Handle missing values + mapping
+# STEP 2: Handle missing values
 # =====================================================
-X.loc[:, numeric_features] = X[numeric_features].fillna(X[numeric_features].median())
-X.loc[:, categorical_features] = X[categorical_features].fillna("Unknown")
+X[numeric_features] = X[numeric_features].fillna(X[numeric_features].median())
+X[categorical_features] = X[categorical_features].fillna("Unknown")
 
 # Label mapping
 y_unique = sorted(y.unique())
@@ -73,187 +67,110 @@ y = y.map(y_mapping)
 print("Cluster label mapping:", y_mapping)
 
 # =====================================================
-# STEP 4: Preprocessor
+# STEP 3: Preprocessor
 # =====================================================
-numeric_transformer = Pipeline(steps=[('scaler', StandardScaler())])
-categorical_transformer = Pipeline(
-    steps=[('encoder', OneHotEncoder(handle_unknown='ignore'))]
-)
+numeric_transformer = Pipeline([('scaler', StandardScaler())])
+categorical_transformer = Pipeline([('encoder', OneHotEncoder(handle_unknown='ignore'))])
 
-preprocessor = ColumnTransformer(
-    transformers=[
-        ('num', numeric_transformer, numeric_features),
-        ('cat', categorical_transformer, categorical_features)
-    ]
-)
+preprocessor = ColumnTransformer([
+    ('num', numeric_transformer, numeric_features),
+    ('cat', categorical_transformer, categorical_features)
+])
 
 # =====================================================
-# STEP 5: Define classifiers 
+# STEP 4: Define classifiers
 # =====================================================
 classifiers = {
     "RandomForest": RandomForestClassifier(
-        n_estimators=200,
-        max_depth=6,
-        min_samples_split=10,
-        min_samples_leaf=5,
-        max_features='sqrt',
-        class_weight='balanced',
+        n_estimators=200, max_depth=6, min_samples_split=10,
+        min_samples_leaf=5, max_features='sqrt', class_weight='balanced',
         random_state=42
     ),
-
-    # XGBoost - tuned to reduce overfitting
     "XGBoost": XGBClassifier(
-        n_estimators=250,       # lower tree count
-        learning_rate=0.07,     # slightly lower
-        max_depth=3,            # shallower trees
-        subsample=0.7,          # random row sampling
-        colsample_bytree=0.7,   # random feature sampling
-        reg_alpha=2.0,          # stronger L1 regularization
-        reg_lambda=5.0,         # L2 regularization
-        eval_metric='mlogloss',
-        use_label_encoder=False,
+        n_estimators=250, learning_rate=0.07, max_depth=3,
+        subsample=0.7, colsample_bytree=0.7, reg_alpha=2.0,
+        reg_lambda=5.0, eval_metric='mlogloss', use_label_encoder=False,
         random_state=42
     )
 }
 
-results = []
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42, stratify=y
-)
-
 # =====================================================
-# STEP 6: Train Models 
+# STEP 5: 5-Fold Cross-Validation 
 # =====================================================
-for name, clf in classifiers.items():
+cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
 
-    pipe = Pipeline(steps=[('preprocessor', preprocessor),
-                           ('classifier', clf)])
-
-    cv_scores = cross_val_score(pipe, X_train, y_train,
-                                cv=5, scoring='f1_macro', n_jobs=-1)
-
-    pipe.fit(X_train, y_train)
-    y_pred = pipe.predict(X_test)
-
-    acc = accuracy_score(y_test, y_pred)
-    f1 = f1_score(y_test, y_pred, average='macro')
-
-    print(f"\n {name} Results:")
-    print(f"Cross-val F1: {cv_scores.mean():.3f} (+/- {cv_scores.std():.3f})")
-    print(f"Test Accuracy: {acc:.3f}")
-    print(f"Test F1 Macro: {f1:.3f}")
-    print(classification_report(y_test, y_pred, zero_division=0))
-
-    # Confusion Matrix
-    cm = confusion_matrix(y_test, y_pred)
-    labels = [f"Cluster {lbl}" for lbl in sorted(y.unique())]
-
-    plt.figure(figsize=(6, 5))
-    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
-                xticklabels=labels, yticklabels=labels)
-    plt.xlabel("Predicted Label")
-    plt.ylabel("True Label")
-    plt.title(f"{name} Confusion Matrix (Test Set)")
-    plt.tight_layout()
-
-    plot_path = f"plots/{name}_confusion_matrix.png"
-    plt.savefig(plot_path)
-    plt.show()
-
-    results.append((name, cv_scores.mean(), acc, f1, pipe))
-
-
-# =====================================================
-# STEP 7: Train Models & Compute Test Metrics 
-# =====================================================
-
-results = {}   # store metrics for plotting later
-pipes = {}     # store models
+results = {}  # metrics per model
+pipes = {}    # trained models
 
 for name, clf in classifiers.items():
-
-    pipe = Pipeline(steps=[
-        ('preprocessor', preprocessor),
-        ('classifier', clf)
-    ])
-
-    # Train
-    pipe.fit(X_train, y_train)
-
-    # Predict
-    y_pred = pipe.predict(X_test)
-
-    # Metrics
-    acc = accuracy_score(y_test, y_pred)
-    f1 = f1_score(y_test, y_pred, average='macro')
+    pipe = Pipeline([('preprocessor', preprocessor),
+                     ('classifier', clf)])
     
-    # Per-class precision/recall → average macro
-    from sklearn.metrics import precision_score, recall_score
-    prec = precision_score(y_test, y_pred, average="macro", zero_division=0)
-    rec  = recall_score(y_test, y_pred, average="macro", zero_division=0)
+    # Store fold metrics
+    acc_list, f1_list, prec_list, rec_list = [], [], [], []
 
-    print(f"\n{name} Results:")
-    print(f"Accuracy: {acc:.3f}")
-    print(f"Precision: {prec:.3f}")
-    print(f"Recall: {rec:.3f}")
-    print(f"F1 Score: {f1:.3f}")
-    print(classification_report(y_test, y_pred, zero_division=0))
+    for train_idx, val_idx in cv.split(X, y):
+        X_tr, X_val = X.iloc[train_idx], X.iloc[val_idx]
+        y_tr, y_val = y.iloc[train_idx], y.iloc[val_idx]
 
-    # Store in dictionary for plotting
+        pipe.fit(X_tr, y_tr)
+        y_pred = pipe.predict(X_val)
+
+        acc_list.append(accuracy_score(y_val, y_pred))
+        f1_list.append(f1_score(y_val, y_pred, average='macro'))
+        prec_list.append(precision_score(y_val, y_pred, average='macro', zero_division=0))
+        rec_list.append(recall_score(y_val, y_pred, average='macro', zero_division=0))
+
+    # Average metrics over folds
     results[name] = {
-        "Accuracy": acc,
-        "Precision": prec,
-        "Recall": rec,
-        "F1": f1
+        "Accuracy": np.mean(acc_list),
+        "Precision": np.mean(prec_list),
+        "Recall": np.mean(rec_list),
+        "F1": np.mean(f1_list)
     }
 
-    # Save model for later
+    print(f"\n{name} 5-Fold CV Results (Training Data):")
+    print(f"Accuracy: {results[name]['Accuracy']:.3f}")
+    print(f"Precision: {results[name]['Precision']:.3f}")
+    print(f"Recall: {results[name]['Recall']:.3f}")
+    print(f"F1 Score: {results[name]['F1']:.3f}")
+
+    # Train final model on full dataset for deployment
+    pipe.fit(X, y)
     pipes[name] = pipe
 
-
 # =====================================================
-# STEP 8: Best Model
+# STEP 6: Select Best Model based on CV F1
 # =====================================================
 best_name = max(results, key=lambda m: results[m]["F1"])
 best_pipe = pipes[best_name]
 
-print(f"\n Best Model: {best_name}")
-
 joblib.dump(best_pipe, "models/best_classification_model.joblib")
 joblib.dump(reverse_mapping, "models/reverse_mapping.joblib")
-print(" Model and mapping saved to 'models/'")
+
+print(f"\nBest Model based on 5-Fold CV: {best_name} saved to 'models/'")
 
 # =====================================================
-# STEP 8: Plot the Result
+# STEP 7: Plot Comparison of Metrics
 # =====================================================
-
 metrics = ["Accuracy", "Precision", "Recall", "F1"]
+plot_df = pd.DataFrame(results).T
 
-# Prepare data for plot
-plot_df = pd.DataFrame(results).T  # models × metrics
-
-plt.figure(figsize=(10, 6))
-
-# Assign a different color to each metric
-colors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#ffdd00"]  # blue, orange, green, red
-plot_df[metrics].plot(kind='bar', figsize=(10,6), color=colors)
-
-plt.title("Model Comparison on Test Set")
+plt.figure(figsize=(10,6))
+colors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#ffdd00"]  # metrics colors
+plot_df[metrics].plot(kind='bar', color=colors)
+plt.title("Model Comparison (5-Fold CV on Training Data)")
 plt.ylabel("Score")
-plt.ylim(0, 1)
+plt.ylim(0,1)
 plt.xticks(rotation=0)
 plt.legend(title="Metric", loc="lower right")
 plt.tight_layout()
-
 plt.savefig("plots/model_comparison_metrics.png")
 plt.show()
 
-print("\nSaved: plots/model_comparison_metrics.png")
-
-
 
 # =====================================================
-# STEP 9: Recommendation Function
+# STEP 8: Recommendation Function
 # =====================================================
 def predict_customer_segment(customer_dict, top_n=5):
     model = joblib.load('models/best_classification_model.joblib')
@@ -300,7 +217,7 @@ def predict_customer_segment(customer_dict, top_n=5):
     return cluster_original, recs, display_cols
 
 # =====================================================
-# STEP 10: Example Usage
+# STEP 9: Example Usage
 # =====================================================
 if __name__ == "__main__":
     example_customer = {
