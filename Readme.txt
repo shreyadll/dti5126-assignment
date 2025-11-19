@@ -51,6 +51,21 @@ Input: clustered_cars_data.csv (from Step 3)
 
 Output: top_recommendations.csv (top 5 car recommendations)
 
+Step 5: Error analysis
+This script performs simple and essential error analysis:
+
+Confusion matrix
+Error rate by cluster
+Misclassified samples (CSV)
+Correct vs misclassified boxplots
+Feature importance
+These steps help understand where the model misclassifies and why
+
+Outputs saved in:
+plots/
+plots/error_analysis/
+misclassified_samples_simple.csv
+
 -----------------------------------------------------------------------------------------------------------------
 
 Final Outputs
