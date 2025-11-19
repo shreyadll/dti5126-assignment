@@ -29,7 +29,7 @@ numeric_features = [
 categorical_features = ['fuel_types_normalized','company_segment']
 target = 'Final_Cluster'
 
-# Keep a couple of human-readable columns if present (nice for tables)
+# Keep a couple of columns for easy interpretation if present (nice for tables)
 id_cols = [c for c in ['company_name','car_name'] if c in df.columns]
 
 # Prepare X/y using the same columns as training
