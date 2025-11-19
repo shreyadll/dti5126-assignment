@@ -1,0 +1,3 @@
+engine_displacement_in_cc,battery_energy_capacity_in_kwh,horsepower_in_hp,torque_in_nm,performance_0_to_100_km_per_h,total_speed_in_km_per_h,seats_parsed,cars_price_amount,value_for_money,fuel_types_normalized,company_segment,company_name,car_name,True_Label,Pred_Label
+3954.0,77.4,261.0,385.0,9.5,160.0,12,33000.0,790.9090909090909,Petrol,Mass_Market_Mainstream,Nissan,Nv1500,2,0
+2300.0,77.4,210.0,280.0,8.2,215.0,5,27500.0,763.6363636363636,Petrol,Mass_Market_Mainstream,Mazda,Millenia,2,0
