@@ -166,7 +166,7 @@ plt.xticks(rotation=0)
 plt.legend(title="Metric", loc="lower right")
 plt.tight_layout()
 plt.savefig("plots/model_comparison_metrics.png")
-plt.show()
+#plt.show()
 
 
 # =====================================================
@@ -251,6 +251,7 @@ if __name__ == "__main__":
     segment, recs, cols = predict_customer_segment(example_customer, top_n=5)
     recs[cols].to_csv("top_recommendations.csv", index=False)
     print("\n Recommendations exported to top_recommendations.csv")
+
 
 
 
