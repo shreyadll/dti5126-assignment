@@ -179,6 +179,7 @@ def predict_customer_segment(customer_dict, top_n=5):
     input_df = pd.DataFrame([customer_dict])
     price_input = customer_dict.get('cars_price_amount')
 
+    # Handle price
     if isinstance(price_input, dict):
         min_price = price_input.get('min', X['cars_price_amount'].min())
         max_price = price_input.get('max', X['cars_price_amount'].max())
@@ -186,6 +187,7 @@ def predict_customer_segment(customer_dict, top_n=5):
     else:
         input_df['cars_price_amount'] = price_input
 
+    # Fill missing features
     for f in numeric_features:
         if f not in input_df:
             input_df[f] = X[f].median()
@@ -193,24 +195,43 @@ def predict_customer_segment(customer_dict, top_n=5):
         if f not in input_df:
             input_df[f] = 'Unknown'
 
+    # Keep only model features
     input_df = input_df[numeric_features + categorical_features]
+
+    # Predict cluster
     cluster_pred = model.predict(input_df)[0]
     cluster_original = reverse_mapping.get(cluster_pred, cluster_pred)
-    print(f"\ Predicted Cluster: {cluster_original}")
+    print(f"\nPredicted Cluster: {cluster_original}")
 
-    recs = df[df['Final_Cluster'] == cluster_original].copy()
-    recs.loc[:, numeric_features] = recs[numeric_features].fillna(df[numeric_features].median())
+    # Filter cars in the cluster
+    recs = df[df['Final_Cluster'] == cluster_pred].copy()
+    recs[numeric_features] = recs[numeric_features].fillna(df[numeric_features].median())
 
+    # Compute a preference score
+    recs['preference_score'] = 0
+
+    # Example: match numeric features (like seats)
+    for feature in numeric_features:
+        if feature in customer_dict and not isinstance(customer_dict[feature], dict):
+            recs['preference_score'] += 1 / (1 + abs(recs[feature] - customer_dict[feature]))
+
+    # Example: match categorical features
+    for feature in categorical_features:
+        if feature in customer_dict:
+            recs['preference_score'] += (recs[feature] == customer_dict[feature]).astype(int)
+
+    # Filter by price range
     if isinstance(price_input, dict):
         recs = recs[(recs['cars_price_amount'] >= min_price) &
                     (recs['cars_price_amount'] <= max_price)]
     else:
-        recs['price_diff'] = abs(recs['cars_price_amount'] - price_input)
-        recs = recs.sort_values('price_diff')
+        # Sort by price closeness
+        recs['preference_score'] += 1 / (1 + abs(recs['cars_price_amount'] - price_input))
 
-    recs = recs.head(top_n)
-    display_cols = identifier_cols + numeric_features + categorical_features + ['value_for_money']
+    # Select top N by preference_score
+    recs = recs.sort_values('preference_score', ascending=False).head(top_n)
 
+    display_cols = identifier_cols + numeric_features + categorical_features + ['value_for_money', 'preference_score']
     print("\nTop Recommended Cars:")
     print(recs[display_cols].to_string(index=False))
 
@@ -230,3 +251,5 @@ if __name__ == "__main__":
     segment, recs, cols = predict_customer_segment(example_customer, top_n=5)
     recs[cols].to_csv("top_recommendations.csv", index=False)
     print("\n Recommendations exported to top_recommendations.csv")
+
+
