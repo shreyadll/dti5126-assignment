@@ -8,9 +8,7 @@ import pandas as pd
 import joblib
 import os
 import matplotlib.pyplot as plt
-import seaborn as sns
-
-from sklearn.model_selection import StratifiedKFold
+from sklearn.model_selection import StratifiedKFold, train_test_split
 from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 from sklearn.ensemble import RandomForestClassifier
 from xgboost import XGBClassifier
@@ -25,7 +23,7 @@ os.makedirs('models', exist_ok=True)
 os.makedirs('plots', exist_ok=True)
 
 df = pd.read_csv('clustered_cars_data.csv')
-print(f" Loaded clustered dataset: {df.shape}")
+print(f"Loaded dataset: {df.shape}")
 print(f"Unique clusters: {sorted(df['Final_Cluster'].unique())}\n")
 
 identifier_cols = [col for col in ['company_name', 'car_name'] if col in df.columns]
@@ -52,9 +50,7 @@ target = 'Final_Cluster'
 X = df[numeric_features + categorical_features].copy()
 y = df[target].astype(int)
 
-# =====================================================
-# STEP 2: Handle missing values
-# =====================================================
+# Handle missing values
 X[numeric_features] = X[numeric_features].fillna(X[numeric_features].median())
 X[categorical_features] = X[categorical_features].fillna("Unknown")
 
@@ -63,8 +59,15 @@ y_unique = sorted(y.unique())
 y_mapping = {old: i for i, old in enumerate(y_unique)}
 reverse_mapping = {v: k for k, v in y_mapping.items()}
 y = y.map(y_mapping)
-
 print("Cluster label mapping:", y_mapping)
+
+# =====================================================
+# STEP 2: Train/Validation + Test Split (80/20)
+# =====================================================
+X_train_val, X_test, y_train_val, y_test = train_test_split(
+    X, y, test_size=0.2, stratify=y, random_state=42
+)
+print(f"Train+Validation: {X_train_val.shape}, Test: {X_test.shape}")
 
 # =====================================================
 # STEP 3: Preprocessor
@@ -95,82 +98,101 @@ classifiers = {
 }
 
 # =====================================================
-# STEP 5: 5-Fold Cross-Validation 
+# STEP 5: 5-Fold CV on TRAIN+VALIDATION Set
 # =====================================================
 cv = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
-
-results = {}  # metrics per model
-pipes = {}    # trained models
+val_results = {}
+model_pipelines = {}
 
 for name, clf in classifiers.items():
-    pipe = Pipeline([('preprocessor', preprocessor),
-                     ('classifier', clf)])
-    
-    # Store fold metrics
+    pipe = Pipeline([('preprocessor', preprocessor), ('classifier', clf)])
+
     acc_list, f1_list, prec_list, rec_list = [], [], [], []
 
-    for train_idx, val_idx in cv.split(X, y):
-        X_tr, X_val = X.iloc[train_idx], X.iloc[val_idx]
-        y_tr, y_val = y.iloc[train_idx], y.iloc[val_idx]
+    for train_idx, val_idx in cv.split(X_train_val, y_train_val):
+        X_tr, X_val = X_train_val.iloc[train_idx], X_train_val.iloc[val_idx]
+        y_tr, y_val = y_train_val.iloc[train_idx], y_train_val.iloc[val_idx]
 
         pipe.fit(X_tr, y_tr)
         y_pred = pipe.predict(X_val)
 
         acc_list.append(accuracy_score(y_val, y_pred))
+        prec_list.append(precision_score(y_val, y_pred, average='macro'))
+        rec_list.append(recall_score(y_val, y_pred, average='macro'))
         f1_list.append(f1_score(y_val, y_pred, average='macro'))
-        prec_list.append(precision_score(y_val, y_pred, average='macro', zero_division=0))
-        rec_list.append(recall_score(y_val, y_pred, average='macro', zero_division=0))
 
-    # Average metrics over folds
-    results[name] = {
+    val_results[name] = {
         "Accuracy": np.mean(acc_list),
         "Precision": np.mean(prec_list),
         "Recall": np.mean(rec_list),
         "F1": np.mean(f1_list)
     }
 
-    print(f"\n{name} 5-Fold CV Results (Training Data):")
-    print(f"Accuracy: {results[name]['Accuracy']:.3f}")
-    print(f"Precision: {results[name]['Precision']:.3f}")
-    print(f"Recall: {results[name]['Recall']:.3f}")
-    print(f"F1 Score: {results[name]['F1']:.3f}")
-
-    # Train final model on full dataset for deployment
-    pipe.fit(X, y)
-    pipes[name] = pipe
+    print(f"\n{name} - CV Results on Train+Validation:")
+    print(val_results[name])
+    model_pipelines[name] = pipe 
 
 # =====================================================
 # STEP 6: Select Best Model based on CV F1
 # =====================================================
-best_name = max(results, key=lambda m: results[m]["F1"])
-best_pipe = pipes[best_name]
+best_name = max(val_results, key=lambda m: val_results[m]["F1"])
+print(f"\nBest Model based on CV F1: {best_name}")
 
-joblib.dump(best_pipe, "models/best_classification_model.joblib")
+best_pipeline = model_pipelines[best_name]
+
+# Retrain best model on full TRAIN+VALIDATION set
+best_pipeline.fit(X_train_val, y_train_val)
+joblib.dump(best_pipeline, "models/best_classification_model.joblib")
 joblib.dump(reverse_mapping, "models/reverse_mapping.joblib")
 
-print(f"\nBest Model based on 5-Fold CV: {best_name} saved to 'models/'")
+# =====================================================
+# STEP 7: Final Evaluation on TEST Set
+# =====================================================
+y_test_pred = best_pipeline.predict(X_test)
+
+test_metrics = {
+    "Accuracy": accuracy_score(y_test, y_test_pred),
+    "Precision": precision_score(y_test, y_test_pred, average='macro'),
+    "Recall": recall_score(y_test, y_test_pred, average='macro'),
+    "F1": f1_score(y_test, y_test_pred, average='macro')
+}
+
+print("\n===== Final Test Metrics =====")
+for k, v in test_metrics.items():
+    print(f"{k}: {v:.4f}")
 
 # =====================================================
-# STEP 7: Plot Comparison of Metrics
+# STEP 8: Plot CV Metrics 
 # =====================================================
 metrics = ["Accuracy", "Precision", "Recall", "F1"]
-plot_df = pd.DataFrame(results).T
+plot_df = pd.DataFrame(val_results).T
 
 plt.figure(figsize=(10,6))
-colors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#ffdd00"]  # metrics colors
+
+# Set custom colors: Accuracy (blue), Precision (orange), Recall (green), F1 (yellow)
+colors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#ffdd00"]  # last one is yellow for F1
+
 plot_df[metrics].plot(kind='bar', color=colors)
-plt.title("Model Comparison (5-Fold CV on Training Data)")
+plt.title("Model Comparison (5-Fold CV)")
 plt.ylabel("Score")
 plt.ylim(0,1)
 plt.xticks(rotation=0)
 plt.legend(title="Metric", loc="lower right")
 plt.tight_layout()
-plt.savefig("plots/model_comparison_metrics.png")
-#plt.show()
+plt.savefig("plots/model_comparision_metrics.png")
+plt.close()
 
+# Plot test metrics
+plt.figure(figsize=(6,4))
+plt.bar(test_metrics.keys(), test_metrics.values())
+plt.title(f"Test Performance ({best_name})")
+plt.ylim(0,1)
+plt.tight_layout()
+plt.savefig("plots/test_metrics.png")
+plt.close()
 
 # =====================================================
-# STEP 8: Recommendation Function
+# STEP 9: Recommendation Function
 # =====================================================
 def predict_customer_segment(customer_dict, top_n=5):
     model = joblib.load('models/best_classification_model.joblib')
@@ -238,7 +260,7 @@ def predict_customer_segment(customer_dict, top_n=5):
     return cluster_original, recs, display_cols
 
 # =====================================================
-# STEP 9: Example Usage
+# STEP 10: Example Usage
 # =====================================================
 if __name__ == "__main__":
     example_customer = {
@@ -251,6 +273,7 @@ if __name__ == "__main__":
     segment, recs, cols = predict_customer_segment(example_customer, top_n=5)
     recs[cols].to_csv("top_recommendations.csv", index=False)
     print("\n Recommendations exported to top_recommendations.csv")
+
 
 
 
