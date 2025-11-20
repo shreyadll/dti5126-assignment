@@ -1,3 +1,9 @@
 engine_displacement_in_cc,battery_energy_capacity_in_kwh,horsepower_in_hp,torque_in_nm,performance_0_to_100_km_per_h,total_speed_in_km_per_h,seats_parsed,cars_price_amount,value_for_money,fuel_types_normalized,company_segment,company_name,car_name,True_Label,Pred_Label
-3954.0,77.4,261.0,385.0,9.5,160.0,12,33000.0,790.9090909090909,Petrol,Mass_Market_Mainstream,Nissan,Nv1500,2,0
 2300.0,77.4,210.0,280.0,8.2,215.0,5,27500.0,763.6363636363636,Petrol,Mass_Market_Mainstream,Mazda,Millenia,2,0
+2995.0,77.4,335.0,450.0,5.1,260.0,2,70000.0,478.57142857142856,Petrol,Other_Market,Jaguar Land Rover,Jaguar F-Type,1,2
+3000.0,77.4,210.0,270.0,8.5,220.0,5,37500.0,560.0,Petrol,Other_Market,Mitsubishi,Sigma,2,0
+3000.0,77.4,205.0,270.0,8.0,220.0,5,27500.0,745.4545454545454,Petrol,Mass_Market_Mainstream,Mazda,929,2,0
+1998.0,77.4,180.0,300.0,8.0,235.0,5,35500.0,507.0422535211267,Petrol,Other_Market,Peugeot,508,2,0
+3954.0,77.4,261.0,385.0,10.0,160.0,2,36000.0,725.0,Petrol,Mass_Market_Mainstream,Nissan,Nv2500,0,2
+2400.0,93.4,590.0,620.0,3.7,250.0,4,136700.0,431.6020482809071,Electric,Premium_Performance,Porsche,Taycan Sport Turismo Gts,2,1
+2400.0,100.0,1020.0,1400.0,2.6,262.0,6,113490.0,898.7575997885275,Electric,Electric_Specialist,Tesla,Model X Plaid,2,3
