@@ -156,4 +156,4 @@ except Exception as e:
     with open(os.path.join(PLOTS_DIR, "feature_importances_simple_error.txt"), "w") as f:
         f.write(f"Feature importance plot skipped due to: {e}\n")
 
-print("\n Simplified error analysis (no SHAP) completed. Outputs saved to 'plots/'.\n")
+print("\n Simplified error analysis completed. Outputs saved to 'plots/'.\n")
