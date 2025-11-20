@@ -1,4 +1,4 @@
-# classification_pipeline.py
+# Classification Pipeline 
 
 # =====================================================
 # STEP 0: Imports 
@@ -251,5 +251,6 @@ if __name__ == "__main__":
     segment, recs, cols = predict_customer_segment(example_customer, top_n=5)
     recs[cols].to_csv("top_recommendations.csv", index=False)
     print("\n Recommendations exported to top_recommendations.csv")
+
 
 
